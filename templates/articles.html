@@ -5,15 +5,32 @@
 <hr>
 <br>
 
-<form class="form-inline md-form mr-auto mb-4">
+<ul class="nav nav-pills nav-fill">
+  <li class="nav-item">
+        <a class="nav-link" href="{% url 'article:articles' %}">Hepsi</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="{% url 'article:yazilim' %}">Yazılım</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="{% url 'article:siir' %}">Şiir</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="{% url 'article:fikir' %}">Fikir</a>
+  </li>
+  <li class="nav-item">
+      <form class="form-inline md-form mr-auto mb-4">
           {% csrf_token %}
           <input type="text" name="keyword" class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-          <button type="submit" class="btn btn-elegant btn-rounded btn-sm my-0" type="submit">Ara</button>
+          <button type="submit" class="btn btn-primary" type="danger">Ara</button>
         </form>
+  </li>
+</ul>
+<br><br>
+
+
 
 {% if articles %}
-
-
 
 <table class="table">
         <thead>
@@ -21,6 +38,7 @@
             <th scope="col">Başlık</th>
             <th scope="col">Yazar</th>
             <th scope="col">Tarih</th>
+            <th scope="col">Kategori</th>
           </tr>
         </thead>
         <tbody>
@@ -30,6 +48,7 @@
             <td><a href="{% url 'article:detail' article.id %}"><strong>{{article.title}}</strong></a></td>
             <td>{{article.author.username}}</td>
             <td>{{article.created_date}}</td>
+            <td>{{article.kategori}}</td>
             
           </tr>          
 {% endfor %}

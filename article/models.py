@@ -3,11 +3,24 @@ from ckeditor.fields import RichTextField
 # Create your models here.
 
 class Article(models.Model):
+    
+    YAZILIM = 'Yazılım'
+    SIIR = 'Şiir'
+    FIKIR = 'Fikir'
+    
+    
+    kategoriler = [
+        (YAZILIM, 'Yazılım'),
+        (SIIR, 'Şiir'),
+        (FIKIR, 'Fikir'),
+        
+    ]
     author = models.ForeignKey("auth.User",on_delete = models.CASCADE,verbose_name = "Yazar")
     title = models.CharField(max_length = 50,verbose_name = "Başlık")
     content = RichTextField()
     created_date = models.DateTimeField(auto_now_add=True,verbose_name="Oluşturulma Tarihi")
     article_image = models.FileField(blank = True,null = True,verbose_name="Fotoğraf Ekle")
+    kategori = models.TextField(choices=kategoriler,verbose_name="Kategori", default = 'Yok')
     
     def __str__(self):
         return self.title

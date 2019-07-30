@@ -12,6 +12,13 @@ urlpatterns = [
     path('', views.articles, name = "articles"),
     path('comment/<int:id>', views.addComment, name = "comment"),
     path('comment_delete/<int:id>', views.deleteComment, name = "comment_delete"),
+    path('yazilim/', views.yazilim, name = "yazilim"),
+    path('siir/', views.siir, name = "siir"),
+    path('fikir/', views.fikir, name = "fikir"),
+
+
+
+
 
 
 

@@ -109,6 +109,33 @@ def deleteComment(request, id):
     article = comment.article
     return redirect(reverse("article:detail", kwargs={"id":article.id}))
 
+def yazilim(request):
+    articles = Article.objects.filter(kategori = 'Yazılım')
+    if articles:
+        return render(request, "articles.html", {"articles":articles})
+    messages.info(request, "Maalesef bu kategoride bir yazı bulunmuyor.")
+    articles = Article.objects.all()
+    return render(request, "articles.html", {"articles":articles})
+    
+    
+
+def siir(request):
+    articles = Article.objects.filter(kategori = 'Şiir')
+    if articles:
+        return render(request, "articles.html", {"articles":articles})
+    
+    messages.info(request, "Maalesef bu kategoride bir yazı bulunmuyor.")
+    articles = Article.objects.all()
+    return render(request, "articles.html", {"articles":articles})
+
+def fikir(request):
+    articles = Article.objects.filter(kategori = 'Fikir')
+    if articles:
+        return render(request, "articles.html", {"articles":articles})
+    messages.info(request, "Maalesef bu kategoride bir yazı bulunmuyor.")    
+    articles = Article.objects.all()
+    return render(request, "articles.html", {"articles":articles})
+
 
     
 
