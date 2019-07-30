@@ -1,0 +1,116 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+<div class="row">
+
+      <!-- Post Content Column -->
+      <div class="col-lg-8">
+
+        <!-- Title -->
+        <h3 class="mt-4">{{article.title|safe}}</h3>
+
+        <!-- Author -->
+        <p class="lead">
+          {{article.author.username}} tarafından yazıldı.
+        </p>
+
+        <hr>
+
+        <!-- Date/Time -->
+        <p>{{article.created_date}}</p>
+
+        {% if article.article_image %}
+        <!-- Preview Image -->
+
+        <img class="img-fluid rounded" src="{{article.article_image.url}}" alt="">
+
+        
+        {% endif %}
+        <hr>
+
+        <!-- Post Content -->
+        <p class="lead">
+        {{article.content|safe}}
+        </p>
+
+        <hr>
+        {% if comments %}
+        <br><br>
+        <h3>Yorumlar</h3>
+        <hr>
+        {% for comment in comments %}
+        {% if request.user.is_authenticated and comment.author == request.user %}
+          <div class="media mb-4">
+          <img class="d-flex mr-3 rounded-circle" src="http://placehold.it/50x50" alt="">
+          <div class="media-body">
+            <h4 class="mt-0">{{comment.author}}</h3>
+              {{comment.comment_date}}
+            <hr>
+            <p class="mt-0"><strong>{{comment.comment_title}}</strong></p>
+            {{comment.comment_content}}
+          <form method="POST" action="{% url 'article:comment_delete' comment.comment_id %}">
+          {% csrf_token %}
+          <br>
+              <button type="submit" class="btn float-right btn-danger btn-md">Sil</button>
+              </form>
+            <br><br>
+          </div>
+        </div>
+        
+        {% else %}
+        <div class="media mb-4">
+          <img class="d-flex mr-3 rounded-circle" src="http://placehold.it/50x50" alt="">
+          <div class="media-body">
+            <h4 class="mt-0">{{comment.author}}</h3>
+              {{comment.comment_date}}
+            <hr>
+            <p class="mt-0"><strong>{{comment.comment_title}}</strong></p>
+            {{comment.comment_content}}
+            <br><br>
+          </div>
+        </div>
+
+        {% endif %}
+
+        
+        {% endfor %}
+        {% else %}
+        <div class="alert alert-danger">
+          Bu makaleye herhangi bir yorum yazılmamış, ilk yorum yapan siz olun.
+        </div>
+        {% endif %}
+        {% if request.user.is_authenticated %}
+        <div class="card my-4">
+          <h5 class="card-header">Yorum Ekle:</h5>
+          
+          <div class="card-body">
+          <form method="POST" action="{% url 'article:comment' article.id %}">
+          <div class="form-group">
+            <!--<small id="emailHelp" class="form-text text-muted">Doldurulabilir</small>-->
+          </div>
+            <form>
+            <!--<label for="exampleInputEmail1">İçerik</label>-->
+
+            {% csrf_token %}
+              <div class="form-group">
+                <textarea name="comment_content" class="form-control" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Kaydet</button>
+            </form>
+          </div>
+        </div>
+        
+        {% else %}
+        {% endif %}
+        
+
+        
+          </div>
+          
+        </div>
+
+        
+
+
+{% endblock body %}

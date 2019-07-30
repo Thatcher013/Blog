@@ -1,0 +1,44 @@
+{% extends "layout.html" %}
+
+{% block body %}
+<h3>Makaleler</h3>
+<hr>
+<br>
+
+<form class="form-inline md-form mr-auto mb-4">
+          {% csrf_token %}
+          <input type="text" name="keyword" class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+          <button type="submit" class="btn btn-elegant btn-rounded btn-sm my-0" type="submit">Ara</button>
+        </form>
+
+{% if articles %}
+
+
+
+<table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Başlık</th>
+            <th scope="col">Yazar</th>
+            <th scope="col">Tarih</th>
+          </tr>
+        </thead>
+        <tbody>
+{% for article in articles %}
+
+<tr>
+            <td><a href="{% url 'article:detail' article.id %}"><strong>{{article.title}}</strong></a></td>
+            <td>{{article.author.username}}</td>
+            <td>{{article.created_date}}</td>
+            
+          </tr>          
+{% endfor %}
+
+
+{% else %}
+<div class="alert alert-danger">
+    Makale Bulunamadı
+</div>
+{% endif %}
+
+{% endblock body %}
