@@ -11,7 +11,7 @@ class Profile(models.Model):
     isTeacher = models.BooleanField(null=True, verbose_name="Öğretmen mi?")
     bio = models.TextField(max_length=500, blank=True, verbose_name="Biyografi")
     birth_date = models.DateField(null=True, blank=True, verbose_name="Doğum Tarihi")
-
+    
 @receiver(post_save, sender=User)
 def create_user_profile(sender, instance, created, **kwargs):
     if created:

@@ -3,10 +3,15 @@ from .forms import ArticleForm
 from django.contrib import messages
 from .models import Article,Comment
 from django.contrib.auth.decorators import login_required
+import time
 
 
 # Create your views here.
 
+def dec(func):
+    def wrapper(func):
+        pass
+    return wrapper
 
 def index(request):
     return render(request, "index.html")
@@ -90,16 +95,17 @@ def articles(request):
 @login_required(login_url = "user:login")
 def addComment(request, id):
     article = get_object_or_404(Article, id=id)
-
     if request.method == "POST":
+        
         comment_content = request.POST.get("comment_content")
 
         newComment = Comment(comment_content=comment_content)
         newComment.author = request.user
         newComment.article = article
         newComment.save()
-
+        time.sleep(2)
     return redirect(reverse("article:detail", kwargs={"id":id}))
+
 
 @login_required(login_url = "user:login")
 def deleteComment(request, id):

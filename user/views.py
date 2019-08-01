@@ -41,6 +41,7 @@ def register(request):
     if form.is_valid():
         username = form.cleaned_data.get("username")
         password = form.cleaned_data.get("password")
+        email = form.cleaned_data.get("email")
         user = User.objects.filter(username = username).first()
 
         if user:
@@ -49,6 +50,7 @@ def register(request):
 
         newUser = User(username = username)
         newUser.set_password(password)
+        newUser.email = email
         newUser.save()
         messages.success(request, "Başarıyla kayıt oldunuz.")
 
