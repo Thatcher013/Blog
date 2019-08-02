@@ -14,8 +14,9 @@ def dec(func):
     return wrapper
 
 def index(request):
-    return render(request, "index.html")
+    articles = Article.objects.all()
 
+    return render(request, "index.html", {"articles":articles})
 
 def about(request):
     return render(request, "about.html")
@@ -98,12 +99,16 @@ def addComment(request, id):
     if request.method == "POST":
         
         comment_content = request.POST.get("comment_content")
+        dogrulamaComment = Comment.objects.filter(author = request.user, article = article, comment_content = comment_content)
 
-        newComment = Comment(comment_content=comment_content)
-        newComment.author = request.user
-        newComment.article = article
-        newComment.save()
-        time.sleep(2)
+        if dogrulamaComment:
+            messages.info(request, "Tekrarlanan yorum tespit")
+            return redirect(reverse("article:detail", kwargs={"id":id}))
+        else:
+            newComment = Comment(comment_content=comment_content)
+            newComment.author = request.user
+            newComment.article = article
+            newComment.save()
     return redirect(reverse("article:detail", kwargs={"id":id}))
 
 
