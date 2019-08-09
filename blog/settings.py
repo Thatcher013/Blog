@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     "article",
     "user",
+    'Profile',
     'crispy_forms',
     'ckeditor',
     'django_cleanup',
@@ -82,7 +83,7 @@ WSGI_APPLICATION = 'blog.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join('/home/blog_files/', 'db.sqlite3'),
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),  #'NAME': os.path.join('/home/blog_files/', 'db.sqlite3')
     }
 }
 
@@ -144,5 +145,5 @@ CKEDITOR_CONFIGS = {
 }
 
 MEDIA_URL = '/media/'
-MEDIA_ROOT = os.path.join('/home/blog_files/', 'media')
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')  #MEDIA_ROOT = os.path.join('/home/blog_files/', 'media')
 

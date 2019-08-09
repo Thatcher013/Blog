@@ -5,26 +5,26 @@
 <hr>
 <br>
 
+
 <ul class="nav nav-pills nav-fill nab-tabs nav-justified">
-  <li class="nav-item">
+  <li class="nav-item" style="margin-right: 5px">
         <a class="nav-link" href="{% url 'article:articles' %}" style = "background-color: #FCC2C2; color:black" >Hepsi</a>
   </li>
-  <li class="nav-item">
+  <li class="nav-item" style="margin-right: 5px">
     <a class="nav-link" href="{% url 'article:yazilim' %}" style = "background-color: #A80046; color:honeydew">Yazılım</a>
   </li>
-  <li class="nav-item">
+  <li class="nav-item" style="margin-right: 5px">
     <a class="nav-link" href="{% url 'article:siir' %}" style = "background-color: #FCC2C2; color:black">Şiir</a>
   </li>
   <li class="nav-item">
     <a class="nav-link" href="{% url 'article:fikir' %}" style = "background-color: #A80046; color:honeydew">Fikir</a>
   </li>
-  <li class="nav-item">
-      <form class="form-inline md-form mr-auto mb-4">
+  <!--
+      <form class="form-inline md-form mr-auto mb-4 input-group">
           {% csrf_token %}
           <input type="text" name="keyword" class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
           <button type="submit" class="btn btn-primary" type="danger">Ara</button>
-        </form>
-  </li>
+        </form>-->
 </ul>
 <br><br>
 
@@ -47,14 +47,17 @@
 {% for article in articles %}
 
 
-<div class="card border-dark" style="width: 18rem; background-color: #EBEBEB">
+<div class="card border-dark" style="width: 18rem; background-color: #ffe7f0; margin-top: 15px">
 {% if article.article_image %}
   <img src="{{article.article_image.url}}" class="card-img-top" alt="">
         {% endif %}
   <div class="card-body">
     <h5 class="card-title"><strong>{{article.title|safe}}</strong></h5>
     <p class="card-text">{{article.content|safe|truncatewords:25}}</p>
+    <hr>
+    <p><a href="{% url 'Profile:profile' article.author %}">{{article.author}}</a> tarafından yazıldı.</p>
     <a href="{% url 'article:detail' article.id %}" class="btn btn-primary">Devamını Oku</a>
+    <p style="margin-top: 10px">{{article.viewNumber}} Görüntülenme</p>
   </div>
 </div>
 <!--

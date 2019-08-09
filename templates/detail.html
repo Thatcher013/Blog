@@ -12,7 +12,7 @@
 
         <!-- Author -->
         <p class="lead">
-          {{article.author.username}} tarafından yazıldı.
+          <a href="{% url 'Profile:profile' article.author %}">{{article.author.username}}</a> tarafından yazıldı.
         </p>
 
         <hr>
@@ -34,6 +34,8 @@
         {{article.content|safe}}
         </p>
 
+        <hr>
+        <p style="margin-top: 10px">{{article.viewNumber}} Görüntülenme</p>
         <hr>
         {% if comments %}
         <br><br>
@@ -77,7 +79,7 @@
         {% endfor %}
         {% else %}
         <div class="alert alert-danger">
-          Bu makaleye herhangi bir yorum yazılmamış, ilk yorum yapan siz olun.
+          Bu makaleye herhangi bir yorum yazılmamış, ilk yazan siz olun.
         </div>
         {% endif %}
         {% if request.user.is_authenticated %}

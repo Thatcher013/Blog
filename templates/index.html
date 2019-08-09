@@ -1,17 +1,36 @@
-{% extends "layout.html" %}
+  {% extends "layout.html" %}
 
 
 
 {% block body %}
 {% load static %}
+
+
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+
   </ol>
   <div class="carousel-inner">
-    <div class="carousel-item active">
+  <div class="carousel-item active">
+        <div class="jumbotron text-center" style="background-color: #d2e1e7; margin-top: 10px" class="d-block w-100" alt="..." width="500" height="300">
+
+            {% if request.user.is_authenticated %}
+            <h3>Hoş geldin {{request.user.username}}</h3>
+            
+            {% else %}
+            <h3>Bloğa Hoş Geldiniz!</h3>
+            <hr>
+            <p>Makale Eklemek İçin Lütfen Giriş Yapın</p>
+            {% endif %}
+            
+            
+            </div>
+    </div>
+    <div class="carousel-item">
       <img src="{% static 'img/mevlana.jpg' %}" class="d-block w-100" alt="..." width="500" height="300">
     </div>
     <div class="carousel-item">
@@ -20,6 +39,7 @@
     <div class="carousel-item">
       <img src="{% static 'img/django.png' %}" class="d-block w-100" alt="..." width="500" height="300">
     </div>
+    
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -31,23 +51,7 @@
   </a>
 </div>
 <br><br>
-<div class="jumbotron text-center" style="background-color: rgba(255, 0, 0, 0.219)">
-
-{% if request.user.is_authenticated %}
-<h3>Hoş geldin {{request.user.username}}</h3>
-
-{% else %}
-<h3>Bloğa Hoş Geldiniz! SA</h3>
-<br>
-<p>Bu blogda insan olarak yazılarınızı paylaşabilir ve diğerlerine yardımcı olabilirsiniz.</p>
-<p>Makale Eklemek İçin Lütfen Giriş Yapın</p>
-{% endif %}
-
-
-
-</div>
-
-
+<hr>
 
 
 {% endblock body %}

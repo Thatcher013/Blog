@@ -13,17 +13,23 @@
             <a class="nav-link" href="{% url 'article:articles' %}">Makaleler</a>
           </li>
         </ul>
-
+          
         <ul class="navbar-nav ml-auto">
+        <form class="form-inline my-2 my-lg-0" style = "margin-right : 35px;">
+        {% csrf_token %}
+      <input class="form-control mr-sm-2" type="text" name="keyword" placeholder="Yazı ara..." aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit" formaction="{% url 'article:ara' %}">Ara</button>
+    </form>
 
         {% if request.user.is_authenticated %}
           <li class="nav-item dropdown">
-        <a  style = "margin-right : 25px;" class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a  style = "margin-right : 35px;" class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           {{request.user}}
         </a>
         
         <div  class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
             <a style="float:right" class="dropdown-item" href="{% url 'article:dashboard' %}">Kontrol Paneli</a>
+            <a style="float:right" class="dropdown-item" href="{% url 'Profile:profilEdit' request.user %}">Profil</a>
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="{% url 'user:logout' %}">Çıkış Yap</a>
 

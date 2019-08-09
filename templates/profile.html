@@ -1,0 +1,19 @@
+{% extends 'layout.html' %}
+{% block body %}
+
+<!--<h2>{{user}}</h2>style="background-color:#ffdeec"-->
+
+<div class="row">
+    <div class="col-sm-2">
+        <img class="btn-md" src="{{profile.user_picture.url}}" alt="" style="border-radius:50%; margin-top: 10%; margin-bottom: 10%;" width="125" height="125">
+    </div>
+    <div class="col-sm-4">
+        <h2 style="margin-top:16.5%"><strong>{{user}}</strong></h2> 
+    </div>
+</div>
+<hr>
+<p>Doğum tarihi: {{profile.birth_date}}</p>
+<br>
+<p>{{profile.bio}}</p>
+
+{% endblock body %}

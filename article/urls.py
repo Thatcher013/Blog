@@ -15,12 +15,7 @@ urlpatterns = [
     path('yazilim/', views.yazilim, name = "yazilim"),
     path('siir/', views.siir, name = "siir"),
     path('fikir/', views.fikir, name = "fikir"),
-
-
-
-
-
-
+    path('ara/', views.ara, name="ara"),
 
     
 ]

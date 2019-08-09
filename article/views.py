@@ -8,10 +8,6 @@ import time
 
 # Create your views here.
 
-def dec(func):
-    def wrapper(func):
-        pass
-    return wrapper
 
 def index(request):
     articles = Article.objects.all()
@@ -45,15 +41,16 @@ def detail(request, id):
     #article = Article.objects.filter(id = id).first()
 
     article = get_object_or_404(Article, id = id)
-
     comments = article.comments.all()
-
+    time.sleep(2.5)
+    article.viewNumber += 1
+    article.save()
     return render(request, "detail.html", {"article": article, "comments":comments})
+    
     
 
 @login_required(login_url = "user:login")
 def updateArticle(request, id):
-
     article = get_object_or_404(Article, id = id)
     form = ArticleForm(request.POST or None, request.FILES or None, instance=article)
     if article.author == request.user:
@@ -61,7 +58,6 @@ def updateArticle(request, id):
             article = form.save(commit=False)
             article.author = request.user
             article.save()
-
             messages.success(request, "Makale başarıyla güncellendi.")
             return redirect("article:dashboard")
     else:
@@ -102,7 +98,7 @@ def addComment(request, id):
         dogrulamaComment = Comment.objects.filter(author = request.user, article = article, comment_content = comment_content)
 
         if dogrulamaComment:
-            messages.info(request, "Tekrarlanan yorum tespit")
+            messages.info(request, "Tekrarlanan yorum tespit edildi")
             return redirect(reverse("article:detail", kwargs={"id":id}))
         else:
             newComment = Comment(comment_content=comment_content)
@@ -146,6 +142,19 @@ def fikir(request):
     messages.info(request, "Maalesef bu kategoride bir yazı bulunmuyor.")    
     articles = Article.objects.all()
     return render(request, "articles.html", {"articles":articles})
+
+
+def ara(request):
+    keyword = request.GET.get("keyword")
+
+    if keyword:
+        articles = Article.objects.filter(title__contains = keyword)
+        return render(request, "articles.html", {"articles":articles})
+
+    articles = Article.objects.all()
+
+    return render(request, "articles.html", {"articles":articles})
+
 
 
     

@@ -21,6 +21,7 @@ class Article(models.Model):
     created_date = models.DateTimeField(auto_now_add=True,verbose_name="Oluşturulma Tarihi")
     article_image = models.FileField(blank = True,null = True,verbose_name="Fotoğraf Ekle")
     kategori = models.TextField(choices=kategoriler,verbose_name="Kategori", default = 'Yok')
+    viewNumber = models.IntegerField(verbose_name="Görüntülenme", default=0)
     
     def __str__(self):
         return self.title
