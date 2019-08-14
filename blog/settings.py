@@ -31,18 +31,19 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'django.contrib.admin',
-    'django.contrib.auth',
-    'django.contrib.contenttypes',
-    'django.contrib.sessions',
-    'django.contrib.messages',
-    'django.contrib.staticfiles',
     "article",
     "user",
     'Profile',
     'crispy_forms',
     'ckeditor',
     'django_cleanup',
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    
 ]
 
 MIDDLEWARE = [
@@ -146,4 +147,16 @@ CKEDITOR_CONFIGS = {
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')  #MEDIA_ROOT = os.path.join('/home/blog_files/', 'media')
+
+
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+EMAIL_FILE_PATH = os.path.join(BASE_DIR, "sent_emails")
+
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'ilkemirnurullah@gmail.com'
+EMAIL_HOST_PASSWORD = 'Nurullah@13!?'
+EMAIL_USE_TLS = True
+DEFAULT_FROM_EMAIL = 'ilkemirnurullah@gmail.com'
+
 
