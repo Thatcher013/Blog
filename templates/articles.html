@@ -1,6 +1,8 @@
 {% extends "layout.html" %}
 
 {% block body %}
+{% load static %}
+
 <h3><strong>Makaleler</strong></h3>
 <hr>
 <br>
@@ -52,12 +54,25 @@
   <img src="{{article.article_image.url}}" class="card-img-top" alt="">
         {% endif %}
   <div class="card-body">
-    <h5 class="card-title"><strong>{{article.title|safe}}</strong></h5>
-    <p class="card-text">{{article.content|safe|truncatewords:25}}</p>
+    <h5 class="card-title"><strong>{{article.title|safe|striptags}}</strong></h5>
+    <p class="card-text">{{article.content|safe|truncatewords:40|striptags}}</p>
     <hr>
-    <p><a href="{% url 'Profile:profile' article.author %}">{{article.author}}</a> tarafından yazıldı.</p>
     <a href="{% url 'article:detail' article.id %}" class="btn btn-primary">Devamını Oku</a>
-    <p style="margin-top: 10px">{{article.viewNumber}} Görüntülenme</p>
+    <div class="row" style="margin-top: 7%;">
+      <div class="col-sm-1" style="margin-top: 1%">
+        <img src="{% static 'img/userIcon.png' %}" alt="" width="15" height="15">
+      </div>
+      <div class="col-sm-4" style="margin-top: 1.1%">
+        <p><a href="{% url 'Profile:profile' article.author %}">{{article.author}}</a></p>
+      </div>
+      <div class="col-sm-2">
+        <img src="{% static 'img/viewIcon.png' %}" alt="" width="40" height="30">
+      </div>
+      <div class="col-sm-3" style="margin-top: 1.1%">
+        <p>{{article.viewNumber}}</p>
+      </div>
+      
+    </div>
   </div>
 </div>
 <!--

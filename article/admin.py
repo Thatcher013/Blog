@@ -1,10 +1,12 @@
 from django.contrib import admin
 
-from .models import Article, Comment
+from .models import Article, Comment, CommentOfComment
 
 # Register your models here.
 
 admin.site.register(Comment)
+admin.site.register(CommentOfComment)
+
 
 @admin.register(Article)
 class ArticleAdmin(admin.ModelAdmin):

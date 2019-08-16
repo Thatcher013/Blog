@@ -41,42 +41,230 @@
         <br><br>
         <h3>Yorumlar</h3>
         <hr>
-        {% for comment in comments %}
+        <br><br>
+        {% for comment in comments %}<!-- Sahip yorumları -->
         {% if request.user.is_authenticated and comment.author == request.user %}
           <div class="media mb-4">
-          <img class="d-flex mr-3 rounded-circle" src="http://placehold.it/50x50" alt="">
+          {% if comment.author.profile.user_picture %}<!--if1-->
+          <img class="d-flex mr-3 rounded-circle" src="{{comment.author.profile.user_picture.url}}" alt="" style="border-radius:50%;" width="50" height="50">
+          {% endif %}<!--if1-->
           <div class="media-body">
             <h4 class="mt-0">{{comment.author}}</h3>
               {{comment.comment_date}}
             <hr>
-            <p class="mt-0"><strong>{{comment.comment_title}}</strong></p>
+
+            <div class="row">
+              <div class="col-10">
             {{comment.comment_content}}
-          <form method="POST" action="{% url 'article:comment_delete' comment.comment_id %}">
-          {% csrf_token %}
-          <br>
-              <button type="submit" class="btn float-right btn-danger btn-md">Sil</button>
-              </form>
-            <br><br>
+              </div>
+              <div class="col-2">
+                <form method="POST" action="{% url 'article:comment_delete' comment.comment_id %}">
+                  {% csrf_token %}
+                      <button type="submit" class="btn float-right btn-danger btn-md">Sil</button>
+                      
+                      </form>
+              </div>
+            </div>
+            <br>
           </div>
         </div>
+
+        {% for re in comments_re %}
+
+        <!-- Yorum cevapları -->
+        {% if re.comment == comment %}
+
+        {% if request.user.is_authenticated and re.author == request.user %}
         
-        {% else %}
-        <div class="media mb-4">
-          <img class="d-flex mr-3 rounded-circle" src="http://placehold.it/50x50" alt="">
+        <div class="media mb-4" style="margin-left: 17%;">
+ {% if comment.author.profile.user_picture %}
+          <img class="d-flex mr-3 rounded-circle" src="{{comment.author.profile.user_picture.url}}" alt="" style="border-radius:50%;" width="50" height="50">
+          {% endif %}
           <div class="media-body">
-            <h4 class="mt-0">{{comment.author}}</h3>
-              {{comment.comment_date}}
+            <div class="row">
+              <div class="col">
+            <h4 class="mt-0">{{re.author}}</h3>
+              </div>
+              <div class="col">
+                  <form method="POST" action="{% url 'article:comment_re_delete' re.commentOfComment_id %}">
+                      {% csrf_token %}
+                          <button type="submit" class="btn float-right btn-dark btn-sm">Sil</button>
+                          
+                          </form>
+              </div>
+            </div>
             <hr>
-            <p class="mt-0"><strong>{{comment.comment_title}}</strong></p>
-            {{comment.comment_content}}
-            <br><br>
+            {{re.commentOfComment_content}}
+            
+          
+            <br>
           </div>
         </div>
+
+        {% else %}
+        <div class="media mb-4" style="margin-left: 17%;">
+ {% if comment.author.profile.user_picture %}
+          <img class="d-flex mr-3 rounded-circle" src="{{comment.author.profile.user_picture.url}}" alt="" style="border-radius:50%;" width="50" height="50">
+          {% endif %}
+            <div class="media-body">
+              
+                
+              <h4 class="mt-0">{{re.author}}</h3>
+              
+
+              <hr>
+              {{re.commentOfComment_content}}
+              
+            
+              <br>
+            </div>
+          </div>
+          
 
         {% endif %}
 
-        
+        {% endif %}
+
         {% endfor %}
+
+
+        <!-- Cevap kutusu  -->
+        <div class="row">
+
+            <div class="col">
+    
+            </div>
+              <div class="col-8">
+          <form method="POST" action="{% url 'article:commentOfComment' comment.comment_id %}">
+
+                      {% csrf_token %}
+                      <div class="form-group">
+                          <input name="comment_re_content" class="form-control" placeholder="Cevapla">
+                        </div>
+                        
+                        
+                      
+              </div>
+    
+              <div class="col">
+                  {% csrf_token %}            
+                  <button type="submit" class="btn btn-success">Gönder</button>
+    
+    
+              </div>
+              </form>    
+            </div>
+       
+
+
+        <br>
+        {% else %}
+        <div class="media mb-4">
+          {% if comment.author.profile.user_picture %}
+          <img class="d-flex mr-3 rounded-circle" src="{{comment.author.profile.user_picture.url}}" alt="" style="border-radius:50%;" width="50" height="50">
+          {% endif %}
+          <div class="media-body">
+            <h4 class="mt-0">{{comment.author}}</h3>
+              {{comment.comment_date}}
+            <hr>
+            <p class="mt-0"><strong>{{comment.comment_title}}</strong></p>
+            {{comment.comment_content}}
+            <br><br>
+          </div>
+        </div>
+
+{% for re in comments_re %}
+
+        <!-- Yorum cevapları -->
+        {% if re.comment == comment %}
+
+        {% if request.user.is_authenticated and re.author == request.user %}
+        
+        <div class="media mb-4" style="margin-left: 17%;">
+ {% if comment.author.profile.user_picture %}
+          <img class="d-flex mr-3 rounded-circle" src="{{comment.author.profile.user_picture.url}}" alt="" style="border-radius:50%;" width="50" height="50">
+          {% endif %}
+          <div class="media-body">
+            <div class="row">
+              <div class="col">
+            <h4 class="mt-0">{{re.author}}</h3>
+              </div>
+              <div class="col">
+                  <form method="POST" action="{% url 'article:comment_re_delete' re.commentOfComment_id %}">
+                      {% csrf_token %}
+                          <button type="submit" class="btn float-right btn-dark btn-sm">Sil</button>
+                          
+                          </form>
+              </div>
+            </div>
+            <hr>
+            {{re.commentOfComment_content}}
+            
+          
+            <br>
+          </div>
+        </div>
+
+        {% else %}
+        <div class="media mb-4" style="margin-left: 17%;">
+ {% if comment.author.profile.user_picture %}
+          <img class="d-flex mr-3 rounded-circle" src="{{comment.author.profile.user_picture.url}}" alt="" style="border-radius:50%;" width="50" height="50">
+          {% endif %}
+            <div class="media-body">
+              
+                
+              <h4 class="mt-0">{{re.author}}</h3>
+              
+
+              <hr>
+              {{re.commentOfComment_content}}
+              
+            
+              <br>
+            </div>
+          </div>
+          
+
+        {% endif %}
+
+        {% endif %}
+
+        {% endfor %}
+
+        <div class="row">
+
+            <div class="col">
+    
+            </div>
+              <div class="col-8">
+          <form method="POST" action="{% url 'article:commentOfComment' comment.comment_id %}">
+
+                      {% csrf_token %}
+                      <div class="form-group">
+                          <input name="comment_re_content" class="form-control" placeholder="Cevapla">
+                        </div>
+                        
+                        
+                      
+              </div>
+    
+              <div class="col">
+                  {% csrf_token %}            
+                  <button type="submit" class="btn btn-success">Gönder</button>
+    
+    
+              </div>
+              </form>    
+            </div>
+        
+
+        {% endif %}
+
+        <br><br><hr style="background:#A80046"><br><br>
+        {% endfor %}
+
+
+
         {% else %}
         <div class="alert alert-danger">
           Bu makaleye herhangi bir yorum yazılmamış, ilk yazan siz olun.
@@ -114,7 +302,7 @@
           
         </div>
 
-        
+        <br><br><br><br><br><br>
 
 
 {% endblock body %}

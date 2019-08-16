@@ -1,6 +1,10 @@
 <!--<small class="form-text text-muted text-right"><a href="{% url 'user:password_reset' %}">You forgot ur password nibba?</a></small>-->
 
-1- Yoruma yorum
+1- Yoruma yorum--
 2- Şifremi unuttum
 3- Arayüz geliştirmeleri
-4- 
+4- makaleler sayfasına bug fix görüntü kayması--
+5- kategori düzenlemesi
+6- Ana sayfaya son yazılar, alt tarafa bilgiler vesaire
+7- Yazı kartları düzenlenecek--
+8- yorum resimleri düzeltilecek--

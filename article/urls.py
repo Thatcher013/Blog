@@ -16,6 +16,7 @@ urlpatterns = [
     path('siir/', views.siir, name = "siir"),
     path('fikir/', views.fikir, name = "fikir"),
     path('ara/', views.ara, name="ara"),
-
+    path('commentOfcomment/<int:id>', views.addCommentofComment, name="commentOfComment"),
+    path('comment_re_delete/<int:id>', views.deleteCommentOfComment, name="comment_re_delete")
     
 ]

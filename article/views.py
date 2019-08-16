@@ -1,7 +1,7 @@
 from django.shortcuts import render, HttpResponse, redirect, get_object_or_404, reverse
 from .forms import ArticleForm
 from django.contrib import messages
-from .models import Article,Comment
+from .models import Article,Comment,CommentOfComment
 from django.contrib.auth.decorators import login_required
 import time
 
@@ -42,10 +42,12 @@ def detail(request, id):
 
     article = get_object_or_404(Article, id = id)
     comments = article.comments.all()
-    time.sleep(2.5)
+    comment_re = CommentOfComment.objects.filter(article=article)
+
+    #time.sleep(2)
     article.viewNumber += 1
     article.save()
-    return render(request, "detail.html", {"article": article, "comments":comments})
+    return render(request, "detail.html", {"article": article, "comments":comments, "comments_re":comment_re})
     
     
 
@@ -114,6 +116,7 @@ def deleteComment(request, id):
     if comment.author == request.user:
         comment.delete()
     article = comment.article
+    messages.info(request, "Bro...")
     return redirect(reverse("article:detail", kwargs={"id":article.id}))
 
 def yazilim(request):
@@ -154,6 +157,42 @@ def ara(request):
     articles = Article.objects.all()
 
     return render(request, "articles.html", {"articles":articles})
+
+@login_required(login_url = "user:login")
+def addCommentofComment(request, id):
+    comment = get_object_or_404(Comment, comment_id=id)
+    article = comment.article
+    if request.method == "POST":
+
+        comment_content = request.POST.get("comment_re_content")
+        dogrulamaComment = CommentOfComment.objects.filter(author = request.user, comment = comment, commentOfComment_content = comment_content)
+        
+        if dogrulamaComment:
+            messages.info(request, "Tekrarlanan cevap tespit edildi")
+            return redirect(reverse("article:detail", kwargs={"id":comment.article.id}))
+        else:
+            newCommentRe = CommentOfComment(commentOfComment_content=comment_content)
+            newCommentRe.author = request.user
+            newCommentRe.comment = comment
+            newCommentRe.article = article
+            newCommentRe.save()
+    return redirect(reverse("article:detail", kwargs={"id":comment.article.id}))
+
+
+login_required(login_url="user:login")
+def deleteCommentOfComment(request, id):
+    comment_re = get_object_or_404(CommentOfComment, commentOfComment_id=id)
+    if comment_re.author == request.user:
+        comment_re.delete()
+        messages.success(request, "Yorum Başarıyla Silindi")
+        return redirect(reverse("article:detail", kwargs={"id":comment_re.comment.article.id}))
+    else:
+        messages.info(request, "Başkasının yorumunu silmeye yetkiniz yok.")
+        return redirect(reverse("article:detail", kwargs={"id":comment_re.comment.article.id}))
+
+
+
+    
 
 
 

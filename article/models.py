@@ -35,8 +35,27 @@ class Comment(models.Model):
     comment_content = models.CharField(max_length = 200,verbose_name = "Yorum")
     comment_date = models.DateTimeField(auto_now_add=True)
     comment_id = models.IntegerField(primary_key=True)
+
+
     def __str__(self):
         return self.comment_content
 
     class Meta:
         ordering = ['-comment_date']
+
+class CommentOfComment(models.Model):
+    article = models.ForeignKey(Article, on_delete=models.CASCADE,verbose_name="Makale", null=True)
+    comment = models.ForeignKey(Comment, on_delete = models.CASCADE, verbose_name="Yorumun yorumu", related_name="commentOfComment")
+    author = models.ForeignKey("auth.User",on_delete = models.CASCADE,verbose_name = "Yazar", null = True)
+    commentOfComment_content = models.CharField(max_length = 100,verbose_name = "Yorum", null=True)
+    commentOfComment_date = models.DateTimeField(auto_now_add=True)
+    commentOfComment_id = models.IntegerField(primary_key=True)
+
+
+    def __str__(self):
+        return self.commentOfComment_content or ''
+
+    class Meta:
+        ordering = ['-commentOfComment_date']
+
+
