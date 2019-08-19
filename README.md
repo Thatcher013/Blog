@@ -1,4 +1,3 @@
 # Blog
-Mustakil.ml projesi
-\n
+Mustakil.ml projesi,
 18 yaş altı arkadaşların fikirlerini paylaştıkları ortam.
