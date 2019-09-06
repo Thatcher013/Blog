@@ -7,13 +7,20 @@ class Article(models.Model):
     YAZILIM = 'Yazılım'
     SIIR = 'Şiir'
     FIKIR = 'Fikir'
+    TEKNOLOJI = 'Teknoloji'
+    OYKU = 'Öykü'
+    BILIM = 'Bilim'
+    EGITIM = 'Eğitim'
     
     
     kategoriler = [
         (YAZILIM, 'Yazılım'),
         (SIIR, 'Şiir'),
         (FIKIR, 'Fikir'),
-        
+        (TEKNOLOJI, 'Teknoloji'),
+        (OYKU, 'Öykü'),
+        (BILIM, 'Bilim'),
+        (EGITIM, 'Eğitim'),        
     ]
     author = models.ForeignKey("auth.User",on_delete = models.CASCADE,verbose_name = "Yazar")
     title = models.CharField(max_length = 50,verbose_name = "Başlık")

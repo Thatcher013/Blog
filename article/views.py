@@ -10,8 +10,8 @@ import time
 
 
 def index(request):
-    articles = Article.objects.all()
-
+    articles = Article.objects.all()[:5]
+    
     return render(request, "index.html", {"articles":articles})
 
 def about(request):
@@ -44,7 +44,7 @@ def detail(request, id):
     comments = article.comments.all()
     comment_re = CommentOfComment.objects.filter(article=article)
 
-    #time.sleep(2)
+    time.sleep(2)
     article.viewNumber += 1
     article.save()
     return render(request, "detail.html", {"article": article, "comments":comments, "comments_re":comment_re})
@@ -145,6 +145,44 @@ def fikir(request):
     messages.info(request, "Maalesef bu kategoride bir yazı bulunmuyor.")    
     articles = Article.objects.all()
     return render(request, "articles.html", {"articles":articles})
+
+def teknoloji(request):
+    articles = Article.objects.filter(kategori = 'Teknoloji')
+    if articles:
+        return render(request, "articles.html", {"articles":articles})
+    
+    messages.info(request, "Maalesef bu kategoride bir yazı bulunmuyor.")
+    articles = Article.objects.all()
+    return render(request, "articles.html", {"articles":articles})
+
+def oyku(request):
+    articles = Article.objects.filter(kategori = 'Öykü')
+    if articles:
+        return render(request, "articles.html", {"articles":articles})
+    
+    messages.info(request, "Maalesef bu kategoride bir yazı bulunmuyor.")
+    articles = Article.objects.all()
+    return render(request, "articles.html", {"articles":articles})
+
+def bilim(request):
+    articles = Article.objects.filter(kategori = 'Bilim')
+    if articles:
+        return render(request, "articles.html", {"articles":articles})
+    
+    messages.info(request, "Maalesef bu kategoride bir yazı bulunmuyor.")
+    articles = Article.objects.all()
+    return render(request, "articles.html", {"articles":articles})
+
+def egitim(request):
+    articles = Article.objects.filter(kategori = 'Eğitim')
+    if articles:
+        return render(request, "articles.html", {"articles":articles})
+    
+    messages.info(request, "Maalesef bu kategoride bir yazı bulunmuyor.")
+    articles = Article.objects.all()
+    return render(request, "articles.html", {"articles":articles})
+
+
 
 
 def ara(request):
