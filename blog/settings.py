@@ -25,25 +25,24 @@ SECRET_KEY = '1v5_n0ino-mj4%!xe1h@$tklm@#9@yystx=gb1w2y^dlztz(@!'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['34.65.49.171', 'mustakil.ml', 'www.mustakil.ml']
 
 
 # Application definition
 
 INSTALLED_APPS = [
-    "article",
-    "user",
-    'Profile',
-    'crispy_forms',
-    'ckeditor',
-    'django_cleanup',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    
+    "article",
+    "user",
+    "Profile",
+    'crispy_forms',
+    'ckeditor',
+    'django_cleanup',
 ]
 
 MIDDLEWARE = [
@@ -84,7 +83,7 @@ WSGI_APPLICATION = 'blog.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),  #'NAME': os.path.join('/home/blog_files/', 'db.sqlite3')
+        'NAME': os.path.join('/home/blog_files/', 'db.sqlite3'),
     }
 }
 
@@ -125,7 +124,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
-STATIC_URL = '/static/'
+STATIC_URL = '/staticfiles/'
 
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
@@ -145,18 +144,89 @@ CKEDITOR_CONFIGS = {
     }
 }
 
+CKEDITOR_UPLOAD_PATH = "ck_uploads/"
+
 MEDIA_URL = '/media/'
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')  #MEDIA_ROOT = os.path.join('/home/blog_files/', 'media')
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
-EMAIL_FILE_PATH = os.path.join(BASE_DIR, "sent_emails")
 
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = 587
-EMAIL_HOST_USER = 'ilkemirnurullah@gmail.com'
-EMAIL_HOST_PASSWORD = 'Nurullah@13!?'
-EMAIL_USE_TLS = True
-DEFAULT_FROM_EMAIL = 'ilkemirnurullah@gmail.com'
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': True,
+    'filters': {
+        'require_debug_false': {
+            '()': 'django.utils.log.RequireDebugFalse',
+        },
+        'require_debug_true': {
+            '()': 'django.utils.log.RequireDebugTrue',
+        },
+    },
+    'formatters': {
+        'simple': {
+            'format': '[%(asctime)s] %(levelname)s %(message)s',
+            'datefmt': '%Y-%m-%d %H:%M:%S'
+        },
+        'verbose': {
+            'format': '[%(asctime)s] %(levelname)s [%(name)s.%(funcName)s:%(lineno)d] %(message)s',
+            'datefmt': '%Y-%m-%d %H:%M:%S'
+        },
+    },
+    'handlers': {
+        'console': {
+            'level': 'DEBUG',
+            'filters': ['require_debug_true'],
+            'class': 'logging.StreamHandler',
+            'formatter': 'simple'
+        },
+        'development_logfile': {
+            'level': 'DEBUG',
+            'filters': ['require_debug_true'],
+            'class': 'logging.FileHandler',
+            'filename': './logs/django_dev.log',
+            'formatter': 'verbose'
+        },
+        'production_logfile': {
+            'level': 'ERROR',
+            'filters': ['require_debug_false'],
+            'class': 'logging.handlers.RotatingFileHandler',
+            'filename': './logs/django_production.log',
+            'maxBytes': 1024*1024*100,  # 100MB
+            'backupCount': 5,
+            'formatter': 'simple'
+        },
+        'dba_logfile': {
+            'level': 'DEBUG',
+            'filters': ['require_debug_false', 'require_debug_true'],
+            'class': 'logging.handlers.WatchedFileHandler',
+            'filename': './logs/django_dba.log',
+            'formatter': 'simple'
+        },
+    },
+    'root': {
+        'level': 'DEBUG',
+        'handlers': ['console'],
+    },
+    'loggers': {
+        'coffeehouse': {
+            'handlers': ['development_logfile', 'production_logfile'],
+        },
+        'dba': {
+            'handlers': ['dba_logfile'],
+        },
+        'django': {
+            'handlers': ['development_logfile', 'production_logfile'],
+        },
+        'py.warnings': {
+            'handlers': ['development_logfile'],
+        },
+    }
+}
 
+
+
+try:
+	from .local_settings import *
+except:
+	pass
 
