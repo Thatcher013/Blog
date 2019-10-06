@@ -1,0 +1,668 @@
+[2019-10-06 18:14:50] ERROR [django.security.DisallowedHost.response_for_exception:77] Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+[2019-10-06 18:14:50] WARNING [django.request.log_response:228] Bad Request: /
+[2019-10-06 18:14:50] WARNING [django.server.log_message:154] "GET / HTTP/1.1" 400 68800
+[2019-10-06 18:14:50] ERROR [django.security.DisallowedHost.response_for_exception:77] Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+[2019-10-06 18:14:50] WARNING [django.request.log_response:228] Bad Request: /favicon.ico
+[2019-10-06 18:14:50] WARNING [django.server.log_message:154] "GET /favicon.ico HTTP/1.1" 400 68733
+[2019-10-06 18:15:23] ERROR [django.security.DisallowedHost.response_for_exception:77] Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+[2019-10-06 18:15:23] WARNING [django.request.log_response:228] Bad Request: /
+[2019-10-06 18:15:23] WARNING [django.server.log_message:154] "GET / HTTP/1.1" 400 68987
+[2019-10-06 18:15:26] ERROR [django.security.DisallowedHost.response_for_exception:77] Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+[2019-10-06 18:15:26] WARNING [django.request.log_response:228] Bad Request: /
+[2019-10-06 18:15:26] WARNING [django.server.log_message:154] "GET / HTTP/1.1" 400 68987
+[2019-10-06 18:15:39] ERROR [django.request.log_response:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/lib/python3.7/site-packages/django/db/backends/sqlite3/base.py", line 298, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such column: article_article.viewNumber
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nurullah/Desktop/blog/article/views.py", line 15, in index
+    return render(request, "index.html", {"articles":articles})
+  File "/usr/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/lib/python3.7/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/usr/lib/python3.7/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/usr/lib/python3.7/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/usr/lib/python3.7/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/usr/lib/python3.7/site-packages/django/template/defaulttags.py", line 166, in render
+    len_values = len(values)
+  File "/usr/lib/python3.7/site-packages/django/db/models/query.py", line 250, in __len__
+    self._fetch_all()
+  File "/usr/lib/python3.7/site-packages/django/db/models/query.py", line 1186, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/usr/lib/python3.7/site-packages/django/db/models/query.py", line 54, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/usr/lib/python3.7/site-packages/django/db/models/sql/compiler.py", line 1065, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/lib/python3.7/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/usr/lib/python3.7/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/usr/lib/python3.7/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/usr/lib/python3.7/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/lib/python3.7/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/lib/python3.7/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/lib/python3.7/site-packages/django/db/backends/sqlite3/base.py", line 298, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such column: article_article.viewNumber
+[2019-10-06 18:15:39] ERROR [django.server.log_message:154] "GET / HTTP/1.1" 500 210248
+[2019-10-06 18:17:09] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 6937
+[2019-10-06 18:17:09] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 200 48944
+[2019-10-06 18:17:09] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 200 86659
+[2019-10-06 18:17:09] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 200 144877
+[2019-10-06 18:17:09] WARNING [django.request.log_response:228] Not Found: /media/django_rT71Tnw.png
+[2019-10-06 18:17:09] WARNING [django.request.log_response:228] Not Found: /media/django_64CMBhf.png
+[2019-10-06 18:17:09] WARNING [django.server.log_message:154] "GET /media/django_64CMBhf.png HTTP/1.1" 404 1808
+[2019-10-06 18:17:09] WARNING [django.request.log_response:228] Not Found: /media/python-logo_3i9vxqz.png
+[2019-10-06 18:17:09] WARNING [django.server.log_message:154] "GET /media/python-logo_3i9vxqz.png HTTP/1.1" 404 1823
+[2019-10-06 18:17:09] WARNING [django.server.log_message:154] "GET /media/django_rT71Tnw.png HTTP/1.1" 404 1808
+[2019-10-06 18:17:09] WARNING [django.request.log_response:228] Not Found: /media/python-logo_iuzTEg3.png
+[2019-10-06 18:17:09] WARNING [django.server.log_message:154] "GET /media/python-logo_iuzTEg3.png HTTP/1.1" 404 1823
+[2019-10-06 18:17:14] INFO [django.server.log_message:154] "GET /user/login/ HTTP/1.1" 200 3647
+[2019-10-06 18:17:17] INFO [django.server.log_message:154] "POST /user/login/ HTTP/1.1" 200 3810
+[2019-10-06 18:17:20] ERROR [django.request.log_response:228] Internal Server Error: /user/login/
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/lib/python3.7/site-packages/django/db/backends/sqlite3/base.py", line 298, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: attempt to write a readonly database
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nurullah/Desktop/blog/user/views.py", line 89, in loginUser
+    login(request,user)
+  File "/usr/lib/python3.7/site-packages/django/contrib/auth/__init__.py", line 108, in login
+    request.session.cycle_key()
+  File "/usr/lib/python3.7/site-packages/django/contrib/sessions/backends/base.py", line 298, in cycle_key
+    self.create()
+  File "/usr/lib/python3.7/site-packages/django/contrib/sessions/backends/db.py", line 55, in create
+    self.save(must_create=True)
+  File "/usr/lib/python3.7/site-packages/django/contrib/sessions/backends/db.py", line 87, in save
+    obj.save(force_insert=must_create, force_update=not must_create, using=using)
+  File "/usr/lib/python3.7/site-packages/django/db/models/base.py", line 718, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/usr/lib/python3.7/site-packages/django/db/models/base.py", line 748, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/usr/lib/python3.7/site-packages/django/db/models/base.py", line 831, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/usr/lib/python3.7/site-packages/django/db/models/base.py", line 869, in _do_insert
+    using=using, raw=raw)
+  File "/usr/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/lib/python3.7/site-packages/django/db/models/query.py", line 1136, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/usr/lib/python3.7/site-packages/django/db/models/sql/compiler.py", line 1289, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/lib/python3.7/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/usr/lib/python3.7/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/usr/lib/python3.7/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/usr/lib/python3.7/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/lib/python3.7/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/lib/python3.7/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/lib/python3.7/site-packages/django/db/backends/sqlite3/base.py", line 298, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: attempt to write a readonly database
+[2019-10-06 18:17:20] ERROR [django.server.log_message:154] "POST /user/login/ HTTP/1.1" 500 168482
+[2019-10-06 18:48:38] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7081
+[2019-10-06 18:48:38] WARNING [django.request.log_response:228] Not Found: /media/django_rT71Tnw.png
+[2019-10-06 18:48:38] WARNING [django.server.log_message:154] "GET /media/django_rT71Tnw.png HTTP/1.1" 404 1808
+[2019-10-06 18:48:38] WARNING [django.request.log_response:228] Not Found: /media/django_64CMBhf.png
+[2019-10-06 18:48:38] WARNING [django.request.log_response:228] Not Found: /media/python-logo_3i9vxqz.png
+[2019-10-06 18:48:38] WARNING [django.server.log_message:154] "GET /media/python-logo_3i9vxqz.png HTTP/1.1" 404 1823
+[2019-10-06 18:48:38] WARNING [django.request.log_response:228] Not Found: /media/python-logo_iuzTEg3.png
+[2019-10-06 18:48:38] WARNING [django.server.log_message:154] "GET /media/python-logo_iuzTEg3.png HTTP/1.1" 404 1823
+[2019-10-06 18:48:38] WARNING [django.server.log_message:154] "GET /media/django_64CMBhf.png HTTP/1.1" 404 1808
+[2019-10-06 18:48:38] WARNING [django.request.log_response:228] Not Found: /favicon.ico
+[2019-10-06 18:48:40] INFO [django.server.log_message:154] "GET /user/login/ HTTP/1.1" 200 3647
+[2019-10-06 18:48:43] INFO [django.server.log_message:154] "POST /user/login/ HTTP/1.1" 200 3810
+[2019-10-06 18:48:46] ERROR [django.request.log_response:228] Internal Server Error: /user/login/
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/lib/python3.7/site-packages/django/db/backends/sqlite3/base.py", line 298, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: attempt to write a readonly database
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nurullah/Desktop/blog/user/views.py", line 89, in loginUser
+    login(request,user)
+  File "/usr/lib/python3.7/site-packages/django/contrib/auth/__init__.py", line 108, in login
+    request.session.cycle_key()
+  File "/usr/lib/python3.7/site-packages/django/contrib/sessions/backends/base.py", line 298, in cycle_key
+    self.create()
+  File "/usr/lib/python3.7/site-packages/django/contrib/sessions/backends/db.py", line 55, in create
+    self.save(must_create=True)
+  File "/usr/lib/python3.7/site-packages/django/contrib/sessions/backends/db.py", line 87, in save
+    obj.save(force_insert=must_create, force_update=not must_create, using=using)
+  File "/usr/lib/python3.7/site-packages/django/db/models/base.py", line 718, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/usr/lib/python3.7/site-packages/django/db/models/base.py", line 748, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/usr/lib/python3.7/site-packages/django/db/models/base.py", line 831, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/usr/lib/python3.7/site-packages/django/db/models/base.py", line 869, in _do_insert
+    using=using, raw=raw)
+  File "/usr/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/lib/python3.7/site-packages/django/db/models/query.py", line 1136, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/usr/lib/python3.7/site-packages/django/db/models/sql/compiler.py", line 1289, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/lib/python3.7/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/usr/lib/python3.7/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/usr/lib/python3.7/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/usr/lib/python3.7/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/lib/python3.7/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/lib/python3.7/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/lib/python3.7/site-packages/django/db/backends/sqlite3/base.py", line 298, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: attempt to write a readonly database
+[2019-10-06 18:48:46] ERROR [django.server.log_message:154] "POST /user/login/ HTTP/1.1" 500 168481
+[2019-10-06 18:49:11] ERROR [django.request.log_response:228] Internal Server Error: /user/login/
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/lib/python3.7/site-packages/django/db/backends/sqlite3/base.py", line 298, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: attempt to write a readonly database
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nurullah/Desktop/blog/user/views.py", line 89, in loginUser
+    login(request,user)
+  File "/usr/lib/python3.7/site-packages/django/contrib/auth/__init__.py", line 108, in login
+    request.session.cycle_key()
+  File "/usr/lib/python3.7/site-packages/django/contrib/sessions/backends/base.py", line 298, in cycle_key
+    self.create()
+  File "/usr/lib/python3.7/site-packages/django/contrib/sessions/backends/db.py", line 55, in create
+    self.save(must_create=True)
+  File "/usr/lib/python3.7/site-packages/django/contrib/sessions/backends/db.py", line 87, in save
+    obj.save(force_insert=must_create, force_update=not must_create, using=using)
+  File "/usr/lib/python3.7/site-packages/django/db/models/base.py", line 718, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/usr/lib/python3.7/site-packages/django/db/models/base.py", line 748, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/usr/lib/python3.7/site-packages/django/db/models/base.py", line 831, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/usr/lib/python3.7/site-packages/django/db/models/base.py", line 869, in _do_insert
+    using=using, raw=raw)
+  File "/usr/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/lib/python3.7/site-packages/django/db/models/query.py", line 1136, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/usr/lib/python3.7/site-packages/django/db/models/sql/compiler.py", line 1289, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/lib/python3.7/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/usr/lib/python3.7/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/usr/lib/python3.7/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/usr/lib/python3.7/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/lib/python3.7/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/lib/python3.7/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/lib/python3.7/site-packages/django/db/backends/sqlite3/base.py", line 298, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: attempt to write a readonly database
+[2019-10-06 18:49:11] ERROR [django.server.log_message:154] "POST /user/login/ HTTP/1.1" 500 168991
+[2019-10-06 19:16:38] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7202
+[2019-10-06 19:16:38] WARNING [django.request.log_response:228] Not Found: /media/django_rT71Tnw.png
+[2019-10-06 19:16:38] WARNING [django.server.log_message:154] "GET /media/django_rT71Tnw.png HTTP/1.1" 404 1808
+[2019-10-06 19:16:38] WARNING [django.request.log_response:228] Not Found: /media/django_64CMBhf.png
+[2019-10-06 19:16:38] WARNING [django.server.log_message:154] "GET /media/django_64CMBhf.png HTTP/1.1" 404 1808
+[2019-10-06 19:16:38] WARNING [django.request.log_response:228] Not Found: /media/python-logo_iuzTEg3.png
+[2019-10-06 19:16:38] WARNING [django.server.log_message:154] "GET /media/python-logo_iuzTEg3.png HTTP/1.1" 404 1823
+[2019-10-06 19:16:38] WARNING [django.request.log_response:228] Not Found: /media/python-logo_3i9vxqz.png
+[2019-10-06 19:16:38] WARNING [django.server.log_message:154] "GET /media/python-logo_3i9vxqz.png HTTP/1.1" 404 1823
+[2019-10-06 19:16:45] INFO [django.server.log_message:154] "GET /user/login/ HTTP/1.1" 200 3647
+[2019-10-06 19:16:50] ERROR [django.request.log_response:228] Internal Server Error: /user/login/
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/lib/python3.7/site-packages/django/db/backends/sqlite3/base.py", line 298, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: attempt to write a readonly database
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nurullah/Desktop/blog/user/views.py", line 89, in loginUser
+    login(request,user)
+  File "/usr/lib/python3.7/site-packages/django/contrib/auth/__init__.py", line 108, in login
+    request.session.cycle_key()
+  File "/usr/lib/python3.7/site-packages/django/contrib/sessions/backends/base.py", line 298, in cycle_key
+    self.create()
+  File "/usr/lib/python3.7/site-packages/django/contrib/sessions/backends/db.py", line 55, in create
+    self.save(must_create=True)
+  File "/usr/lib/python3.7/site-packages/django/contrib/sessions/backends/db.py", line 87, in save
+    obj.save(force_insert=must_create, force_update=not must_create, using=using)
+  File "/usr/lib/python3.7/site-packages/django/db/models/base.py", line 718, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/usr/lib/python3.7/site-packages/django/db/models/base.py", line 748, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/usr/lib/python3.7/site-packages/django/db/models/base.py", line 831, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/usr/lib/python3.7/site-packages/django/db/models/base.py", line 869, in _do_insert
+    using=using, raw=raw)
+  File "/usr/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/lib/python3.7/site-packages/django/db/models/query.py", line 1136, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/usr/lib/python3.7/site-packages/django/db/models/sql/compiler.py", line 1289, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/lib/python3.7/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/usr/lib/python3.7/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/usr/lib/python3.7/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/usr/lib/python3.7/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/lib/python3.7/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/lib/python3.7/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/lib/python3.7/site-packages/django/db/backends/sqlite3/base.py", line 298, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: attempt to write a readonly database
+[2019-10-06 19:16:50] ERROR [django.server.log_message:154] "POST /user/login/ HTTP/1.1" 500 168483
+[2019-10-06 22:07:57] ERROR [django.request.log_response:228] Internal Server Error: /user/login/
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/lib/python3.7/site-packages/django/db/backends/sqlite3/base.py", line 298, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: attempt to write a readonly database
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nurullah/Desktop/blog/user/views.py", line 89, in loginUser
+    login(request,user)
+  File "/usr/lib/python3.7/site-packages/django/contrib/auth/__init__.py", line 108, in login
+    request.session.cycle_key()
+  File "/usr/lib/python3.7/site-packages/django/contrib/sessions/backends/base.py", line 298, in cycle_key
+    self.create()
+  File "/usr/lib/python3.7/site-packages/django/contrib/sessions/backends/db.py", line 55, in create
+    self.save(must_create=True)
+  File "/usr/lib/python3.7/site-packages/django/contrib/sessions/backends/db.py", line 87, in save
+    obj.save(force_insert=must_create, force_update=not must_create, using=using)
+  File "/usr/lib/python3.7/site-packages/django/db/models/base.py", line 718, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/usr/lib/python3.7/site-packages/django/db/models/base.py", line 748, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/usr/lib/python3.7/site-packages/django/db/models/base.py", line 831, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/usr/lib/python3.7/site-packages/django/db/models/base.py", line 869, in _do_insert
+    using=using, raw=raw)
+  File "/usr/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/lib/python3.7/site-packages/django/db/models/query.py", line 1136, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/usr/lib/python3.7/site-packages/django/db/models/sql/compiler.py", line 1289, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/lib/python3.7/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/usr/lib/python3.7/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/usr/lib/python3.7/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/usr/lib/python3.7/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/lib/python3.7/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/lib/python3.7/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/lib/python3.7/site-packages/django/db/backends/sqlite3/base.py", line 298, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: attempt to write a readonly database
+[2019-10-06 22:07:57] ERROR [django.server.log_message:154] "POST /user/login/ HTTP/1.1" 500 169126
+[2019-10-06 22:09:32] ERROR [django.request.log_response:228] Internal Server Error: /user/login/
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/lib/python3.7/site-packages/django/db/backends/sqlite3/base.py", line 298, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: attempt to write a readonly database
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nurullah/Desktop/blog/user/views.py", line 89, in loginUser
+    login(request,user)
+  File "/usr/lib/python3.7/site-packages/django/contrib/auth/__init__.py", line 108, in login
+    request.session.cycle_key()
+  File "/usr/lib/python3.7/site-packages/django/contrib/sessions/backends/base.py", line 298, in cycle_key
+    self.create()
+  File "/usr/lib/python3.7/site-packages/django/contrib/sessions/backends/db.py", line 55, in create
+    self.save(must_create=True)
+  File "/usr/lib/python3.7/site-packages/django/contrib/sessions/backends/db.py", line 87, in save
+    obj.save(force_insert=must_create, force_update=not must_create, using=using)
+  File "/usr/lib/python3.7/site-packages/django/db/models/base.py", line 718, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/usr/lib/python3.7/site-packages/django/db/models/base.py", line 748, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/usr/lib/python3.7/site-packages/django/db/models/base.py", line 831, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/usr/lib/python3.7/site-packages/django/db/models/base.py", line 869, in _do_insert
+    using=using, raw=raw)
+  File "/usr/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/lib/python3.7/site-packages/django/db/models/query.py", line 1136, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/usr/lib/python3.7/site-packages/django/db/models/sql/compiler.py", line 1289, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/lib/python3.7/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/usr/lib/python3.7/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/usr/lib/python3.7/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/usr/lib/python3.7/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/lib/python3.7/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/lib/python3.7/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/lib/python3.7/site-packages/django/db/backends/sqlite3/base.py", line 298, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: attempt to write a readonly database
+[2019-10-06 22:09:32] ERROR [django.server.log_message:154] "POST /user/login/ HTTP/1.1" 500 169412
+[2019-10-06 22:09:38] INFO [django.server.log_message:154] "GET /user/login/ HTTP/1.1" 200 4033
+[2019-10-06 22:09:44] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 6937
+[2019-10-06 22:09:44] WARNING [django.request.log_response:228] Not Found: /media/django_rT71Tnw.png
+[2019-10-06 22:09:44] WARNING [django.server.log_message:154] "GET /media/django_rT71Tnw.png HTTP/1.1" 404 1808
+[2019-10-06 22:09:44] WARNING [django.request.log_response:228] Not Found: /media/python-logo_3i9vxqz.png
+[2019-10-06 22:09:44] WARNING [django.server.log_message:154] "GET /media/python-logo_3i9vxqz.png HTTP/1.1" 404 1823
+[2019-10-06 22:09:44] WARNING [django.request.log_response:228] Not Found: /media/django_64CMBhf.png
+[2019-10-06 22:09:44] WARNING [django.server.log_message:154] "GET /media/django_64CMBhf.png HTTP/1.1" 404 1808
+[2019-10-06 22:09:44] WARNING [django.request.log_response:228] Not Found: /media/python-logo_iuzTEg3.png
+[2019-10-06 22:09:44] WARNING [django.server.log_message:154] "GET /media/python-logo_iuzTEg3.png HTTP/1.1" 404 1823
+[2019-10-06 22:09:47] INFO [django.server.log_message:154] "GET /user/login/ HTTP/1.1" 200 3647
+[2019-10-06 22:09:52] ERROR [django.request.log_response:228] Internal Server Error: /user/login/
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/lib/python3.7/site-packages/django/db/backends/sqlite3/base.py", line 298, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: attempt to write a readonly database
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nurullah/Desktop/blog/user/views.py", line 89, in loginUser
+    login(request,user)
+  File "/usr/lib/python3.7/site-packages/django/contrib/auth/__init__.py", line 108, in login
+    request.session.cycle_key()
+  File "/usr/lib/python3.7/site-packages/django/contrib/sessions/backends/base.py", line 298, in cycle_key
+    self.create()
+  File "/usr/lib/python3.7/site-packages/django/contrib/sessions/backends/db.py", line 55, in create
+    self.save(must_create=True)
+  File "/usr/lib/python3.7/site-packages/django/contrib/sessions/backends/db.py", line 87, in save
+    obj.save(force_insert=must_create, force_update=not must_create, using=using)
+  File "/usr/lib/python3.7/site-packages/django/db/models/base.py", line 718, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/usr/lib/python3.7/site-packages/django/db/models/base.py", line 748, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/usr/lib/python3.7/site-packages/django/db/models/base.py", line 831, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/usr/lib/python3.7/site-packages/django/db/models/base.py", line 869, in _do_insert
+    using=using, raw=raw)
+  File "/usr/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/lib/python3.7/site-packages/django/db/models/query.py", line 1136, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/usr/lib/python3.7/site-packages/django/db/models/sql/compiler.py", line 1289, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/lib/python3.7/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/usr/lib/python3.7/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/usr/lib/python3.7/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/usr/lib/python3.7/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/lib/python3.7/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/lib/python3.7/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/lib/python3.7/site-packages/django/db/backends/sqlite3/base.py", line 298, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: attempt to write a readonly database
+[2019-10-06 22:09:52] ERROR [django.server.log_message:154] "POST /user/login/ HTTP/1.1" 500 168481
+[2019-10-06 22:10:35] ERROR [django.request.log_response:228] Internal Server Error: /user/login/
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nurullah/Desktop/blog/user/views.py", line 89, in loginUser
+    login(request,user)
+  File "/usr/lib/python3.7/site-packages/django/contrib/auth/__init__.py", line 132, in login
+    user_logged_in.send(sender=user.__class__, request=request, user=user)
+  File "/usr/lib/python3.7/site-packages/django/dispatch/dispatcher.py", line 175, in send
+    for receiver in self._live_receivers(sender)
+  File "/usr/lib/python3.7/site-packages/django/dispatch/dispatcher.py", line 175, in <listcomp>
+    for receiver in self._live_receivers(sender)
+  File "/usr/lib/python3.7/site-packages/django/contrib/auth/models.py", line 20, in update_last_login
+    user.save(update_fields=['last_login'])
+  File "/usr/lib/python3.7/site-packages/django/contrib/auth/base_user.py", line 73, in save
+    super().save(*args, **kwargs)
+  File "/usr/lib/python3.7/site-packages/django/db/models/base.py", line 718, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/usr/lib/python3.7/site-packages/django/db/models/base.py", line 758, in save_base
+    update_fields=update_fields, raw=raw, using=using,
+  File "/usr/lib/python3.7/site-packages/django/dispatch/dispatcher.py", line 175, in send
+    for receiver in self._live_receivers(sender)
+  File "/usr/lib/python3.7/site-packages/django/dispatch/dispatcher.py", line 175, in <listcomp>
+    for receiver in self._live_receivers(sender)
+  File "/home/nurullah/Desktop/blog/Profile/models.py", line 22, in save_user_profile
+    instance.profile.save()
+  File "/usr/lib/python3.7/site-packages/django/db/models/fields/related_descriptors.py", line 414, in __get__
+    self.related.get_accessor_name()
+django.contrib.auth.models.User.profile.RelatedObjectDoesNotExist: User has no profile.
+[2019-10-06 22:10:35] ERROR [django.server.log_message:154] "POST /user/login/ HTTP/1.1" 500 117845
+[2019-10-06 22:10:35] WARNING [django.request.log_response:228] Not Found: /favicon.ico
+[2019-10-06 22:10:35] WARNING [django.server.log_message:154] "GET /favicon.ico HTTP/1.1" 404 2652
+[2019-10-06 22:10:39] WARNING [django.request.log_response:228] Not Found: /favicon.ico
+[2019-10-06 22:10:44] WARNING [django.security.csrf.log_response:228] Forbidden (CSRF token missing or incorrect.): /user/login/
+[2019-10-06 22:10:44] WARNING [django.server.log_message:154] "POST /user/login/ HTTP/1.1" 403 2525
+[2019-10-06 22:10:47] WARNING [django.request.log_response:228] Not Found: /favicon.ico
+[2019-10-06 22:10:49] INFO [django.server.log_message:154] "GET /user/login/ HTTP/1.1" 200 3912
+[2019-10-06 22:10:54] ERROR [django.request.log_response:228] Internal Server Error: /user/login/
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nurullah/Desktop/blog/user/views.py", line 89, in loginUser
+    login(request,user)
+  File "/usr/lib/python3.7/site-packages/django/contrib/auth/__init__.py", line 132, in login
+    user_logged_in.send(sender=user.__class__, request=request, user=user)
+  File "/usr/lib/python3.7/site-packages/django/dispatch/dispatcher.py", line 175, in send
+    for receiver in self._live_receivers(sender)
+  File "/usr/lib/python3.7/site-packages/django/dispatch/dispatcher.py", line 175, in <listcomp>
+    for receiver in self._live_receivers(sender)
+  File "/usr/lib/python3.7/site-packages/django/contrib/auth/models.py", line 20, in update_last_login
+    user.save(update_fields=['last_login'])
+  File "/usr/lib/python3.7/site-packages/django/contrib/auth/base_user.py", line 73, in save
+    super().save(*args, **kwargs)
+  File "/usr/lib/python3.7/site-packages/django/db/models/base.py", line 718, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/usr/lib/python3.7/site-packages/django/db/models/base.py", line 758, in save_base
+    update_fields=update_fields, raw=raw, using=using,
+  File "/usr/lib/python3.7/site-packages/django/dispatch/dispatcher.py", line 175, in send
+    for receiver in self._live_receivers(sender)
+  File "/usr/lib/python3.7/site-packages/django/dispatch/dispatcher.py", line 175, in <listcomp>
+    for receiver in self._live_receivers(sender)
+  File "/home/nurullah/Desktop/blog/Profile/models.py", line 22, in save_user_profile
+    instance.profile.save()
+  File "/usr/lib/python3.7/site-packages/django/db/models/fields/related_descriptors.py", line 414, in __get__
+    self.related.get_accessor_name()
+django.contrib.auth.models.User.profile.RelatedObjectDoesNotExist: User has no profile.
+[2019-10-06 22:10:54] ERROR [django.server.log_message:154] "POST /user/login/ HTTP/1.1" 500 117203
+[2019-10-06 22:15:52] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 4250
+[2019-10-06 22:15:53] INFO [django.server.log_message:154] "GET /user/login/ HTTP/1.1" 200 3647
+[2019-10-06 22:15:57] INFO [django.server.log_message:154] "POST /user/login/ HTTP/1.1" 200 3811
+[2019-10-06 22:16:00] INFO [django.server.log_message:154] "POST /user/login/ HTTP/1.1" 302 0
+[2019-10-06 22:16:00] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 4658
+[2019-10-06 22:16:02] INFO [django.server.log_message:154] "GET /articles/ HTTP/1.1" 200 5308
+[2019-10-06 22:16:23] INFO [django.server.log_message:154] "GET /admin/ HTTP/1.1" 200 5418
+[2019-10-06 22:16:23] INFO [django.server.log_message:154] "GET /staticfiles/admin/css/base.css HTTP/1.1" 200 16225
+[2019-10-06 22:16:23] INFO [django.server.log_message:154] "GET /staticfiles/admin/css/dashboard.css HTTP/1.1" 200 412
+[2019-10-06 22:16:23] INFO [django.server.log_message:154] "GET /staticfiles/admin/css/responsive.css HTTP/1.1" 200 17976
+[2019-10-06 22:16:23] INFO [django.server.log_message:154] "GET /staticfiles/admin/css/fonts.css HTTP/1.1" 200 423
+[2019-10-06 22:16:24] INFO [django.server.log_message:154] "GET /staticfiles/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[2019-10-06 22:16:24] INFO [django.server.log_message:154] "GET /staticfiles/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[2019-10-06 22:16:24] INFO [django.server.log_message:154] "GET /staticfiles/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[2019-10-06 22:16:24] INFO [django.server.log_message:154] "GET /staticfiles/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+[2019-10-06 22:16:24] INFO [django.server.log_message:154] "GET /staticfiles/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+[2019-10-06 22:16:26] INFO [django.server.log_message:154] "GET /admin/auth/user/ HTTP/1.1" 200 6885
+[2019-10-06 22:16:26] INFO [django.server.log_message:154] "GET /staticfiles/admin/css/changelists.css HTTP/1.1" 200 6170
+[2019-10-06 22:16:26] INFO [django.server.log_message:154] "GET /staticfiles/admin/js/jquery.init.js HTTP/1.1" 200 363
+[2019-10-06 22:16:26] INFO [django.server.log_message:154] "GET /staticfiles/admin/js/core.js HTTP/1.1" 200 7135
+[2019-10-06 22:16:26] INFO [django.server.log_message:154] "GET /admin/jsi18n/ HTTP/1.1" 200 7296
+[2019-10-06 22:16:26] INFO [django.server.log_message:154] "GET /staticfiles/admin/js/urlify.js HTTP/1.1" 200 8972
+[2019-10-06 22:16:26] INFO [django.server.log_message:154] "GET /staticfiles/admin/js/actions.js HTTP/1.1" 200 6538
+[2019-10-06 22:16:26] INFO [django.server.log_message:154] "GET /staticfiles/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6918
+[2019-10-06 22:16:26] INFO [django.server.log_message:154] "GET /staticfiles/admin/js/prepopulate.js HTTP/1.1" 200 1530
+[2019-10-06 22:16:26] INFO [django.server.log_message:154] "GET /staticfiles/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+[2019-10-06 22:16:26] INFO [django.server.log_message:154] "GET /staticfiles/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 271751
+[2019-10-06 22:16:26] INFO [django.server.log_message:154] "GET /staticfiles/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[2019-10-06 22:16:26] INFO [django.server.log_message:154] "GET /staticfiles/admin/img/search.svg HTTP/1.1" 200 458
+[2019-10-06 22:16:26] INFO [django.server.log_message:154] "GET /staticfiles/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+[2019-10-06 22:16:26] INFO [django.server.log_message:154] "GET /staticfiles/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[2019-10-06 22:17:17] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 4514
+[2019-10-06 22:17:19] INFO [django.server.log_message:154] "GET /user/logout/ HTTP/1.1" 302 0
+[2019-10-06 22:17:19] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 4252
+[2019-10-06 22:17:30] INFO [django.server.log_message:154] "GET /user/login/ HTTP/1.1" 200 3647
+[2019-10-06 22:17:31] INFO [django.server.log_message:154] "GET /user/register/ HTTP/1.1" 200 4287
+[2019-10-06 22:17:54] INFO [django.server.log_message:154] "POST /user/register/ HTTP/1.1" 302 0
+[2019-10-06 22:17:54] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 4652
+[2019-10-06 22:17:57] INFO [django.server.log_message:154] "GET /profile/edit/eren/ HTTP/1.1" 200 4250
+[2019-10-06 22:18:06] INFO [django.server.log_message:154] "GET /admin/auth/user/ HTTP/1.1" 302 0
+[2019-10-06 22:18:06] INFO [django.server.log_message:154] "GET /admin/login/?next=/admin/auth/user/ HTTP/1.1" 200 2048
+[2019-10-06 22:18:06] INFO [django.server.log_message:154] "GET /staticfiles/admin/css/base.css HTTP/1.1" 304 0
+[2019-10-06 22:18:06] INFO [django.server.log_message:154] "GET /staticfiles/admin/css/responsive.css HTTP/1.1" 304 0
+[2019-10-06 22:18:06] INFO [django.server.log_message:154] "GET /staticfiles/admin/css/login.css HTTP/1.1" 200 1203
+[2019-10-06 22:18:06] INFO [django.server.log_message:154] "GET /staticfiles/admin/css/fonts.css HTTP/1.1" 304 0
+[2019-10-06 22:18:10] INFO [django.server.log_message:154] "POST /admin/login/?next=/admin/auth/user/ HTTP/1.1" 302 0
+[2019-10-06 22:18:10] INFO [django.server.log_message:154] "GET /admin/auth/user/ HTTP/1.1" 200 7315
+[2019-10-06 22:18:10] INFO [django.server.log_message:154] "GET /admin/jsi18n/ HTTP/1.1" 200 7296
+[2019-10-06 22:18:10] INFO [django.server.log_message:154] "GET /staticfiles/admin/img/icon-no.svg HTTP/1.1" 200 560
+[2019-10-06 22:18:13] INFO [django.server.log_message:154] "GET /admin/auth/ HTTP/1.1" 200 3032
+[2019-10-06 22:18:14] INFO [django.server.log_message:154] "GET /admin/ HTTP/1.1" 200 5418
+[2019-10-06 22:18:15] INFO [django.server.log_message:154] "GET /admin/Profile/profile/ HTTP/1.1" 200 4715
+[2019-10-06 22:18:15] INFO [django.server.log_message:154] "GET /admin/jsi18n/ HTTP/1.1" 200 7296
+[2019-10-06 22:18:17] INFO [django.server.log_message:154] "GET /admin/Profile/profile/2/change/ HTTP/1.1" 200 6631
+[2019-10-06 22:18:17] INFO [django.server.log_message:154] "GET /admin/jsi18n/ HTTP/1.1" 200 7296
+[2019-10-06 22:18:17] INFO [django.server.log_message:154] "GET /staticfiles/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 20281
+[2019-10-06 22:18:17] INFO [django.server.log_message:154] "GET /staticfiles/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+[2019-10-06 22:18:17] INFO [django.server.log_message:154] "GET /staticfiles/admin/js/change_form.js HTTP/1.1" 200 712
+[2019-10-06 22:18:17] INFO [django.server.log_message:154] "GET /staticfiles/admin/js/calendar.js HTTP/1.1" 200 7777
+[2019-10-06 22:18:17] INFO [django.server.log_message:154] "GET /staticfiles/admin/css/forms.css HTTP/1.1" 200 8505
+[2019-10-06 22:18:17] INFO [django.server.log_message:154] "GET /staticfiles/admin/css/widgets.css HTTP/1.1" 200 10340
+[2019-10-06 22:18:17] INFO [django.server.log_message:154] "GET /staticfiles/admin/img/icon-calendar.svg HTTP/1.1" 200 1086

@@ -25,7 +25,7 @@ SECRET_KEY = '1v5_n0ino-mj4%!xe1h@$tklm@#9@yystx=gb1w2y^dlztz(@!'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['34.65.49.171', 'mustakil.ml', 'www.mustakil.ml']
+ALLOWED_HOSTS = ['34.65.49.171', 'mustakil.ml', 'www.mustakil.ml', 'localhost']
 
 
 # Application definition
@@ -83,7 +83,7 @@ WSGI_APPLICATION = 'blog.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join('/home/blog_files/', 'db.sqlite3'),
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
 
@@ -224,11 +224,6 @@ LOGGING = {
 }
 
 
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = 587
-EMAIL_HOST_USER = 'ilkemirnurullah@gmail.com'
-EMAIL_USE_TLS = True
-DEFAULT_FROM_EMAIL = 'ilkemirnurullah@gmail.com'
 
 try:
 	from .local_settings import *
