@@ -224,6 +224,11 @@ LOGGING = {
 }
 
 
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'ilkemirnurullah@gmail.com'
+EMAIL_USE_TLS = True
+DEFAULT_FROM_EMAIL = 'ilkemirnurullah@gmail.com'
 
 try:
 	from .local_settings import *
