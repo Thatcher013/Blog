@@ -25,7 +25,7 @@ SECRET_KEY = '1v5_n0ino-mj4%!xe1h@$tklm@#9@yystx=gb1w2y^dlztz(@!'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['34.65.49.171', 'mustakil.ml', 'www.mustakil.ml', 'localhost']
+ALLOWED_HOSTS = ['34.65.49.171', 'mustakil.ml', 'www.mustakil.ml', 'localhost', '127.0.0.1']
 
 
 # Application definition
