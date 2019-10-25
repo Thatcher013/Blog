@@ -1,4 +1,3 @@
-# Blog
 Mustakil.ml projesi.
 =======
 # Müstakil
