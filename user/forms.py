@@ -26,5 +26,9 @@ class RegisterForm(forms.Form):
             
         }
         return values
+
+class ChangePasswordForm(forms.Form):
+    old_pass = forms.CharField(label = "Eski Şifre", widget = forms.PasswordInput)
+    new_pass = forms.CharField(label = "Yeni Şifre", widget = forms.PasswordInput)
         
 

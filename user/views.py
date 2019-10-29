@@ -1,5 +1,5 @@
 from django.shortcuts import render,redirect, get_object_or_404
-from .forms import RegisterForm, LoginForm
+from .forms import RegisterForm, LoginForm, ChangePasswordForm
 from django.contrib.auth.models import User
 from django.contrib.auth import login, authenticate, logout
 from django.contrib import messages
@@ -96,5 +96,35 @@ def logoutUser(request):
     messages.success(request, "Başarıyla çıkış yaptınız")
 
     return redirect("index")
+
+@login_required(login_url = "user:login")
+def change_password(request):
+    form = ChangePasswordForm(request.POST or None)   
+    context = {
+        "form": form
+    }
+
+    if form.is_valid():
+        user = User.objects.get(username__exact=request.user.username)
+        username = user.username
+        old_pass = form.cleaned_data.get("old_pass")
+        new_pass = form.cleaned_data.get("new_pass")
+
+        user = authenticate(username = username, password = old_pass)
+
+        if user is None:
+            messages.info(request, "Şifre Yanlış")
+            return render(request, "change_password.html", context)
+
+        messages.success(request, "Şifreniz başarı ile değişti.")
+        user.set_password(new_pass)
+        user.save()
+        login(request, user)
+        return redirect("index")
+
+    return render(request, "change_password.html", context)
+
+
+
 
 
