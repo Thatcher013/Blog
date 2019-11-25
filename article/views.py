@@ -10,7 +10,7 @@ import time
 
 
 def index(request):
-    articles = Article.objects.all()[:5]
+    articles = Article.objects.filter(onay=True).all()[:5]
     
     return render(request, "index.html", {"articles":articles})
 
@@ -42,7 +42,7 @@ def detail(request, id):
 
     article = get_object_or_404(Article, id = id)
     comments = article.comments.all()
-    comment_re = CommentOfComment.objects.filter(article=article)
+    comment_re = CommentOfComment.objects.filter(article=article).filter(onay=True)
 
     time.sleep(2)
     article.viewNumber += 1
@@ -84,10 +84,10 @@ def articles(request):
     keyword = request.GET.get("keyword")
 
     if keyword:
-        articles = Article.objects.filter(title__contains = keyword)
+        articles = Article.objects.filter(title__contains = keyword).filter(onay=True)
         return render(request, "articles.html", {"articles":articles})
 
-    articles = Article.objects.all()
+    articles = Article.objects.all().filter(onay=True)
 
     return render(request, "articles.html", {"articles":articles})
 

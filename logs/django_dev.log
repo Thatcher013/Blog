@@ -1404,3 +1404,858 @@ django.urls.exceptions.NoReverseMatch: Reverse for 'change_pass' with arguments 
 [2019-10-29 11:48:15] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 4807
 [2019-10-29 11:48:16] INFO [django.server.log_message:154] "GET /about/ HTTP/1.1" 200 2874
 [2019-10-29 11:48:17] INFO [django.server.log_message:154] "GET /articles/ HTTP/1.1" 200 6465
+[2019-11-25 12:52:43] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 4807
+[2019-11-25 12:52:43] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 200 144877
+[2019-11-25 12:52:44] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 200 109261
+[2019-11-25 12:52:44] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 200 86659
+[2019-11-25 12:52:44] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 15086
+[2019-11-25 12:52:44] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 200 48944
+[2019-11-25 12:52:44] WARNING [django.request.log_response:228] Not Found: /media/python-logo.png
+[2019-11-25 12:52:44] WARNING [django.server.log_message:154] "GET /media/python-logo.png HTTP/1.1" 404 1802
+[2019-11-25 12:55:55] INFO [django.server.log_message:154] "GET /about/ HTTP/1.1" 200 4121
+[2019-11-25 12:55:56] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-11-25 12:56:16] INFO [django.server.log_message:154] "GET /about/ HTTP/1.1" 200 4139
+[2019-11-25 12:56:16] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-11-25 12:56:16] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-11-25 12:56:16] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-11-25 12:56:16] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-11-25 12:56:22] INFO [django.server.log_message:154] "GET /about/ HTTP/1.1" 200 4139
+[2019-11-25 12:56:22] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-11-25 12:56:22] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-11-25 12:56:22] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-11-25 12:56:22] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-11-25 12:56:37] INFO [django.server.log_message:154] "GET /about/ HTTP/1.1" 200 4145
+[2019-11-25 12:56:37] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-11-25 12:56:37] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-11-25 12:56:37] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-11-25 12:56:37] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-11-25 12:56:42] INFO [django.server.log_message:154] "GET /about/ HTTP/1.1" 200 4145
+[2019-11-25 12:56:42] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-11-25 12:56:42] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-11-25 12:56:42] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-11-25 12:56:42] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-11-25 12:56:47] INFO [django.server.log_message:154] "GET /about/ HTTP/1.1" 200 4145
+[2019-11-25 12:56:47] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-11-25 12:56:47] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-11-25 12:56:47] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-11-25 12:56:47] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-11-25 12:56:50] INFO [django.server.log_message:154] "GET /about/ HTTP/1.1" 200 4145
+[2019-11-25 12:56:50] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-11-25 12:56:50] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-11-25 12:56:50] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-11-25 12:56:50] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-11-25 12:57:12] INFO [django.server.log_message:154] "GET /about/ HTTP/1.1" 200 4147
+[2019-11-25 12:57:12] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-11-25 12:57:12] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-11-25 12:57:12] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-11-25 12:57:12] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-11-25 12:57:18] INFO [django.server.log_message:154] "GET /about/ HTTP/1.1" 200 4147
+[2019-11-25 12:57:18] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-11-25 12:57:18] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-11-25 12:57:18] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-11-25 12:57:18] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-11-25 12:57:19] INFO [django.server.log_message:154] "GET /about/ HTTP/1.1" 200 4147
+[2019-11-25 12:57:19] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-11-25 12:57:19] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-11-25 12:57:19] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-11-25 12:57:19] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-11-25 12:57:24] INFO [django.server.log_message:154] "GET /about/ HTTP/1.1" 200 4145
+[2019-11-25 12:57:24] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-11-25 12:57:24] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-11-25 12:57:24] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-11-25 12:57:24] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-11-25 12:57:39] INFO [django.server.log_message:154] "GET /articles/ HTTP/1.1" 200 6465
+[2019-11-25 12:57:39] WARNING [django.request.log_response:228] Not Found: /media/python-logo.png
+[2019-11-25 12:57:39] WARNING [django.server.log_message:154] "GET /media/python-logo.png HTTP/1.1" 404 1802
+[2019-11-25 12:57:39] INFO [django.server.log_message:154] "GET /staticfiles/img/userIcon.png HTTP/1.1" 200 5070
+[2019-11-25 12:57:39] INFO [django.server.log_message:154] "GET /staticfiles/img/viewIcon.png HTTP/1.1" 200 4484
+[2019-11-25 12:57:40] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 4807
+[2019-11-25 12:57:40] WARNING [django.request.log_response:228] Not Found: /media/python-logo.png
+[2019-11-25 12:57:40] WARNING [django.server.log_message:154] "GET /media/python-logo.png HTTP/1.1" 404 1802
+[2019-11-25 12:57:42] INFO [django.server.log_message:154] "GET /articles/ HTTP/1.1" 200 6465
+[2019-11-25 12:57:42] WARNING [django.request.log_response:228] Not Found: /media/python-logo.png
+[2019-11-25 12:57:42] WARNING [django.server.log_message:154] "GET /media/python-logo.png HTTP/1.1" 404 1802
+[2019-11-25 12:57:43] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 4807
+[2019-11-25 12:57:43] WARNING [django.request.log_response:228] Not Found: /media/python-logo.png
+[2019-11-25 12:57:43] WARNING [django.server.log_message:154] "GET /media/python-logo.png HTTP/1.1" 404 1802
+[2019-11-25 12:57:44] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 4807
+[2019-11-25 12:57:44] WARNING [django.request.log_response:228] Not Found: /media/python-logo.png
+[2019-11-25 12:57:44] WARNING [django.server.log_message:154] "GET /media/python-logo.png HTTP/1.1" 404 1802
+[2019-11-25 12:57:44] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 4807
+[2019-11-25 12:57:44] WARNING [django.request.log_response:228] Not Found: /media/python-logo.png
+[2019-11-25 12:57:44] WARNING [django.server.log_message:154] "GET /media/python-logo.png HTTP/1.1" 404 1802
+[2019-11-25 12:57:44] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 4807
+[2019-11-25 12:57:44] WARNING [django.request.log_response:228] Not Found: /media/python-logo.png
+[2019-11-25 12:57:44] WARNING [django.server.log_message:154] "GET /media/python-logo.png HTTP/1.1" 404 1802
+[2019-11-25 12:57:44] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 4807
+[2019-11-25 12:57:44] WARNING [django.request.log_response:228] Not Found: /media/python-logo.png
+[2019-11-25 12:57:44] WARNING [django.server.log_message:154] "GET /media/python-logo.png HTTP/1.1" 404 1802
+[2019-11-25 12:57:45] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 4807
+[2019-11-25 12:57:45] WARNING [django.request.log_response:228] Not Found: /media/python-logo.png
+[2019-11-25 12:57:45] WARNING [django.server.log_message:154] "GET /media/python-logo.png HTTP/1.1" 404 1802
+[2019-11-25 12:57:45] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 4807
+[2019-11-25 12:57:45] WARNING [django.request.log_response:228] Not Found: /media/python-logo.png
+[2019-11-25 12:57:45] WARNING [django.server.log_message:154] "GET /media/python-logo.png HTTP/1.1" 404 1802
+[2019-11-25 12:57:45] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 4807
+[2019-11-25 12:57:45] WARNING [django.request.log_response:228] Not Found: /media/python-logo.png
+[2019-11-25 12:57:45] WARNING [django.server.log_message:154] "GET /media/python-logo.png HTTP/1.1" 404 1802
+[2019-11-25 13:00:58] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 304 0
+[2019-11-25 13:01:09] INFO [django.server.log_message:154] "GET /about/ HTTP/1.1" 200 4149
+[2019-11-25 13:01:09] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-11-25 13:02:00] INFO [django.server.log_message:154] "GET /about/ HTTP/1.1" 200 4145
+[2019-11-25 13:02:00] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-11-25 13:02:00] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-11-25 13:02:00] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-11-25 13:02:00] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-11-25 13:02:14] INFO [django.server.log_message:154] "GET /about/ HTTP/1.1" 200 4149
+[2019-11-25 13:02:15] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-11-25 13:02:15] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-11-25 13:02:15] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-11-25 13:02:15] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-11-25 13:02:26] INFO [django.server.log_message:154] "GET /about/ HTTP/1.1" 200 4153
+[2019-11-25 13:02:26] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-11-25 13:02:26] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-11-25 13:02:26] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-11-25 13:02:26] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-11-25 13:02:51] INFO [django.server.log_message:154] "GET /about/ HTTP/1.1" 200 4157
+[2019-11-25 13:02:51] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-11-25 13:02:51] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-11-25 13:02:51] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-11-25 13:02:51] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-11-25 13:02:57] INFO [django.server.log_message:154] "GET /about/ HTTP/1.1" 200 4158
+[2019-11-25 13:02:57] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-11-25 13:02:57] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-11-25 13:02:57] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-11-25 13:02:57] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-11-25 13:03:30] INFO [django.server.log_message:154] "GET /articles/ HTTP/1.1" 200 6465
+[2019-11-25 13:03:30] WARNING [django.request.log_response:228] Not Found: /media/python-logo.png
+[2019-11-25 13:03:30] WARNING [django.server.log_message:154] "GET /media/python-logo.png HTTP/1.1" 404 1802
+[2019-11-25 13:03:31] INFO [django.server.log_message:154] "GET /about/ HTTP/1.1" 200 4158
+[2019-11-25 13:03:31] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 4807
+[2019-11-25 13:03:31] WARNING [django.request.log_response:228] Not Found: /media/python-logo.png
+[2019-11-25 13:03:31] WARNING [django.server.log_message:154] "GET /media/python-logo.png HTTP/1.1" 404 1802
+[2019-11-25 13:03:32] INFO [django.server.log_message:154] "GET /about/ HTTP/1.1" 200 4158
+[2019-11-25 13:03:32] INFO [django.server.log_message:154] "GET /about/ HTTP/1.1" 200 4158
+[2019-11-25 13:03:33] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 4807
+[2019-11-25 13:03:33] WARNING [django.request.log_response:228] Not Found: /media/python-logo.png
+[2019-11-25 13:03:33] WARNING [django.server.log_message:154] "GET /media/python-logo.png HTTP/1.1" 404 1802
+[2019-11-25 13:03:38] INFO [django.server.log_message:154] "GET /about/ HTTP/1.1" 200 4158
+[2019-11-25 13:03:39] INFO [django.server.log_message:154] "GET /articles/ HTTP/1.1" 200 6465
+[2019-11-25 13:03:39] WARNING [django.request.log_response:228] Not Found: /media/python-logo.png
+[2019-11-25 13:03:39] WARNING [django.server.log_message:154] "GET /media/python-logo.png HTTP/1.1" 404 1802
+[2019-11-25 13:06:35] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 4807
+[2019-11-25 13:06:35] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 200 144877
+[2019-11-25 13:06:35] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 200 86659
+[2019-11-25 13:06:35] WARNING [django.request.log_response:228] Not Found: /media/python-logo.png
+[2019-11-25 13:06:35] WARNING [django.server.log_message:154] "GET /media/python-logo.png HTTP/1.1" 404 1802
+[2019-11-25 13:06:35] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 200 48944
+[2019-11-25 13:06:35] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 200 109261
+[2019-11-25 13:06:35] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 15086
+[2019-11-25 13:06:41] INFO [django.server.log_message:154] "GET /admin HTTP/1.1" 301 0
+[2019-11-25 13:06:41] INFO [django.server.log_message:154] "GET /admin/ HTTP/1.1" 302 0
+[2019-11-25 13:06:41] INFO [django.server.log_message:154] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1853
+[2019-11-25 13:06:41] INFO [django.server.log_message:154] "GET /staticfiles/admin/css/base.css HTTP/1.1" 200 16225
+[2019-11-25 13:06:41] INFO [django.server.log_message:154] "GET /staticfiles/admin/css/login.css HTTP/1.1" 200 1203
+[2019-11-25 13:06:41] INFO [django.server.log_message:154] "GET /staticfiles/admin/css/responsive.css HTTP/1.1" 200 17976
+[2019-11-25 13:06:41] INFO [django.server.log_message:154] "GET /staticfiles/admin/css/fonts.css HTTP/1.1" 200 423
+[2019-11-25 13:06:41] INFO [django.server.log_message:154] "GET /staticfiles/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[2019-11-25 13:06:41] INFO [django.server.log_message:154] "GET /staticfiles/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+[2019-11-25 13:06:41] WARNING [django.request.log_response:228] Not Found: /favicon.ico
+[2019-11-25 13:06:41] WARNING [django.server.log_message:154] "GET /favicon.ico HTTP/1.1" 404 2652
+[2019-11-25 13:06:41] WARNING [django.request.log_response:228] Not Found: /favicon.ico
+[2019-11-25 13:06:41] WARNING [django.server.log_message:154] "GET /favicon.ico HTTP/1.1" 404 2652
+[2019-11-25 13:06:46] INFO [django.server.log_message:154] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2054
+[2019-11-25 13:06:46] INFO [django.server.log_message:154] "GET /staticfiles/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+[2019-11-25 13:06:52] INFO [django.server.log_message:154] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2054
+[2019-11-25 13:06:56] INFO [django.server.log_message:154] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2053
+[2019-11-25 13:06:59] INFO [django.server.log_message:154] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2053
+[2019-11-25 13:07:03] INFO [django.server.log_message:154] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2054
+[2019-11-25 13:07:06] INFO [django.server.log_message:154] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2054
+[2019-11-25 13:07:09] INFO [django.server.log_message:154] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2054
+[2019-11-25 13:07:12] INFO [django.server.log_message:154] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2054
+[2019-11-25 13:07:15] INFO [django.server.log_message:154] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2054
+[2019-11-25 13:07:17] INFO [django.server.log_message:154] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2054
+[2019-11-25 13:07:19] INFO [django.server.log_message:154] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2054
+[2019-11-25 13:08:06] INFO [django.server.log_message:154] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2019-11-25 13:08:06] INFO [django.server.log_message:154] "GET /admin/ HTTP/1.1" 200 5418
+[2019-11-25 13:08:06] INFO [django.server.log_message:154] "GET /staticfiles/admin/css/dashboard.css HTTP/1.1" 200 412
+[2019-11-25 13:08:06] INFO [django.server.log_message:154] "GET /staticfiles/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[2019-11-25 13:08:06] INFO [django.server.log_message:154] "GET /staticfiles/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[2019-11-25 13:08:08] INFO [django.server.log_message:154] "GET /admin/auth/user/ HTTP/1.1" 200 7734
+[2019-11-25 13:08:08] INFO [django.server.log_message:154] "GET /staticfiles/admin/css/changelists.css HTTP/1.1" 200 6170
+[2019-11-25 13:08:08] INFO [django.server.log_message:154] "GET /admin/jsi18n/ HTTP/1.1" 200 7296
+[2019-11-25 13:08:08] INFO [django.server.log_message:154] "GET /staticfiles/admin/js/jquery.init.js HTTP/1.1" 200 363
+[2019-11-25 13:08:08] INFO [django.server.log_message:154] "GET /staticfiles/admin/js/urlify.js HTTP/1.1" 200 8972
+[2019-11-25 13:08:08] INFO [django.server.log_message:154] "GET /staticfiles/admin/js/actions.js HTTP/1.1" 200 6538
+[2019-11-25 13:08:08] INFO [django.server.log_message:154] "GET /staticfiles/admin/js/core.js HTTP/1.1" 200 7135
+[2019-11-25 13:08:08] INFO [django.server.log_message:154] "GET /staticfiles/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6918
+[2019-11-25 13:08:08] INFO [django.server.log_message:154] "GET /staticfiles/admin/js/prepopulate.js HTTP/1.1" 200 1530
+[2019-11-25 13:08:08] INFO [django.server.log_message:154] "GET /staticfiles/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 271751
+[2019-11-25 13:08:08] INFO [django.server.log_message:154] "GET /staticfiles/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+[2019-11-25 13:08:08] INFO [django.server.log_message:154] "GET /staticfiles/admin/img/search.svg HTTP/1.1" 200 458
+[2019-11-25 13:08:08] INFO [django.server.log_message:154] "GET /staticfiles/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[2019-11-25 13:08:08] INFO [django.server.log_message:154] "GET /staticfiles/admin/img/icon-no.svg HTTP/1.1" 200 560
+[2019-11-25 13:08:08] INFO [django.server.log_message:154] "GET /staticfiles/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[2019-11-25 13:08:08] INFO [django.server.log_message:154] "GET /staticfiles/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+[2019-11-25 13:08:15] INFO [django.server.log_message:154] "GET /admin/auth/user/2/change/ HTTP/1.1" 200 15543
+[2019-11-25 13:08:15] INFO [django.server.log_message:154] "GET /staticfiles/admin/js/SelectBox.js HTTP/1.1" 200 5755
+[2019-11-25 13:08:15] INFO [django.server.log_message:154] "GET /staticfiles/admin/js/calendar.js HTTP/1.1" 200 7777
+[2019-11-25 13:08:15] INFO [django.server.log_message:154] "GET /staticfiles/admin/css/forms.css HTTP/1.1" 200 8505
+[2019-11-25 13:08:15] INFO [django.server.log_message:154] "GET /staticfiles/admin/js/SelectFilter2.js HTTP/1.1" 200 12712
+[2019-11-25 13:08:15] INFO [django.server.log_message:154] "GET /admin/jsi18n/ HTTP/1.1" 200 7296
+[2019-11-25 13:08:15] INFO [django.server.log_message:154] "GET /staticfiles/admin/js/change_form.js HTTP/1.1" 200 712
+[2019-11-25 13:08:15] INFO [django.server.log_message:154] "GET /staticfiles/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+[2019-11-25 13:08:15] INFO [django.server.log_message:154] "GET /staticfiles/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 20281
+[2019-11-25 13:08:15] INFO [django.server.log_message:154] "GET /staticfiles/admin/css/widgets.css HTTP/1.1" 200 10340
+[2019-11-25 13:08:15] INFO [django.server.log_message:154] "GET /staticfiles/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+[2019-11-25 13:08:15] INFO [django.server.log_message:154] "GET /staticfiles/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+[2019-11-25 13:08:15] INFO [django.server.log_message:154] "GET /staticfiles/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+[2019-11-25 13:08:15] INFO [django.server.log_message:154] "GET /staticfiles/admin/img/icon-clock.svg HTTP/1.1" 200 677
+[2019-11-25 13:08:15] INFO [django.server.log_message:154] "GET /staticfiles/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+[2019-11-25 13:08:16] INFO [django.server.log_message:154] "GET /admin/auth/user/2/password/ HTTP/1.1" 200 3250
+[2019-11-25 13:08:16] INFO [django.server.log_message:154] "GET /admin/jsi18n/ HTTP/1.1" 200 7296
+[2019-11-25 13:08:21] INFO [django.server.log_message:154] "POST /admin/auth/user/2/password/ HTTP/1.1" 200 3424
+[2019-11-25 13:08:21] INFO [django.server.log_message:154] "GET /admin/jsi18n/ HTTP/1.1" 200 7296
+[2019-11-25 13:08:31] INFO [django.server.log_message:154] "POST /admin/auth/user/2/password/ HTTP/1.1" 302 0
+[2019-11-25 13:08:31] INFO [django.server.log_message:154] "GET /admin/auth/user/2/change/ HTTP/1.1" 200 15676
+[2019-11-25 13:08:31] INFO [django.server.log_message:154] "GET /admin/jsi18n/ HTTP/1.1" 200 7296
+[2019-11-25 13:08:35] INFO [django.server.log_message:154] "GET /admin/auth/user/ HTTP/1.1" 200 7734
+[2019-11-25 13:08:35] INFO [django.server.log_message:154] "GET /admin/jsi18n/ HTTP/1.1" 200 7296
+[2019-11-25 13:08:37] INFO [django.server.log_message:154] "GET /admin/auth/user/1/change/ HTTP/1.1" 200 15537
+[2019-11-25 13:08:37] INFO [django.server.log_message:154] "GET /admin/jsi18n/ HTTP/1.1" 200 7296
+[2019-11-25 13:08:39] INFO [django.server.log_message:154] "GET /admin/auth/user/1/password/ HTTP/1.1" 200 3255
+[2019-11-25 13:08:39] INFO [django.server.log_message:154] "GET /admin/jsi18n/ HTTP/1.1" 200 7296
+[2019-11-25 13:08:45] INFO [django.server.log_message:154] "POST /admin/auth/user/1/password/ HTTP/1.1" 302 0
+[2019-11-25 13:08:45] INFO [django.server.log_message:154] "GET /admin/auth/user/1/change/ HTTP/1.1" 200 15670
+[2019-11-25 13:08:45] INFO [django.server.log_message:154] "GET /admin/jsi18n/ HTTP/1.1" 200 7296
+[2019-11-25 13:08:50] INFO [django.server.log_message:154] "GET /admin/auth/user/ HTTP/1.1" 200 7734
+[2019-11-25 13:08:50] INFO [django.server.log_message:154] "GET /admin/jsi18n/ HTTP/1.1" 200 7296
+[2019-11-25 13:08:54] INFO [django.server.log_message:154] "GET /admin/ HTTP/1.1" 200 6025
+[2019-11-25 13:09:25] INFO [django.server.log_message:154] "GET /admin/article/article/ HTTP/1.1" 200 6467
+[2019-11-25 13:09:25] INFO [django.server.log_message:154] "GET /admin/jsi18n/ HTTP/1.1" 200 7296
+[2019-11-25 13:09:27] INFO [django.server.log_message:154] "GET /admin/article/article/1/change/ HTTP/1.1" 200 9891
+[2019-11-25 13:09:27] INFO [django.server.log_message:154] "GET /admin/jsi18n/ HTTP/1.1" 200 7296
+[2019-11-25 13:09:27] INFO [django.server.log_message:154] "GET /staticfiles/ckeditor/ckeditor-init.js HTTP/1.1" 200 2216
+[2019-11-25 13:09:27] INFO [django.server.log_message:154] "GET /staticfiles/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 200 701922
+[2019-11-25 13:09:28] INFO [django.server.log_message:154] "GET /staticfiles/ckeditor/ckeditor/config.js?t=J39A HTTP/1.1" 200 338
+[2019-11-25 13:09:28] INFO [django.server.log_message:154] "GET /staticfiles/ckeditor/ckeditor/skins/moono-lisa/editor_gecko.css?t=J39A HTTP/1.1" 200 47886
+[2019-11-25 13:09:28] INFO [django.server.log_message:154] "GET /staticfiles/ckeditor/ckeditor/lang/tr.js?t=J39A HTTP/1.1" 200 20732
+[2019-11-25 13:09:28] INFO [django.server.log_message:154] "GET /staticfiles/ckeditor/ckeditor/styles.js?t=J39A HTTP/1.1" 200 5579
+[2019-11-25 13:09:28] INFO [django.server.log_message:154] "GET /staticfiles/ckeditor/ckeditor/plugins/tableselection/styles/tableselection.css HTTP/1.1" 200 1145
+[2019-11-25 13:09:28] INFO [django.server.log_message:154] "GET /staticfiles/ckeditor/ckeditor/plugins/wsc/skins/moono-lisa/wsc.css?t=J39A HTTP/1.1" 200 1306
+[2019-11-25 13:09:28] INFO [django.server.log_message:154] "GET /staticfiles/ckeditor/ckeditor/plugins/scayt/dialogs/dialog.css?t=J39A HTTP/1.1" 200 419
+[2019-11-25 13:09:28] INFO [django.server.log_message:154] "GET /staticfiles/ckeditor/ckeditor/plugins/copyformatting/styles/copyformatting.css HTTP/1.1" 200 1513
+[2019-11-25 13:09:28] INFO [django.server.log_message:154] "GET /staticfiles/ckeditor/ckeditor/contents.css?t=J39A HTTP/1.1" 200 3094
+[2019-11-25 13:09:28] INFO [django.server.log_message:154] "GET /staticfiles/ckeditor/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css?t=J39A HTTP/1.1" 200 381
+[2019-11-25 13:09:28] INFO [django.server.log_message:154] "GET /staticfiles/ckeditor/ckeditor/skins/moono-lisa/icons.png?t=e1836357e HTTP/1.1" 200 12421
+[2019-11-25 13:09:36] INFO [django.server.log_message:154] "POST /admin/article/article/1/change/ HTTP/1.1" 302 0
+[2019-11-25 13:09:36] INFO [django.server.log_message:154] "GET /admin/article/article/ HTTP/1.1" 200 6660
+[2019-11-25 13:09:36] INFO [django.server.log_message:154] "GET /admin/jsi18n/ HTTP/1.1" 200 7296
+[2019-11-25 13:14:25] INFO [django.server.log_message:154] "GET /articles/ HTTP/1.1" 200 6465
+[2019-11-25 13:14:25] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-11-25 13:14:25] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-11-25 13:14:25] WARNING [django.request.log_response:228] Not Found: /media/python-logo.png
+[2019-11-25 13:14:25] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-11-25 13:14:25] INFO [django.server.log_message:154] "GET /staticfiles/img/userIcon.png HTTP/1.1" 304 0
+[2019-11-25 13:14:25] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-11-25 13:14:25] WARNING [django.server.log_message:154] "GET /media/python-logo.png HTTP/1.1" 404 1802
+[2019-11-25 13:14:25] INFO [django.server.log_message:154] "GET /staticfiles/img/viewIcon.png HTTP/1.1" 304 0
+[2019-11-25 13:14:26] INFO [django.server.log_message:154] "GET /articles/ HTTP/1.1" 200 6465
+[2019-11-25 13:14:26] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-11-25 13:14:26] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-11-25 13:14:26] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-11-25 13:14:26] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-11-25 13:14:26] INFO [django.server.log_message:154] "GET /staticfiles/img/userIcon.png HTTP/1.1" 304 0
+[2019-11-25 13:14:26] WARNING [django.request.log_response:228] Not Found: /media/python-logo.png
+[2019-11-25 13:14:26] INFO [django.server.log_message:154] "GET /staticfiles/img/viewIcon.png HTTP/1.1" 304 0
+[2019-11-25 13:14:26] WARNING [django.server.log_message:154] "GET /media/python-logo.png HTTP/1.1" 404 1802
+[2019-11-25 13:14:27] INFO [django.server.log_message:154] "GET /articles/ HTTP/1.1" 200 6465
+[2019-11-25 13:14:27] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-11-25 13:14:27] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-11-25 13:14:27] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-11-25 13:14:27] INFO [django.server.log_message:154] "GET /staticfiles/img/userIcon.png HTTP/1.1" 304 0
+[2019-11-25 13:14:27] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-11-25 13:14:27] WARNING [django.request.log_response:228] Not Found: /media/python-logo.png
+[2019-11-25 13:14:27] INFO [django.server.log_message:154] "GET /staticfiles/img/viewIcon.png HTTP/1.1" 304 0
+[2019-11-25 13:14:27] WARNING [django.server.log_message:154] "GET /media/python-logo.png HTTP/1.1" 404 1802
+[2019-11-25 13:23:55] INFO [django.server.log_message:154] "GET /articles/ HTTP/1.1" 200 6465
+[2019-11-25 13:23:55] WARNING [django.request.log_response:228] Not Found: /media/python-logo.png
+[2019-11-25 13:23:55] WARNING [django.server.log_message:154] "GET /media/python-logo.png HTTP/1.1" 404 1802
+[2019-11-25 13:23:55] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-11-25 13:23:57] INFO [django.server.log_message:154] "GET /articles/ HTTP/1.1" 200 6465
+[2019-11-25 13:23:57] WARNING [django.request.log_response:228] Not Found: /media/python-logo.png
+[2019-11-25 13:23:57] WARNING [django.server.log_message:154] "GET /media/python-logo.png HTTP/1.1" 404 1802
+[2019-11-25 13:26:33] INFO [django.server.log_message:154] "GET /articles/ HTTP/1.1" 200 6469
+[2019-11-25 13:26:33] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-11-25 13:26:33] WARNING [django.request.log_response:228] Not Found: /media/python-logo.png
+[2019-11-25 13:26:33] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-11-25 13:26:33] WARNING [django.server.log_message:154] "GET /media/python-logo.png HTTP/1.1" 404 1802
+[2019-11-25 13:26:33] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-11-25 13:26:33] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-11-25 13:26:33] INFO [django.server.log_message:154] "GET /staticfiles/img/viewIcon.png HTTP/1.1" 304 0
+[2019-11-25 13:26:33] INFO [django.server.log_message:154] "GET /staticfiles/img/userIcon.png HTTP/1.1" 304 0
+[2019-11-25 13:26:37] INFO [django.server.log_message:154] "GET /articles/ HTTP/1.1" 200 6469
+[2019-11-25 13:26:37] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-11-25 13:26:37] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-11-25 13:26:37] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-11-25 13:26:37] WARNING [django.request.log_response:228] Not Found: /media/python-logo.png
+[2019-11-25 13:26:37] INFO [django.server.log_message:154] "GET /staticfiles/img/userIcon.png HTTP/1.1" 304 0
+[2019-11-25 13:26:37] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-11-25 13:26:37] WARNING [django.server.log_message:154] "GET /media/python-logo.png HTTP/1.1" 404 1802
+[2019-11-25 13:26:37] INFO [django.server.log_message:154] "GET /staticfiles/img/viewIcon.png HTTP/1.1" 304 0
+[2019-11-25 13:27:24] INFO [django.server.log_message:154] "GET /articles/ HTTP/1.1" 200 6467
+[2019-11-25 13:27:24] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-11-25 13:27:24] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-11-25 13:27:24] WARNING [django.request.log_response:228] Not Found: /media/python-logo.png
+[2019-11-25 13:27:24] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-11-25 13:27:24] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-11-25 13:27:24] WARNING [django.server.log_message:154] "GET /media/python-logo.png HTTP/1.1" 404 1802
+[2019-11-25 13:27:24] INFO [django.server.log_message:154] "GET /staticfiles/img/userIcon.png HTTP/1.1" 304 0
+[2019-11-25 13:27:24] INFO [django.server.log_message:154] "GET /staticfiles/img/viewIcon.png HTTP/1.1" 304 0
+[2019-11-25 13:27:25] INFO [django.server.log_message:154] "GET /articles/ HTTP/1.1" 200 6467
+[2019-11-25 13:27:25] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-11-25 13:27:25] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-11-25 13:27:25] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-11-25 13:27:25] WARNING [django.request.log_response:228] Not Found: /media/python-logo.png
+[2019-11-25 13:27:25] INFO [django.server.log_message:154] "GET /staticfiles/img/viewIcon.png HTTP/1.1" 304 0
+[2019-11-25 13:27:25] INFO [django.server.log_message:154] "GET /staticfiles/img/userIcon.png HTTP/1.1" 304 0
+[2019-11-25 13:27:25] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-11-25 13:27:25] WARNING [django.server.log_message:154] "GET /media/python-logo.png HTTP/1.1" 404 1802
+[2019-11-25 13:27:25] INFO [django.server.log_message:154] "GET /articles/ HTTP/1.1" 200 6467
+[2019-11-25 13:27:25] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-11-25 13:27:25] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-11-25 13:27:25] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-11-25 13:27:25] WARNING [django.request.log_response:228] Not Found: /media/python-logo.png
+[2019-11-25 13:27:25] INFO [django.server.log_message:154] "GET /staticfiles/img/viewIcon.png HTTP/1.1" 304 0
+[2019-11-25 13:27:25] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-11-25 13:27:25] INFO [django.server.log_message:154] "GET /staticfiles/img/userIcon.png HTTP/1.1" 304 0
+[2019-11-25 13:27:25] WARNING [django.server.log_message:154] "GET /media/python-logo.png HTTP/1.1" 404 1802
+[2019-11-25 13:27:25] INFO [django.server.log_message:154] "GET /articles/ HTTP/1.1" 200 6467
+[2019-11-25 13:27:25] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-11-25 13:27:25] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-11-25 13:27:25] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-11-25 13:27:25] WARNING [django.request.log_response:228] Not Found: /media/python-logo.png
+[2019-11-25 13:27:25] INFO [django.server.log_message:154] "GET /staticfiles/img/userIcon.png HTTP/1.1" 304 0
+[2019-11-25 13:27:25] INFO [django.server.log_message:154] "GET /staticfiles/img/viewIcon.png HTTP/1.1" 304 0
+[2019-11-25 13:27:25] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-11-25 13:27:25] WARNING [django.server.log_message:154] "GET /media/python-logo.png HTTP/1.1" 404 1802
+[2019-11-25 13:27:25] INFO [django.server.log_message:154] "GET /articles/ HTTP/1.1" 200 6467
+[2019-11-25 13:27:25] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-11-25 13:27:25] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-11-25 13:27:25] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-11-25 13:27:25] INFO [django.server.log_message:154] "GET /staticfiles/img/viewIcon.png HTTP/1.1" 304 0
+[2019-11-25 13:27:25] INFO [django.server.log_message:154] "GET /staticfiles/img/userIcon.png HTTP/1.1" 304 0
+[2019-11-25 13:27:25] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-11-25 13:27:25] WARNING [django.request.log_response:228] Not Found: /media/python-logo.png
+[2019-11-25 13:27:25] INFO [django.server.log_message:154] "GET /articles/ HTTP/1.1" 200 6467
+[2019-11-25 13:27:26] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-11-25 13:27:26] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-11-25 13:27:26] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-11-25 13:27:26] WARNING [django.request.log_response:228] Not Found: /media/python-logo.png
+[2019-11-25 13:27:26] INFO [django.server.log_message:154] "GET /staticfiles/img/userIcon.png HTTP/1.1" 304 0
+[2019-11-25 13:27:26] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-11-25 13:27:26] INFO [django.server.log_message:154] "GET /staticfiles/img/viewIcon.png HTTP/1.1" 304 0
+[2019-11-25 13:27:26] WARNING [django.server.log_message:154] "GET /media/python-logo.png HTTP/1.1" 404 1802
+[2019-11-25 13:27:26] INFO [django.server.log_message:154] "GET /articles/ HTTP/1.1" 200 6467
+[2019-11-25 13:27:26] WARNING [django.request.log_response:228] Not Found: /favicon.ico
+[2019-11-25 13:27:26] WARNING [django.server.log_message:154] "GET /favicon.ico HTTP/1.1" 404 2652
+[2019-11-25 13:27:26] WARNING [django.request.log_response:228] Not Found: /favicon.ico
+[2019-11-25 13:27:26] WARNING [django.server.log_message:154] "GET /favicon.ico HTTP/1.1" 404 2652
+[2019-11-25 13:27:26] INFO [django.server.log_message:154] "GET /articles/ HTTP/1.1" 200 6467
+[2019-11-25 13:27:26] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-11-25 13:27:26] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-11-25 13:27:26] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-11-25 13:27:26] WARNING [django.request.log_response:228] Not Found: /media/python-logo.png
+[2019-11-25 13:27:26] INFO [django.server.log_message:154] "GET /staticfiles/img/userIcon.png HTTP/1.1" 304 0
+[2019-11-25 13:27:26] INFO [django.server.log_message:154] "GET /staticfiles/img/viewIcon.png HTTP/1.1" 304 0
+[2019-11-25 13:27:26] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-11-25 13:27:26] WARNING [django.server.log_message:154] "GET /media/python-logo.png HTTP/1.1" 404 1802
+[2019-11-25 13:29:51] INFO [django.server.log_message:154] "GET /articles/ HTTP/1.1" 200 6467
+[2019-11-25 13:29:51] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-11-25 13:29:51] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-11-25 13:29:51] WARNING [django.request.log_response:228] Not Found: /media/python-logo.png
+[2019-11-25 13:29:51] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-11-25 13:29:51] WARNING [django.server.log_message:154] "GET /media/python-logo.png HTTP/1.1" 404 1802
+[2019-11-25 13:29:51] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-11-25 13:29:51] INFO [django.server.log_message:154] "GET /staticfiles/img/viewIcon.png HTTP/1.1" 304 0
+[2019-11-25 13:29:51] INFO [django.server.log_message:154] "GET /staticfiles/img/userIcon.png HTTP/1.1" 304 0
+[2019-11-25 13:30:00] INFO [django.server.log_message:154] "GET /admin/ HTTP/1.1" 200 6318
+[2019-11-25 13:30:02] INFO [django.server.log_message:154] "GET /admin/article/article/ HTTP/1.1" 200 6467
+[2019-11-25 13:30:02] INFO [django.server.log_message:154] "GET /admin/jsi18n/ HTTP/1.1" 200 7296
+[2019-11-25 13:30:04] INFO [django.server.log_message:154] "GET /admin/article/article/1/change/ HTTP/1.1" 200 9899
+[2019-11-25 13:30:04] INFO [django.server.log_message:154] "GET /admin/jsi18n/ HTTP/1.1" 200 7296
+[2019-11-25 13:30:26] INFO [django.server.log_message:154] "POST /admin/article/article/1/change/ HTTP/1.1" 302 0
+[2019-11-25 13:30:26] INFO [django.server.log_message:154] "GET /admin/article/article/ HTTP/1.1" 200 6660
+[2019-11-25 13:30:26] INFO [django.server.log_message:154] "GET /admin/jsi18n/ HTTP/1.1" 200 7296
+[2019-11-25 13:30:28] INFO [django.server.log_message:154] "GET /articles/ HTTP/1.1" 200 5341
+[2019-11-25 13:30:29] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-11-25 13:30:29] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-11-25 13:30:29] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-11-25 13:30:29] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-11-25 13:32:30] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 4290
+[2019-11-25 13:34:05] INFO [django.server.log_message:154] "GET /articles/ HTTP/1.1" 200 5037
+[2019-11-25 13:34:11] INFO [django.server.log_message:154] "GET /admin/article/article/1/change/ HTTP/1.1" 200 9891
+[2019-11-25 13:34:11] INFO [django.server.log_message:154] "GET /admin/jsi18n/ HTTP/1.1" 200 7296
+[2019-11-25 13:34:16] INFO [django.server.log_message:154] "POST /admin/article/article/1/change/ HTTP/1.1" 302 0
+[2019-11-25 13:34:16] INFO [django.server.log_message:154] "GET /admin/article/article/ HTTP/1.1" 200 6660
+[2019-11-25 13:34:16] INFO [django.server.log_message:154] "GET /admin/jsi18n/ HTTP/1.1" 200 7296
+[2019-11-25 13:34:19] INFO [django.server.log_message:154] "GET /articles/ HTTP/1.1" 200 6467
+[2019-11-25 13:34:19] WARNING [django.request.log_response:228] Not Found: /media/python-logo.png
+[2019-11-25 13:34:19] WARNING [django.server.log_message:154] "GET /media/python-logo.png HTTP/1.1" 404 1802
+[2019-11-25 13:34:36] INFO [django.server.log_message:154] "GET /about/ HTTP/1.1" 200 4158
+[2019-11-25 13:34:36] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-11-25 13:34:56] INFO [django.server.log_message:154] "GET /articles/ HTTP/1.1" 200 6467
+[2019-11-25 13:34:56] WARNING [django.request.log_response:228] Not Found: /media/python-logo.png
+[2019-11-25 13:34:56] WARNING [django.server.log_message:154] "GET /media/python-logo.png HTTP/1.1" 404 1802
+[2019-11-25 13:34:57] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 4807
+[2019-11-25 13:34:57] WARNING [django.request.log_response:228] Not Found: /media/python-logo.png
+[2019-11-25 13:34:57] WARNING [django.server.log_message:154] "GET /media/python-logo.png HTTP/1.1" 404 1802
+[2019-11-25 13:34:59] INFO [django.server.log_message:154] "GET /articles/ HTTP/1.1" 200 6467
+[2019-11-25 13:34:59] WARNING [django.request.log_response:228] Not Found: /media/python-logo.png
+[2019-11-25 13:34:59] WARNING [django.server.log_message:154] "GET /media/python-logo.png HTTP/1.1" 404 1802
+[2019-11-25 13:35:01] INFO [django.server.log_message:154] "GET /user/login/ HTTP/1.1" 200 3855
+[2019-11-25 13:35:05] INFO [django.server.log_message:154] "POST /user/login/ HTTP/1.1" 302 0
+[2019-11-25 13:35:05] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 5367
+[2019-11-25 13:35:05] WARNING [django.request.log_response:228] Not Found: /media/python-logo.png
+[2019-11-25 13:35:05] WARNING [django.server.log_message:154] "GET /media/python-logo.png HTTP/1.1" 404 1802
+[2019-11-25 13:35:08] INFO [django.server.log_message:154] "GET /profile/edit/admin/ HTTP/1.1" 200 4551
+[2019-11-25 13:50:55] INFO [django.server.log_message:154] "GET /user/change_password/ HTTP/1.1" 200 4351
+[2019-11-25 13:50:55] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-11-25 13:51:09] ERROR [django.request.log_response:228] Internal Server Error: /articles/
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'endif'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nurullah/Masaüstü/Blog/article/views.py", line 92, in articles
+    return render(request, "articles.html", {"articles":articles})
+  File "/usr/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/lib/python3.7/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/lib/python3.7/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/lib/python3.7/site-packages/django/template/engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/lib/python3.7/site-packages/django/template/engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/lib/python3.7/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3.7/site-packages/django/template/loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3.7/site-packages/django/template/loader_tags.py", line 209, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3.7/site-packages/django/template/defaulttags.py", line 951, in do_if
+    nodelist = parser.parse(('elif', 'else', 'endif'))
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3.7/site-packages/django/template/defaulttags.py", line 810, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 528, in invalid_block_tag
+    get_text_list(["'%s'" % p for p in parse_until], 'or'),
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 113: 'endif', expected 'empty' or 'endfor'. Did you forget to register or load this tag?
+[2019-11-25 13:51:09] ERROR [django.server.log_message:154] "GET /articles/ HTTP/1.1" 500 205403
+[2019-11-25 13:51:48] ERROR [django.request.log_response:228] Internal Server Error: /articles/
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'endif'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nurullah/Masaüstü/Blog/article/views.py", line 92, in articles
+    return render(request, "articles.html", {"articles":articles})
+  File "/usr/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/lib/python3.7/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/lib/python3.7/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/lib/python3.7/site-packages/django/template/engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/lib/python3.7/site-packages/django/template/engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/lib/python3.7/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3.7/site-packages/django/template/loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3.7/site-packages/django/template/loader_tags.py", line 209, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3.7/site-packages/django/template/defaulttags.py", line 951, in do_if
+    nodelist = parser.parse(('elif', 'else', 'endif'))
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3.7/site-packages/django/template/defaulttags.py", line 810, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 528, in invalid_block_tag
+    get_text_list(["'%s'" % p for p in parse_until], 'or'),
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 113: 'endif', expected 'empty' or 'endfor'. Did you forget to register or load this tag?
+[2019-11-25 13:51:48] ERROR [django.server.log_message:154] "GET /articles/ HTTP/1.1" 500 205684
+[2019-11-25 13:51:50] ERROR [django.request.log_response:228] Internal Server Error: /articles/
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'endif'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nurullah/Masaüstü/Blog/article/views.py", line 92, in articles
+    return render(request, "articles.html", {"articles":articles})
+  File "/usr/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/lib/python3.7/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/lib/python3.7/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/lib/python3.7/site-packages/django/template/engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/lib/python3.7/site-packages/django/template/engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/lib/python3.7/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3.7/site-packages/django/template/loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3.7/site-packages/django/template/loader_tags.py", line 209, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3.7/site-packages/django/template/defaulttags.py", line 951, in do_if
+    nodelist = parser.parse(('elif', 'else', 'endif'))
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3.7/site-packages/django/template/defaulttags.py", line 810, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 528, in invalid_block_tag
+    get_text_list(["'%s'" % p for p in parse_until], 'or'),
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 113: 'endif', expected 'empty' or 'endfor'. Did you forget to register or load this tag?
+[2019-11-25 13:51:50] ERROR [django.server.log_message:154] "GET /articles/ HTTP/1.1" 500 205684
+[2019-11-25 13:52:21] ERROR [django.request.log_response:228] Internal Server Error: /articles/
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'endblock'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nurullah/Masaüstü/Blog/article/views.py", line 92, in articles
+    return render(request, "articles.html", {"articles":articles})
+  File "/usr/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/lib/python3.7/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/lib/python3.7/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/lib/python3.7/site-packages/django/template/engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/lib/python3.7/site-packages/django/template/engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/lib/python3.7/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3.7/site-packages/django/template/loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3.7/site-packages/django/template/loader_tags.py", line 209, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3.7/site-packages/django/template/defaulttags.py", line 965, in do_if
+    nodelist = parser.parse(('endif',))
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 528, in invalid_block_tag
+    get_text_list(["'%s'" % p for p in parse_until], 'or'),
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 121: 'endblock', expected 'endif'. Did you forget to register or load this tag?
+[2019-11-25 13:52:21] ERROR [django.server.log_message:154] "GET /articles/ HTTP/1.1" 500 184250
+[2019-11-25 13:52:29] ERROR [django.request.log_response:228] Internal Server Error: /articles/
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'endif'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nurullah/Masaüstü/Blog/article/views.py", line 92, in articles
+    return render(request, "articles.html", {"articles":articles})
+  File "/usr/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/lib/python3.7/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/lib/python3.7/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/lib/python3.7/site-packages/django/template/engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/lib/python3.7/site-packages/django/template/engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/lib/python3.7/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3.7/site-packages/django/template/loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3.7/site-packages/django/template/loader_tags.py", line 209, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3.7/site-packages/django/template/defaulttags.py", line 951, in do_if
+    nodelist = parser.parse(('elif', 'else', 'endif'))
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3.7/site-packages/django/template/defaulttags.py", line 810, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 528, in invalid_block_tag
+    get_text_list(["'%s'" % p for p in parse_until], 'or'),
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 113: 'endif', expected 'empty' or 'endfor'. Did you forget to register or load this tag?
+[2019-11-25 13:52:29] ERROR [django.server.log_message:154] "GET /articles/ HTTP/1.1" 500 205538
+[2019-11-25 13:53:56] INFO [django.server.log_message:154] "GET /articles/ HTTP/1.1" 200 6944
+[2019-11-25 13:53:56] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-11-25 13:53:56] WARNING [django.request.log_response:228] Not Found: /media/python-logo.png
+[2019-11-25 13:53:56] INFO [django.server.log_message:154] "GET /staticfiles/img/viewIcon.png HTTP/1.1" 304 0
+[2019-11-25 13:53:56] INFO [django.server.log_message:154] "GET /staticfiles/img/userIcon.png HTTP/1.1" 304 0
+[2019-11-25 13:53:56] WARNING [django.server.log_message:154] "GET /media/python-logo.png HTTP/1.1" 404 1802
+[2019-11-25 13:53:56] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-11-25 13:53:56] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-11-25 13:53:56] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-11-25 13:53:56] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 304 0
+[2019-11-25 13:54:32] INFO [django.server.log_message:154] "GET /profile/admin/ HTTP/1.1" 200 3520
+[2019-11-25 13:55:33] INFO [django.server.log_message:154] "GET /profile/admin/ HTTP/1.1" 200 3520
+[2019-11-25 13:55:33] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-11-25 13:55:33] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-11-25 13:55:33] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-11-25 13:55:33] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-11-25 13:56:53] INFO [django.server.log_message:154] "GET /profile/admin/ HTTP/1.1" 200 4040
+[2019-11-25 13:56:53] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-11-25 13:56:53] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-11-25 13:56:53] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-11-25 13:56:53] WARNING [django.request.log_response:228] Not Found: /media/python-logo.png
+[2019-11-25 13:56:53] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-11-25 13:56:53] WARNING [django.server.log_message:154] "GET /media/python-logo.png HTTP/1.1" 404 1802
+[2019-11-25 13:57:05] INFO [django.server.log_message:154] "GET /profile/admin/ HTTP/1.1" 200 4040
+[2019-11-25 13:57:05] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-11-25 13:57:05] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-11-25 13:57:05] WARNING [django.request.log_response:228] Not Found: /media/python-logo.png
+[2019-11-25 13:57:05] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-11-25 13:57:05] WARNING [django.server.log_message:154] "GET /media/python-logo.png HTTP/1.1" 404 1802
+[2019-11-25 13:57:05] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-11-25 13:57:13] INFO [django.server.log_message:154] "GET /profile/admin/ HTTP/1.1" 200 4040
+[2019-11-25 13:57:13] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-11-25 13:57:13] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-11-25 13:57:13] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-11-25 13:57:13] WARNING [django.request.log_response:228] Not Found: /media/python-logo.png
+[2019-11-25 13:57:13] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-11-25 13:57:13] WARNING [django.server.log_message:154] "GET /media/python-logo.png HTTP/1.1" 404 1802
+[2019-11-25 13:59:33] INFO [django.server.log_message:154] "GET /profile/admin/ HTTP/1.1" 200 4450
+[2019-11-25 13:59:33] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-11-25 13:59:33] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-11-25 13:59:33] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-11-25 13:59:33] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-11-25 13:59:55] INFO [django.server.log_message:154] "GET /profile/admin/ HTTP/1.1" 200 4213
+[2019-11-25 13:59:55] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-11-25 13:59:55] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-11-25 13:59:55] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-11-25 13:59:55] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-11-25 14:03:02] INFO [django.server.log_message:154] "GET /profile/admin/ HTTP/1.1" 200 4231
+[2019-11-25 14:03:02] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-11-25 14:03:02] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-11-25 14:03:02] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-11-25 14:03:02] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-11-25 14:03:22] INFO [django.server.log_message:154] "GET /profile/admin/ HTTP/1.1" 200 4240
+[2019-11-25 14:03:22] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-11-25 14:03:22] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-11-25 14:03:22] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-11-25 14:03:22] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-11-25 14:03:32] INFO [django.server.log_message:154] "GET /profile/admin/ HTTP/1.1" 200 4233
+[2019-11-25 14:03:32] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-11-25 14:03:32] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-11-25 14:03:32] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-11-25 14:03:32] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-11-25 14:04:01] INFO [django.server.log_message:154] "GET /profile/admin/ HTTP/1.1" 200 4232
+[2019-11-25 14:04:01] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-11-25 14:04:01] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-11-25 14:04:01] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-11-25 14:04:01] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-11-25 14:04:29] INFO [django.server.log_message:154] "GET /profile/admin/ HTTP/1.1" 200 4231
+[2019-11-25 14:04:29] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-11-25 14:04:29] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-11-25 14:04:29] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-11-25 14:04:29] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-11-25 14:04:39] INFO [django.server.log_message:154] "GET /profile/admin/ HTTP/1.1" 200 4232
+[2019-11-25 14:04:39] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-11-25 14:04:39] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-11-25 14:04:39] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-11-25 14:04:39] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-11-25 14:04:46] INFO [django.server.log_message:154] "GET /profile/admin/ HTTP/1.1" 200 4232
+[2019-11-25 14:04:46] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-11-25 14:04:46] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-11-25 14:04:46] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-11-25 14:04:46] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-11-25 14:04:55] INFO [django.server.log_message:154] "GET /profile/admin/ HTTP/1.1" 200 4232
+[2019-11-25 14:04:55] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-11-25 14:04:55] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-11-25 14:04:55] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-11-25 14:04:55] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-11-25 14:08:57] INFO [django.server.log_message:154] "GET /about/ HTTP/1.1" 200 4637
+[2019-11-25 14:08:57] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 5223
+[2019-11-25 14:08:57] WARNING [django.request.log_response:228] Not Found: /media/python-logo.png
+[2019-11-25 14:08:57] WARNING [django.server.log_message:154] "GET /media/python-logo.png HTTP/1.1" 404 1802
+[2019-11-25 14:11:45] INFO [django.server.log_message:154] "GET /profile/edit/admin/ HTTP/1.1" 200 4551
+[2019-11-25 14:12:17] INFO [django.server.log_message:154] "GET /profile/edit/admin/ HTTP/1.1" 200 4555
+[2019-11-25 14:12:17] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-11-25 14:12:17] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-11-25 14:12:17] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-11-25 14:12:17] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-11-25 14:12:21] INFO [django.server.log_message:154] "GET /profile/edit/admin/ HTTP/1.1" 200 4559
+[2019-11-25 14:12:21] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-11-25 14:12:21] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-11-25 14:12:21] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-11-25 14:12:21] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-11-25 14:12:31] INFO [django.server.log_message:154] "GET /profile/edit/admin/ HTTP/1.1" 200 4567
+[2019-11-25 14:12:31] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-11-25 14:12:31] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-11-25 14:12:31] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-11-25 14:12:31] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-11-25 14:12:38] INFO [django.server.log_message:154] "GET /profile/edit/admin/ HTTP/1.1" 200 4563
+[2019-11-25 14:12:38] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-11-25 14:12:38] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-11-25 14:12:38] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-11-25 14:12:38] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-11-25 14:19:17] INFO [django.server.log_message:154] "GET /about/ HTTP/1.1" 200 4637
+[2019-11-25 14:19:18] INFO [django.server.log_message:154] "GET /articles/ HTTP/1.1" 200 6944
+[2019-11-25 14:19:18] WARNING [django.request.log_response:228] Not Found: /media/python-logo.png
+[2019-11-25 14:19:18] WARNING [django.server.log_message:154] "GET /media/python-logo.png HTTP/1.1" 404 1802
+[2019-11-25 14:19:19] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 5223
+[2019-11-25 14:19:19] WARNING [django.request.log_response:228] Not Found: /media/python-logo.png
+[2019-11-25 14:19:19] WARNING [django.server.log_message:154] "GET /media/python-logo.png HTTP/1.1" 404 1802

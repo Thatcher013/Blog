@@ -2,13 +2,15 @@ from django.shortcuts import render,redirect, get_object_or_404
 from .forms import ProfileForm
 from .models import Profile, User
 from django.contrib import messages
+from article.models import Article
 
 # Create your views here.
 
 def profile(request, name):
     user = get_object_or_404(User, username=name)
     profile = Profile.objects.filter(user=user).first()
-    return render(request, "profile.html", {"user":user, "profile":profile})
+    articles = Article.objects.filter(author=user, onay=True)
+    return render(request, "profile.html", {"user":user, "profile":profile, "articles":articles})
 
 def profileEdit(request, name):
     user = get_object_or_404(User, username=name)

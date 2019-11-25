@@ -29,6 +29,7 @@ class Article(models.Model):
     article_image = models.FileField(blank = True,null = True,verbose_name="Fotoğraf Ekle")
     kategori = models.TextField(choices=kategoriler,verbose_name="Kategori", default = 'Yok')
     viewNumber = models.IntegerField(verbose_name="Görüntülenme", default=0)
+    onay = models.BooleanField(verbose_name="Onay", default=False)
     
     def __str__(self):
         return self.title

@@ -5,13 +5,13 @@
 
         <h3>{{user}} profili</h3>
         <hr>
-        <a class="btn btn-warning" href="{% url 'user:change_pass' %}">Şifreni Değiştir</a>
 
         <form method="POST" enctype="multipart/form-data">
                 {{form.media}}
                 {% csrf_token %}
                 {{form|crispy}}
-                <br>
+                
+        <a class="btn btn-warning" href="{% url 'user:change_pass' %}">Şifreni Değiştir</a><br><br><br><br>
                 <button type="submit" class="btn btn-primary">Kaydet</button>
             </form>
 
