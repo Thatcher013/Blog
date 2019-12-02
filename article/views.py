@@ -42,12 +42,13 @@ def detail(request, id):
 
     article = get_object_or_404(Article, id = id)
     comments = article.comments.all()
-    comment_re = CommentOfComment.objects.filter(article=article).filter(onay=True)
+    comment_re = CommentOfComment.objects.filter(article=article)
+    onay = article.onay
 
     time.sleep(2)
     article.viewNumber += 1
     article.save()
-    return render(request, "detail.html", {"article": article, "comments":comments, "comments_re":comment_re})
+    return render(request, "detail.html", {"article": article, "comments":comments, "comments_re":comment_re, "onay":onay})
     
     
 

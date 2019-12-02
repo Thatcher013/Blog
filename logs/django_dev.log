@@ -2259,3 +2259,103 @@ django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 113: '
 [2019-11-25 14:19:19] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 5223
 [2019-11-25 14:19:19] WARNING [django.request.log_response:228] Not Found: /media/python-logo.png
 [2019-11-25 14:19:19] WARNING [django.server.log_message:154] "GET /media/python-logo.png HTTP/1.1" 404 1802
+[2019-12-02 12:23:17] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 4807
+[2019-12-02 12:23:17] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 200 109261
+[2019-12-02 12:23:17] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 200 144877
+[2019-12-02 12:23:17] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-12-02 12:23:17] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-12-02 12:23:17] WARNING [django.request.log_response:228] Not Found: /media/python-logo.png
+[2019-12-02 12:23:17] WARNING [django.server.log_message:154] "GET /media/python-logo.png HTTP/1.1" 404 1802
+[2019-12-02 12:23:17] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 15086
+[2019-12-02 12:23:20] INFO [django.server.log_message:154] "GET /articles/ HTTP/1.1" 200 6465
+[2019-12-02 12:23:20] WARNING [django.request.log_response:228] Not Found: /media/python-logo.png
+[2019-12-02 12:23:20] WARNING [django.server.log_message:154] "GET /media/python-logo.png HTTP/1.1" 404 1802
+[2019-12-02 12:23:20] INFO [django.server.log_message:154] "GET /staticfiles/img/userIcon.png HTTP/1.1" 200 5070
+[2019-12-02 12:23:20] INFO [django.server.log_message:154] "GET /staticfiles/img/viewIcon.png HTTP/1.1" 200 4484
+[2019-12-02 12:23:22] ERROR [django.request.log_response:228] Internal Server Error: /articles/article/1
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nurullah/Masaüstü/Blog/article/views.py", line 45, in detail
+    comment_re = CommentOfComment.objects.filter(article=article).filter(onay=True)
+  File "/usr/lib/python3.7/site-packages/django/db/models/query.py", line 844, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/lib/python3.7/site-packages/django/db/models/query.py", line 862, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1263, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/usr/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1287, in _add_q
+    split_subq=split_subq,
+  File "/usr/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1164, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "/usr/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1028, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/usr/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1389, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'onay' into field. Choices are: article, article_id, author, author_id, comment, commentOfComment_content, commentOfComment_date, commentOfComment_id, comment_id
+[2019-12-02 12:23:22] ERROR [django.server.log_message:154] "GET /articles/article/1 HTTP/1.1" 500 106169
+[2019-12-02 12:23:22] WARNING [django.request.log_response:228] Not Found: /favicon.ico
+[2019-12-02 12:23:22] WARNING [django.server.log_message:154] "GET /favicon.ico HTTP/1.1" 404 2652
+[2019-12-02 12:29:34] ERROR [django.request.log_response:228] Internal Server Error: /articles/article/1
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nurullah/Masaüstü/Blog/article/views.py", line 45, in detail
+    comment_re = CommentOfComment.objects.filter(article=article).filter(onay=True)
+  File "/usr/lib/python3.7/site-packages/django/db/models/query.py", line 844, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/lib/python3.7/site-packages/django/db/models/query.py", line 862, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1263, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/usr/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1287, in _add_q
+    split_subq=split_subq,
+  File "/usr/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1164, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "/usr/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1028, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/usr/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1389, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'onay' into field. Choices are: article, article_id, author, author_id, comment, commentOfComment_content, commentOfComment_date, commentOfComment_id, comment_id
+[2019-12-02 12:29:34] ERROR [django.server.log_message:154] "GET /articles/article/1 HTTP/1.1" 500 106346
+[2019-12-02 12:29:38] ERROR [django.request.log_response:228] Internal Server Error: /articles/article/1
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nurullah/Masaüstü/Blog/article/views.py", line 45, in detail
+    comment_re = CommentOfComment.objects.filter(article=article).filter(onay=True)
+  File "/usr/lib/python3.7/site-packages/django/db/models/query.py", line 844, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/lib/python3.7/site-packages/django/db/models/query.py", line 862, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1263, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/usr/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1287, in _add_q
+    split_subq=split_subq,
+  File "/usr/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1164, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "/usr/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1028, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/usr/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1389, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'onay' into field. Choices are: article, article_id, author, author_id, comment, commentOfComment_content, commentOfComment_date, commentOfComment_id, comment_id
+[2019-12-02 12:29:38] ERROR [django.server.log_message:154] "GET /articles/article/1 HTTP/1.1" 500 106211
+[2019-12-02 12:30:10] INFO [django.server.log_message:154] "GET /articles/article/1 HTTP/1.1" 200 5032
+[2019-12-02 12:30:10] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-12-02 12:30:10] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-12-02 12:30:10] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-12-02 12:30:10] WARNING [django.request.log_response:228] Not Found: /media/python-logo.png
+[2019-12-02 12:30:10] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-12-02 12:30:10] WARNING [django.server.log_message:154] "GET /media/python-logo.png HTTP/1.1" 404 1802
