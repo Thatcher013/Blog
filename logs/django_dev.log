@@ -2359,3 +2359,122 @@ django.core.exceptions.FieldError: Cannot resolve keyword 'onay' into field. Cho
 [2019-12-02 12:30:10] WARNING [django.request.log_response:228] Not Found: /media/python-logo.png
 [2019-12-02 12:30:10] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
 [2019-12-02 12:30:10] WARNING [django.server.log_message:154] "GET /media/python-logo.png HTTP/1.1" 404 1802
+[2019-12-03 01:13:39] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 4817
+[2019-12-03 01:13:39] WARNING [django.request.log_response:228] Not Found: /media/python-logo.png
+[2019-12-03 01:13:39] WARNING [django.server.log_message:154] "GET /media/python-logo.png HTTP/1.1" 404 1802
+[2019-12-03 01:13:42] INFO [django.server.log_message:154] "GET /articles/ HTTP/1.1" 200 6475
+[2019-12-03 01:13:42] WARNING [django.request.log_response:228] Not Found: /media/python-logo.png
+[2019-12-03 01:13:42] WARNING [django.server.log_message:154] "GET /media/python-logo.png HTTP/1.1" 404 1802
+[2019-12-03 01:13:44] INFO [django.server.log_message:154] "GET /about/ HTTP/1.1" 200 4168
+[2019-12-03 01:13:46] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 4817
+[2019-12-03 01:13:46] WARNING [django.request.log_response:228] Not Found: /media/python-logo.png
+[2019-12-03 01:13:46] WARNING [django.server.log_message:154] "GET /media/python-logo.png HTTP/1.1" 404 1802
+[2019-12-03 01:13:49] INFO [django.server.log_message:154] "GET /about/ HTTP/1.1" 200 4168
+[2019-12-03 01:13:54] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 4817
+[2019-12-03 01:13:54] WARNING [django.request.log_response:228] Not Found: /media/python-logo.png
+[2019-12-03 01:13:54] WARNING [django.server.log_message:154] "GET /media/python-logo.png HTTP/1.1" 404 1802
+[2019-12-03 01:14:11] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 4831
+[2019-12-03 01:14:11] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-12-03 01:14:11] WARNING [django.request.log_response:228] Not Found: /media/python-logo.png
+[2019-12-03 01:14:11] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-12-03 01:14:11] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-12-03 01:14:11] WARNING [django.server.log_message:154] "GET /media/python-logo.png HTTP/1.1" 404 1802
+[2019-12-03 01:14:11] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-12-03 01:14:14] INFO [django.server.log_message:154] "GET /about/ HTTP/1.1" 200 4182
+[2019-12-03 01:14:16] INFO [django.server.log_message:154] "GET /articles/ HTTP/1.1" 200 6489
+[2019-12-03 01:14:16] WARNING [django.request.log_response:228] Not Found: /media/python-logo.png
+[2019-12-03 01:14:16] WARNING [django.server.log_message:154] "GET /media/python-logo.png HTTP/1.1" 404 1802
+[2019-12-03 01:14:21] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 4831
+[2019-12-03 01:14:21] WARNING [django.request.log_response:228] Not Found: /media/python-logo.png
+[2019-12-03 01:14:21] WARNING [django.server.log_message:154] "GET /media/python-logo.png HTTP/1.1" 404 1802
+[2019-12-03 01:15:43] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 4992
+[2019-12-03 01:15:43] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-12-03 01:15:43] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-12-03 01:15:43] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-12-03 01:15:43] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-12-03 01:15:43] WARNING [django.request.log_response:228] Not Found: /media/python-logo.png
+[2019-12-03 01:15:43] WARNING [django.server.log_message:154] "GET /media/python-logo.png HTTP/1.1" 404 1802
+[2019-12-03 01:16:16] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 5029
+[2019-12-03 01:16:16] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-12-03 01:16:16] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-12-03 01:16:16] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-12-03 01:16:16] WARNING [django.request.log_response:228] Not Found: /media/python-logo.png
+[2019-12-03 01:16:16] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-12-03 01:16:16] WARNING [django.server.log_message:154] "GET /media/python-logo.png HTTP/1.1" 404 1802
+[2019-12-03 01:16:30] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 4992
+[2019-12-03 01:16:30] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-12-03 01:16:30] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-12-03 01:16:30] WARNING [django.request.log_response:228] Not Found: /media/python-logo.png
+[2019-12-03 01:16:30] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-12-03 01:16:30] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-12-03 01:16:30] WARNING [django.server.log_message:154] "GET /media/python-logo.png HTTP/1.1" 404 1802
+[2019-12-03 01:17:54] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 6369
+[2019-12-03 01:17:54] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-12-03 01:17:54] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-12-03 01:17:54] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-12-03 01:17:54] WARNING [django.request.log_response:228] Not Found: /media/python-logo.png
+[2019-12-03 01:17:54] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-12-03 01:17:54] WARNING [django.server.log_message:154] "GET /media/python-logo.png HTTP/1.1" 404 1802
+[2019-12-03 01:18:27] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 6406
+[2019-12-03 01:18:27] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-12-03 01:18:27] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-12-03 01:18:27] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 200 144877
+[2019-12-03 01:18:27] WARNING [django.request.log_response:228] Not Found: /media/python-logo.png
+[2019-12-03 01:18:27] WARNING [django.server.log_message:154] "GET /media/python-logo.png HTTP/1.1" 404 1802
+[2019-12-03 01:18:27] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 200 109261
+[2019-12-03 01:18:45] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 4997
+[2019-12-03 01:18:45] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-12-03 01:18:45] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-12-03 01:18:45] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-12-03 01:18:45] WARNING [django.request.log_response:228] Not Found: /media/python-logo.png
+[2019-12-03 01:18:45] WARNING [django.server.log_message:154] "GET /media/python-logo.png HTTP/1.1" 404 1802
+[2019-12-03 01:18:45] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-12-03 01:20:40] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 6217
+[2019-12-03 01:20:40] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-12-03 01:20:40] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-12-03 01:20:40] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-12-03 01:20:40] WARNING [django.request.log_response:228] Not Found: /media/python-logo.png
+[2019-12-03 01:20:40] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-12-03 01:20:40] WARNING [django.server.log_message:154] "GET /media/python-logo.png HTTP/1.1" 404 1802
+[2019-12-03 01:20:42] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 6217
+[2019-12-03 01:20:42] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-12-03 01:20:42] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-12-03 01:20:42] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-12-03 01:20:42] WARNING [django.request.log_response:228] Not Found: /media/python-logo.png
+[2019-12-03 01:20:42] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-12-03 01:20:42] WARNING [django.server.log_message:154] "GET /media/python-logo.png HTTP/1.1" 404 1802
+[2019-12-03 01:20:42] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 6217
+[2019-12-03 01:20:42] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-12-03 01:20:42] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-12-03 01:20:42] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-12-03 01:20:42] WARNING [django.request.log_response:228] Not Found: /media/python-logo.png
+[2019-12-03 01:20:42] WARNING [django.server.log_message:154] "GET /media/python-logo.png HTTP/1.1" 404 1802
+[2019-12-03 01:20:42] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-12-03 01:20:42] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 6217
+[2019-12-03 01:20:42] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-12-03 01:20:42] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-12-03 01:20:42] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-12-03 01:20:42] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-12-03 01:20:42] WARNING [django.request.log_response:228] Not Found: /media/python-logo.png
+[2019-12-03 01:20:42] WARNING [django.server.log_message:154] "GET /media/python-logo.png HTTP/1.1" 404 1802
+[2019-12-03 01:20:45] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 6217
+[2019-12-03 01:20:45] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-12-03 01:20:45] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-12-03 01:20:45] WARNING [django.request.log_response:228] Not Found: /media/python-logo.png
+[2019-12-03 01:20:45] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-12-03 01:20:45] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-12-03 01:20:45] WARNING [django.server.log_message:154] "GET /media/python-logo.png HTTP/1.1" 404 1802
+[2019-12-03 01:21:31] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 9134
+[2019-12-03 01:21:31] WARNING [django.request.log_response:228] Not Found: /media/python-logo.png
+[2019-12-03 01:21:31] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-12-03 01:21:31] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-12-03 01:21:31] WARNING [django.server.log_message:154] "GET /media/python-logo.png HTTP/1.1" 404 1802
+[2019-12-03 01:21:31] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 200 144877
+[2019-12-03 01:21:31] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-12-04 01:10:53] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 4831
+[2019-12-04 01:10:53] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-12-04 01:10:53] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-12-04 01:10:53] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 200 144877
+[2019-12-04 01:10:53] WARNING [django.request.log_response:228] Not Found: /media/python-logo.png
+[2019-12-04 01:10:53] WARNING [django.server.log_message:154] "GET /media/python-logo.png HTTP/1.1" 404 1802
+[2019-12-04 01:10:53] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
