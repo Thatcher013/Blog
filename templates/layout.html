@@ -8,16 +8,17 @@
     <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
     <link rel="shortcut icon" type="image/png" href="{% static 'img/favicon.ico' %}">
     <title>Müstakil</title>
+    <script data-ad-client="ca-pub-3937502118941434" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 </head>
-<body style="background-color: #fefbfb">
+<body>
     {% include "includes/navbar.html" %}
 
 <!--<img src="{% static 'img/banner.png' %}" class="img-fluid" alt="" style="width: 100%">-->
 
 
-    <br>
+    
             
-
+    
     <div class="container" style = "margin-bottom:10px;">
     {% if messages %}
             {% for message in messages %}
@@ -37,8 +38,43 @@
     {% endblock body %}
 
     </div>
-    
 
+    {% block index %}
+    
+    {% endblock index %}
+
+<style>
+  html, body {
+    height: 80%;
+  }
+  
+  #wrap {
+    min-height: 100%;
+  }
+  
+  #main {
+    overflow:auto;
+    padding-bottom:100px; /* this needs to be bigger than footer height*/
+  }
+
+  .footer {
+    position: relative;
+    margin-top: -60px; /* negative value of footer height */
+    height: 60px;
+    clear:both;
+    padding-top:20px;
+  } 
+</style>
+<div id="wrap">
+  
+</div>
+<footer id="footer" class="footer text-white" style="background-color: #380058;
+">
+  <div class="text-center">
+    <small>Copyright &copy; mustakil.cc</small>
+  </div>
+</footer>
+    
     
 <script src="{% static 'js/jquery-3.2.1.min.js' %}"></script>
 <script src="{% static 'js/bootstrap.min.js' %}"></script>

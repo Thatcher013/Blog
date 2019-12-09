@@ -11,7 +11,7 @@ import time
 
 def index(request):
     articles = Article.objects.filter(onay=True).all()[:5]
-    
+    print(type(articles))
     return render(request, "index.html", {"articles":articles})
 
 def about(request):

@@ -2585,3 +2585,1923 @@ django.core.exceptions.FieldError: Cannot resolve keyword 'onay' into field. Cho
 [2019-12-06 12:24:56] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
 [2019-12-06 12:24:56] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
 [2019-12-06 12:24:56] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-12-08 23:41:11] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 3927
+[2019-12-08 23:41:12] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-12-08 23:41:12] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-12-08 23:41:12] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-12-08 23:41:12] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 200 227479
+[2019-12-08 23:41:28] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 2796
+[2019-12-08 23:41:28] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-12-08 23:41:28] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-12-08 23:41:28] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-12-08 23:41:28] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-12-08 23:41:49] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 2950
+[2019-12-08 23:41:49] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-12-08 23:41:49] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-12-08 23:41:49] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-12-08 23:41:49] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-12-08 23:42:32] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 2982
+[2019-12-08 23:42:32] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-12-08 23:42:32] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-12-08 23:42:32] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-12-08 23:42:32] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-12-08 23:45:47] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 2950
+[2019-12-08 23:45:47] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-12-08 23:45:47] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-12-08 23:45:47] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-12-08 23:45:47] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-12-08 23:46:03] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 2916
+[2019-12-08 23:46:03] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-12-08 23:46:03] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-12-08 23:46:03] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-12-08 23:46:03] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-12-08 23:46:06] INFO [django.server.log_message:154] "GET /articles/ HTTP/1.1" 200 6454
+[2019-12-08 23:46:06] INFO [django.server.log_message:154] "GET /staticfiles/img/userIcon.png HTTP/1.1" 200 5070
+[2019-12-08 23:46:06] INFO [django.server.log_message:154] "GET /media/python-logo.png HTTP/1.1" 200 10102
+[2019-12-08 23:46:06] INFO [django.server.log_message:154] "GET /staticfiles/img/viewIcon.png HTTP/1.1" 200 4484
+[2019-12-08 23:48:16] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 3505
+[2019-12-08 23:49:43] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 3049
+[2019-12-08 23:49:43] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-12-08 23:49:43] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-12-08 23:49:43] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-12-08 23:49:43] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-12-08 23:59:54] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 3598
+[2019-12-08 23:59:54] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-12-08 23:59:54] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-12-08 23:59:54] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-12-08 23:59:54] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-12-09 00:02:05] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 2930
+[2019-12-09 00:02:05] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-12-09 00:02:05] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-12-09 00:02:05] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-12-09 00:02:05] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-12-09 00:11:37] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 2931
+[2019-12-09 00:11:37] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-12-09 00:11:37] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-12-09 00:11:37] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-12-09 00:11:37] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-12-09 00:11:48] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 2921
+[2019-12-09 00:11:48] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-12-09 00:11:48] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-12-09 00:11:48] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-12-09 00:11:48] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-12-09 00:12:08] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 2941
+[2019-12-09 00:12:08] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-12-09 00:12:08] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-12-09 00:12:08] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-12-09 00:12:08] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-12-09 00:12:13] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 2920
+[2019-12-09 00:12:13] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-12-09 00:12:13] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-12-09 00:12:13] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-12-09 00:12:13] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-12-09 00:19:41] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 6177
+[2019-12-09 00:19:41] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-12-09 00:19:41] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-12-09 00:19:41] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-12-09 00:19:41] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-12-09 00:19:53] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 2920
+[2019-12-09 00:19:53] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-12-09 00:19:53] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-12-09 00:19:53] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-12-09 00:19:53] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-12-09 00:21:31] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 2911
+[2019-12-09 00:21:31] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-12-09 00:21:31] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-12-09 00:21:31] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-12-09 00:21:31] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-12-09 00:22:42] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 2943
+[2019-12-09 00:22:42] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-12-09 00:22:42] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-12-09 00:22:42] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-12-09 00:22:42] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-12-09 00:22:53] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 2944
+[2019-12-09 00:22:53] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-12-09 00:22:53] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-12-09 00:22:53] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-12-09 00:22:53] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-12-09 00:23:28] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 2945
+[2019-12-09 00:23:28] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-12-09 00:23:28] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-12-09 00:23:28] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-12-09 00:23:28] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-12-09 00:23:35] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 2942
+[2019-12-09 00:23:35] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-12-09 00:23:35] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-12-09 00:23:35] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-12-09 00:23:35] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-12-09 00:29:32] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 2936
+[2019-12-09 00:29:32] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-12-09 00:29:32] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-12-09 00:29:32] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-12-09 00:29:32] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-12-09 00:29:40] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 2944
+[2019-12-09 00:29:40] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-12-09 00:29:40] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-12-09 00:29:40] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-12-09 00:29:40] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-12-09 00:29:43] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 2943
+[2019-12-09 00:29:43] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-12-09 00:29:43] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-12-09 00:29:43] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-12-09 00:29:43] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-12-09 00:29:46] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 2943
+[2019-12-09 00:29:46] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-12-09 00:29:46] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-12-09 00:29:46] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-12-09 00:29:46] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-12-09 00:29:49] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 2943
+[2019-12-09 00:29:49] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-12-09 00:29:49] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-12-09 00:29:49] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-12-09 00:29:49] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-12-09 00:30:17] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 2943
+[2019-12-09 00:30:17] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-12-09 00:30:17] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-12-09 00:30:17] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-12-09 00:30:17] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-12-09 00:34:24] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 2950
+[2019-12-09 00:34:24] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-12-09 00:34:24] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-12-09 00:34:24] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-12-09 00:34:24] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-12-09 00:34:24] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 2950
+[2019-12-09 00:34:24] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-12-09 00:34:24] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-12-09 00:34:24] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-12-09 00:34:24] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-12-09 00:34:29] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 2945
+[2019-12-09 00:34:29] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-12-09 00:34:29] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-12-09 00:34:29] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-12-09 00:34:29] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-12-09 00:34:35] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 2950
+[2019-12-09 00:34:35] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-12-09 00:34:35] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-12-09 00:34:35] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-12-09 00:34:35] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-12-09 00:37:18] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 3082
+[2019-12-09 00:37:18] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-12-09 00:37:18] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-12-09 00:37:18] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-12-09 00:37:18] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-12-09 00:38:51] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 2760
+[2019-12-09 00:38:51] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-12-09 00:38:51] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-12-09 00:38:51] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-12-09 00:38:51] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-12-09 00:41:35] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 2760
+[2019-12-09 00:41:35] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-12-09 00:41:35] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-12-09 00:41:35] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-12-09 00:41:35] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-12-09 00:42:00] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 3082
+[2019-12-09 00:42:00] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-12-09 00:42:00] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-12-09 00:42:00] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-12-09 00:42:00] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-12-09 00:42:14] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 2949
+[2019-12-09 00:42:14] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-12-09 00:42:14] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-12-09 00:42:14] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-12-09 00:42:14] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 200 227479
+[2019-12-09 00:43:33] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 2944
+[2019-12-09 00:43:33] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-12-09 00:43:33] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-12-09 00:43:33] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-12-09 00:43:33] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-12-09 00:43:37] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 2949
+[2019-12-09 00:43:37] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-12-09 00:43:37] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-12-09 00:43:37] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-12-09 00:43:37] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-12-09 00:43:42] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 2942
+[2019-12-09 00:43:42] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-12-09 00:43:42] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-12-09 00:43:42] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-12-09 00:43:42] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-12-09 19:42:51] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 2942
+[2019-12-09 19:42:51] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 200 144877
+[2019-12-09 19:42:51] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 200 227479
+[2019-12-09 20:01:51] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 3080
+[2019-12-09 20:01:51] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 200 144877
+[2019-12-09 20:01:51] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 200 227479
+[2019-12-09 20:01:51] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 200 86659
+[2019-12-09 20:01:51] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 200 48944
+[2019-12-09 20:01:51] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-09 20:02:35] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 4306
+[2019-12-09 20:02:36] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-09 20:03:02] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 3080
+[2019-12-09 20:03:02] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-09 20:05:45] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 6752
+[2019-12-09 20:05:46] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-09 20:08:37] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 6757
+[2019-12-09 20:08:37] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-09 20:08:38] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 6757
+[2019-12-09 20:08:38] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-09 20:08:39] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 6757
+[2019-12-09 20:08:39] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-09 20:08:50] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 6797
+[2019-12-09 20:08:51] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-09 20:08:51] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 6797
+[2019-12-09 20:08:51] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 6797
+[2019-12-09 20:08:51] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 6797
+[2019-12-09 20:08:52] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-09 20:08:57] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 6792
+[2019-12-09 20:08:57] INFO [django.server.log_message:154] "GET /staticfiles/img/userIcon.png HTTP/1.1" 200 5070
+[2019-12-09 20:08:57] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-09 20:09:13] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 6777
+[2019-12-09 20:09:13] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-09 20:09:22] INFO [django.server.log_message:154] "GET /articles/ HTTP/1.1" 200 6774
+[2019-12-09 20:09:22] INFO [django.server.log_message:154] "GET /staticfiles/img/viewIcon.png HTTP/1.1" 200 4484
+[2019-12-09 20:09:22] INFO [django.server.log_message:154] "GET /media/python-logo.png HTTP/1.1" 200 10102
+[2019-12-09 20:09:32] INFO [django.server.log_message:154] "GET /user/login/ HTTP/1.1" 200 4164
+[2019-12-09 20:10:50] INFO [django.server.log_message:154] "GET /user/login/ HTTP/1.1" 200 4164
+[2019-12-09 20:10:50] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-09 20:10:51] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 3240
+[2019-12-09 20:13:40] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 1892
+[2019-12-09 20:13:40] WARNING [django.request.log_response:228] Not Found: /favicon.ico
+[2019-12-09 20:13:40] WARNING [django.server.log_message:154] "GET /favicon.ico HTTP/1.1" 404 2652
+[2019-12-09 20:14:02] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 3082
+[2019-12-09 20:14:02] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-09 20:18:54] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 3096
+[2019-12-09 20:18:55] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-09 20:19:32] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 3095
+[2019-12-09 20:19:33] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-09 20:19:58] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 3241
+[2019-12-09 20:19:59] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-09 20:20:22] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 3170
+[2019-12-09 20:20:22] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-09 20:20:25] INFO [django.server.log_message:154] "GET /articles/ HTTP/1.1" 200 6865
+[2019-12-09 20:20:27] INFO [django.server.log_message:154] "GET /about/ HTTP/1.1" 200 4558
+[2019-12-09 20:20:39] INFO [django.server.log_message:154] "GET /user/register/ HTTP/1.1" 200 4895
+[2019-12-09 20:20:41] INFO [django.server.log_message:154] "GET /user/login/ HTTP/1.1" 200 4255
+[2019-12-09 20:20:42] INFO [django.server.log_message:154] "GET /about/ HTTP/1.1" 200 4558
+[2019-12-09 20:20:43] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 3170
+[2019-12-09 20:20:44] INFO [django.server.log_message:154] "GET /about/ HTTP/1.1" 200 4558
+[2019-12-09 20:20:45] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 3170
+[2019-12-09 20:20:45] INFO [django.server.log_message:154] "GET /articles/ HTTP/1.1" 200 6865
+[2019-12-09 20:20:48] INFO [django.server.log_message:154] "GET /user/login/ HTTP/1.1" 200 4255
+[2019-12-09 20:20:52] INFO [django.server.log_message:154] "POST /user/login/ HTTP/1.1" 200 4419
+[2019-12-09 20:20:56] INFO [django.server.log_message:154] "POST /user/login/ HTTP/1.1" 302 0
+[2019-12-09 20:20:56] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 3793
+[2019-12-09 20:20:58] INFO [django.server.log_message:154] "GET /articles/ HTTP/1.1" 200 7344
+[2019-12-09 20:21:00] INFO [django.server.log_message:154] "GET /articles/dashboard/ HTTP/1.1" 200 4798
+[2019-12-09 20:21:02] INFO [django.server.log_message:154] "GET /articles/addarticle HTTP/1.1" 301 0
+[2019-12-09 20:21:02] INFO [django.server.log_message:154] "GET /articles/addarticle/ HTTP/1.1" 200 7029
+[2019-12-09 20:21:02] INFO [django.server.log_message:154] "GET /staticfiles/ckeditor/ckeditor-init.js HTTP/1.1" 200 2216
+[2019-12-09 20:21:02] INFO [django.server.log_message:154] "GET /staticfiles/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 200 701922
+[2019-12-09 20:21:02] INFO [django.server.log_message:154] "GET /staticfiles/ckeditor/ckeditor/config.js?t=J39A HTTP/1.1" 200 338
+[2019-12-09 20:21:02] INFO [django.server.log_message:154] "GET /staticfiles/ckeditor/ckeditor/lang/tr.js?t=J39A HTTP/1.1" 200 20732
+[2019-12-09 20:21:02] INFO [django.server.log_message:154] "GET /staticfiles/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=J39A HTTP/1.1" 200 47805
+[2019-12-09 20:21:02] INFO [django.server.log_message:154] "GET /staticfiles/ckeditor/ckeditor/styles.js?t=J39A HTTP/1.1" 200 5579
+[2019-12-09 20:21:02] INFO [django.server.log_message:154] "GET /staticfiles/ckeditor/ckeditor/plugins/scayt/dialogs/dialog.css?t=J39A HTTP/1.1" 200 419
+[2019-12-09 20:21:02] INFO [django.server.log_message:154] "GET /staticfiles/ckeditor/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css?t=J39A HTTP/1.1" 200 381
+[2019-12-09 20:21:02] INFO [django.server.log_message:154] "GET /staticfiles/ckeditor/ckeditor/plugins/tableselection/styles/tableselection.css HTTP/1.1" 200 1145
+[2019-12-09 20:21:02] INFO [django.server.log_message:154] "GET /staticfiles/ckeditor/ckeditor/plugins/wsc/skins/moono-lisa/wsc.css?t=J39A HTTP/1.1" 200 1306
+[2019-12-09 20:21:02] INFO [django.server.log_message:154] "GET /staticfiles/ckeditor/ckeditor/plugins/copyformatting/styles/copyformatting.css HTTP/1.1" 200 1513
+[2019-12-09 20:21:02] INFO [django.server.log_message:154] "GET /staticfiles/ckeditor/ckeditor/plugins/icons.png?t=J39A HTTP/1.1" 200 12421
+[2019-12-09 20:21:02] INFO [django.server.log_message:154] "GET /staticfiles/ckeditor/ckeditor/contents.css?t=J39A HTTP/1.1" 200 3094
+[2019-12-09 20:21:02] INFO [django.server.log_message:154] "GET /staticfiles/ckeditor/ckeditor/skins/moono-lisa/icons.png?t=e1836357e HTTP/1.1" 200 12421
+[2019-12-09 20:21:36] INFO [django.server.log_message:154] "GET /articles/addarticle/ HTTP/1.1" 200 6980
+[2019-12-09 20:21:36] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-09 20:21:39] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 3600
+[2019-12-09 20:21:40] INFO [django.server.log_message:154] "GET /about/ HTTP/1.1" 200 4988
+[2019-12-09 20:21:53] INFO [django.server.log_message:154] "GET /articles/ HTTP/1.1" 200 7295
+[2019-12-09 20:23:16] INFO [django.server.log_message:154] "GET /articles/ HTTP/1.1" 200 7278
+[2019-12-09 20:23:16] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-09 20:23:21] INFO [django.server.log_message:154] "GET /about/ HTTP/1.1" 200 4988
+[2019-12-09 20:23:22] INFO [django.server.log_message:154] "GET /articles/ HTTP/1.1" 200 7295
+[2019-12-09 20:23:23] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 3600
+[2019-12-09 20:23:24] INFO [django.server.log_message:154] "GET /about/ HTTP/1.1" 200 4988
+[2019-12-09 20:24:51] INFO [django.server.log_message:154] "GET /about/ HTTP/1.1" 200 5069
+[2019-12-09 20:24:51] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-09 20:24:53] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 3681
+[2019-12-09 20:25:15] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 3603
+[2019-12-09 20:25:16] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-09 20:25:18] INFO [django.server.log_message:154] "GET /about/ HTTP/1.1" 200 4991
+[2019-12-09 20:25:18] INFO [django.server.log_message:154] "GET /articles/ HTTP/1.1" 200 7298
+[2019-12-09 20:25:22] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 3603
+[2019-12-09 20:25:24] INFO [django.server.log_message:154] "GET /articles/ HTTP/1.1" 200 7298
+[2019-12-09 20:25:26] INFO [django.server.log_message:154] "GET /about/ HTTP/1.1" 200 4991
+[2019-12-09 20:25:37] INFO [django.server.log_message:154] "GET /articles/dashboard/ HTTP/1.1" 200 4752
+[2019-12-09 20:25:39] INFO [django.server.log_message:154] "GET /profile/edit/admin/ HTTP/1.1" 200 4917
+[2019-12-09 20:25:44] INFO [django.server.log_message:154] "GET /articles/dashboard/ HTTP/1.1" 200 4752
+[2019-12-09 20:25:46] INFO [django.server.log_message:154] "GET /profile/edit/admin/ HTTP/1.1" 200 4917
+[2019-12-09 20:25:48] INFO [django.server.log_message:154] "GET /articles/ HTTP/1.1" 200 7298
+[2019-12-09 20:25:48] INFO [django.server.log_message:154] "GET /about/ HTTP/1.1" 200 4991
+[2019-12-09 20:25:49] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 3603
+[2019-12-09 20:26:12] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 3635
+[2019-12-09 20:26:12] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-09 20:26:13] INFO [django.server.log_message:154] "GET /about/ HTTP/1.1" 200 5023
+[2019-12-09 20:26:15] INFO [django.server.log_message:154] "GET /articles/ HTTP/1.1" 200 7330
+[2019-12-09 20:26:21] INFO [django.server.log_message:154] "GET /articles/ HTTP/1.1" 200 7338
+[2019-12-09 20:26:22] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-09 20:26:25] INFO [django.server.log_message:154] "GET /articles/ HTTP/1.1" 200 7338
+[2019-12-09 20:26:27] INFO [django.server.log_message:154] "GET /about/ HTTP/1.1" 200 5031
+[2019-12-09 20:26:28] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 3643
+[2019-12-09 20:26:32] INFO [django.server.log_message:154] "GET /profile/edit/admin/ HTTP/1.1" 200 4957
+[2019-12-09 20:26:39] INFO [django.server.log_message:154] "GET /profile/edit/admin/ HTTP/1.1" 200 4957
+[2019-12-09 20:26:39] INFO [django.server.log_message:154] "GET /articles/dashboard/ HTTP/1.1" 200 4792
+[2019-12-09 20:26:46] INFO [django.server.log_message:154] "GET /articles/dashboard/ HTTP/1.1" 200 4796
+[2019-12-09 20:26:47] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-09 20:26:49] INFO [django.server.log_message:154] "GET /profile/edit/admin/ HTTP/1.1" 200 4961
+[2019-12-09 20:26:53] INFO [django.server.log_message:154] "GET /about/ HTTP/1.1" 200 5035
+[2019-12-09 20:26:58] INFO [django.server.log_message:154] "GET /articles/ HTTP/1.1" 200 7342
+[2019-12-09 20:27:01] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 3647
+[2019-12-09 20:32:40] INFO [django.server.log_message:154] "GET /articles/ HTTP/1.1" 200 7342
+[2019-12-09 20:32:41] INFO [django.server.log_message:154] "GET /about/ HTTP/1.1" 200 5035
+[2019-12-09 20:32:44] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 3647
+[2019-12-09 20:32:46] INFO [django.server.log_message:154] "GET /articles/dashboard/ HTTP/1.1" 200 4796
+[2019-12-09 20:32:48] INFO [django.server.log_message:154] "GET /profile/edit/admin/ HTTP/1.1" 200 4961
+[2019-12-09 20:32:51] INFO [django.server.log_message:154] "GET /articles/dashboard/ HTTP/1.1" 200 4796
+[2019-12-09 20:39:46] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 3647
+[2019-12-09 20:42:51] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 3960
+[2019-12-09 20:42:51] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-09 20:43:17] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 3957
+[2019-12-09 20:43:17] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-09 20:43:38] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 4008
+[2019-12-09 20:43:38] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-09 20:44:01] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 4094
+[2019-12-09 20:44:01] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-09 20:44:02] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 4094
+[2019-12-09 20:44:02] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 4094
+[2019-12-09 20:44:02] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-09 20:44:09] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 4012
+[2019-12-09 20:44:09] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-09 20:44:16] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 4008
+[2019-12-09 20:44:16] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-09 20:44:53] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 4169
+[2019-12-09 20:44:53] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-09 20:45:19] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 4319
+[2019-12-09 20:45:19] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-09 20:45:26] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 4314
+[2019-12-09 20:45:26] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-09 20:45:37] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 4313
+[2019-12-09 20:45:37] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-09 20:45:49] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 4313
+[2019-12-09 20:45:49] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-09 20:45:53] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 4313
+[2019-12-09 20:45:53] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-09 20:46:01] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 4312
+[2019-12-09 20:46:01] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-09 20:46:11] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 4129
+[2019-12-09 20:46:11] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-09 20:46:24] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 4206
+[2019-12-09 20:46:24] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-09 20:46:27] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 4312
+[2019-12-09 20:46:27] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-09 20:46:36] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 4213
+[2019-12-09 20:46:36] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-09 20:46:38] INFO [django.server.log_message:154] "GET /about/ HTTP/1.1" 200 5601
+[2019-12-09 20:46:41] INFO [django.server.log_message:154] "GET /articles/ HTTP/1.1" 200 7908
+[2019-12-09 20:47:09] INFO [django.server.log_message:154] "GET /articles/ HTTP/1.1" 200 7926
+[2019-12-09 20:47:10] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-09 20:47:13] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 4231
+[2019-12-09 20:47:15] INFO [django.server.log_message:154] "GET /about/ HTTP/1.1" 200 5619
+[2019-12-09 20:47:18] INFO [django.server.log_message:154] "GET /articles/ HTTP/1.1" 200 7926
+[2019-12-09 20:47:45] INFO [django.server.log_message:154] "GET /articles/ HTTP/1.1" 200 7637
+[2019-12-09 20:47:45] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-09 20:47:59] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 3942
+[2019-12-09 20:54:06] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 3962
+[2019-12-09 20:54:06] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-09 20:54:07] INFO [django.server.log_message:154] "GET /about/ HTTP/1.1" 200 5350
+[2019-12-09 20:54:07] INFO [django.server.log_message:154] "GET /articles/ HTTP/1.1" 200 7657
+[2019-12-09 20:54:09] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 3962
+[2019-12-09 20:54:29] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 3969
+[2019-12-09 20:54:38] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 4592
+[2019-12-09 20:55:36] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 13781
+[2019-12-09 21:15:27] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 4598
+[2019-12-09 21:15:34] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 4595
+[2019-12-09 21:16:01] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 4497
+[2019-12-09 21:16:53] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 5353
+[2019-12-09 21:18:05] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7917
+[2019-12-09 21:18:28] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7910
+[2019-12-09 21:18:36] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 4491
+[2019-12-09 21:18:41] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7910
+[2019-12-09 21:25:43] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 10455
+[2019-12-09 21:25:55] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 4490
+[2019-12-09 21:27:08] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 5745
+[2019-12-09 21:27:18] INFO [django.server.log_message:154] "GET /articles/ HTTP/1.1" 200 7657
+[2019-12-09 21:27:23] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 5745
+[2019-12-09 21:27:26] INFO [django.server.log_message:154] "GET /articles/ HTTP/1.1" 200 7657
+[2019-12-09 21:27:27] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 5745
+[2019-12-09 21:29:18] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 4490
+[2019-12-09 21:30:25] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 6103
+[2019-12-09 21:31:09] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 6266
+[2019-12-09 21:31:26] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 6267
+[2019-12-09 21:32:08] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 6267
+[2019-12-09 21:32:09] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 6267
+[2019-12-09 21:32:34] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 6267
+[2019-12-09 21:32:35] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 6267
+[2019-12-09 21:32:47] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 6267
+[2019-12-09 21:33:03] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 6263
+[2019-12-09 21:33:03] WARNING [django.server.log_message:154] "GET /staticfiles/img/userIcon.spng HTTP/1.1" 404 1685
+[2019-12-09 21:33:05] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 6263
+[2019-12-09 21:33:05] WARNING [django.server.log_message:154] "GET /staticfiles/img/userIcon.spng HTTP/1.1" 404 1685
+[2019-12-09 21:33:05] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 6263
+[2019-12-09 21:33:05] WARNING [django.server.log_message:154] "GET /staticfiles/img/userIcon.spng HTTP/1.1" 404 1685
+[2019-12-09 21:33:05] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 6263
+[2019-12-09 21:33:05] WARNING [django.server.log_message:154] "GET /staticfiles/img/userIcon.spng HTTP/1.1" 404 1685
+[2019-12-09 21:33:07] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 6263
+[2019-12-09 21:33:07] WARNING [django.server.log_message:154] "GET /staticfiles/img/userIcon.spng HTTP/1.1" 404 1685
+[2019-12-09 21:33:07] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 6263
+[2019-12-09 21:33:07] WARNING [django.server.log_message:154] "GET /staticfiles/img/userIcon.spng HTTP/1.1" 404 1685
+[2019-12-09 21:33:07] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 6263
+[2019-12-09 21:33:07] WARNING [django.server.log_message:154] "GET /staticfiles/img/userIcon.spng HTTP/1.1" 404 1685
+[2019-12-09 21:33:07] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 6263
+[2019-12-09 21:33:07] WARNING [django.server.log_message:154] "GET /staticfiles/img/userIcon.spng HTTP/1.1" 404 1685
+[2019-12-09 21:33:07] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 6263
+[2019-12-09 21:33:07] WARNING [django.server.log_message:154] "GET /staticfiles/img/userIcon.spng HTTP/1.1" 404 1685
+[2019-12-09 21:33:38] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 6262
+[2019-12-09 21:35:58] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 6233
+[2019-12-09 21:41:30] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 9075
+[2019-12-09 21:41:41] WARNING [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js.map HTTP/1.1" 404 1703
+[2019-12-09 21:41:41] WARNING [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css.map HTTP/1.1" 404 1709
+[2019-12-09 21:42:11] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 9075
+[2019-12-09 21:42:13] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 9075
+[2019-12-09 21:42:13] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 9075
+[2019-12-09 21:42:13] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 9075
+[2019-12-09 21:42:14] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 9075
+[2019-12-09 21:42:14] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 9075
+[2019-12-09 21:42:14] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 9075
+[2019-12-09 21:42:14] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 9075
+[2019-12-09 21:42:15] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 9075
+[2019-12-09 21:42:47] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 9090
+[2019-12-09 21:42:51] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 9091
+[2019-12-09 21:43:16] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 9074
+[2019-12-09 21:43:18] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 9074
+[2019-12-09 21:43:25] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 9075
+[2019-12-09 21:43:55] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 9081
+[2019-12-09 21:44:23] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 9078
+[2019-12-09 21:44:36] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 9081
+[2019-12-09 21:44:42] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 9087
+[2019-12-09 21:45:10] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 9083
+[2019-12-09 21:45:42] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 9082
+[2019-12-09 21:45:53] INFO [django.server.log_message:154] "GET /articles/ HTTP/1.1" 200 8929
+[2019-12-09 21:46:14] INFO [django.server.log_message:154] "GET /articles/ HTTP/1.1" 200 8934
+[2019-12-09 21:46:14] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-09 21:46:29] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 9081
+[2019-12-09 21:46:34] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 9081
+[2019-12-09 21:46:38] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 9081
+[2019-12-09 21:46:45] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 9081
+[2019-12-09 21:47:00] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 9178
+[2019-12-09 21:47:22] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 9248
+[2019-12-09 21:47:28] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 9081
+[2019-12-09 21:47:45] INFO [django.server.log_message:154] "GET /articles/ HTTP/1.1" 200 8933
+[2019-12-09 21:48:16] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 9086
+[2019-12-09 21:50:55] ERROR [django.request.log_response:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nurullah/Desktop/blog/article/views.py", line 15, in index
+    return render(request, "index.html", {"articles":articles})
+  File "/usr/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/lib/python3.7/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/lib/python3.7/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/lib/python3.7/site-packages/django/template/engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/lib/python3.7/site-packages/django/template/engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/lib/python3.7/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3.7/site-packages/django/template/loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3.7/site-packages/django/template/loader_tags.py", line 209, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 449, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 447, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 663, in __init__
+    "from '%s'" % (token[upto:], token))
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '[0].title' from 'articles[0].title'
+[2019-12-09 21:50:55] ERROR [django.server.log_message:154] "GET / HTTP/1.1" 500 175862
+[2019-12-09 21:52:11] ERROR [django.request.log_response:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nurullah/Desktop/blog/article/views.py", line 15, in index
+    return render(request, "index.html", {"articles":articles})
+  File "/usr/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/lib/python3.7/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/lib/python3.7/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/lib/python3.7/site-packages/django/template/engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/lib/python3.7/site-packages/django/template/engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/lib/python3.7/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3.7/site-packages/django/template/loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3.7/site-packages/django/template/loader_tags.py", line 209, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 449, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 447, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 663, in __init__
+    "from '%s'" % (token[upto:], token))
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '[1].title' from 'articles[1].title'
+[2019-12-09 21:52:11] ERROR [django.server.log_message:154] "GET / HTTP/1.1" 500 175862
+[2019-12-09 22:00:39] ERROR [django.request.log_response:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nurullah/Desktop/blog/article/views.py", line 15, in index
+    return render(request, "index.html", {"articles":articles})
+  File "/usr/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/lib/python3.7/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/lib/python3.7/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/lib/python3.7/site-packages/django/template/engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/lib/python3.7/site-packages/django/template/engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/lib/python3.7/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3.7/site-packages/django/template/loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3.7/site-packages/django/template/loader_tags.py", line 209, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 449, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 447, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 663, in __init__
+    "from '%s'" % (token[upto:], token))
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '['articles'][0].title' from 'articles['articles'][0].title'
+[2019-12-09 22:00:39] ERROR [django.server.log_message:154] "GET / HTTP/1.1" 500 176202
+[2019-12-09 22:00:39] ERROR [django.request.log_response:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nurullah/Desktop/blog/article/views.py", line 15, in index
+    return render(request, "index.html", {"articles":articles})
+  File "/usr/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/lib/python3.7/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/lib/python3.7/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/lib/python3.7/site-packages/django/template/engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/lib/python3.7/site-packages/django/template/engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/lib/python3.7/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3.7/site-packages/django/template/loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3.7/site-packages/django/template/loader_tags.py", line 209, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 449, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 447, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 663, in __init__
+    "from '%s'" % (token[upto:], token))
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '['articles'][0].title' from 'articles['articles'][0].title'
+[2019-12-09 22:00:39] ERROR [django.server.log_message:154] "GET / HTTP/1.1" 500 176202
+[2019-12-09 22:01:14] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 9090
+[2019-12-09 22:01:23] ERROR [django.request.log_response:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nurullah/Desktop/blog/article/views.py", line 15, in index
+    return render(request, "index.html", {"articles":articles})
+  File "/usr/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/lib/python3.7/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/lib/python3.7/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/lib/python3.7/site-packages/django/template/engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/lib/python3.7/site-packages/django/template/engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/lib/python3.7/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3.7/site-packages/django/template/loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3.7/site-packages/django/template/loader_tags.py", line 209, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 449, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 447, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 663, in __init__
+    "from '%s'" % (token[upto:], token))
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '()' from 'articles.keys()'
+[2019-12-09 22:01:23] ERROR [django.server.log_message:154] "GET / HTTP/1.1" 500 175817
+[2019-12-09 22:02:42] ERROR [django.request.log_response:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nurullah/Desktop/blog/article/views.py", line 15, in index
+    return render(request, "index.html", {"articles":articles})
+  File "/usr/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/lib/python3.7/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/lib/python3.7/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/lib/python3.7/site-packages/django/template/engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/lib/python3.7/site-packages/django/template/engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/lib/python3.7/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3.7/site-packages/django/template/loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3.7/site-packages/django/template/loader_tags.py", line 209, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 449, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 447, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 663, in __init__
+    "from '%s'" % (token[upto:], token))
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '[0]' from 'articles[0]'
+[2019-12-09 22:02:42] ERROR [django.server.log_message:154] "GET / HTTP/1.1" 500 175766
+[2019-12-09 22:03:52] ERROR [django.request.log_response:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nurullah/Desktop/blog/article/views.py", line 15, in index
+    return render(request, "index.html", {"articles":articles})
+  File "/usr/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/lib/python3.7/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/lib/python3.7/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/lib/python3.7/site-packages/django/template/engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/lib/python3.7/site-packages/django/template/engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/lib/python3.7/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3.7/site-packages/django/template/loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3.7/site-packages/django/template/loader_tags.py", line 209, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 449, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 447, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 636, in __init__
+    token[start:]))
+django.template.exceptions.TemplateSyntaxError: Could not parse some characters: articles|[0].title||safe
+[2019-12-09 22:03:52] ERROR [django.server.log_message:154] "GET / HTTP/1.1" 500 175743
+[2019-12-09 22:03:53] ERROR [django.request.log_response:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nurullah/Desktop/blog/article/views.py", line 15, in index
+    return render(request, "index.html", {"articles":articles})
+  File "/usr/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/lib/python3.7/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/lib/python3.7/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/lib/python3.7/site-packages/django/template/engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/lib/python3.7/site-packages/django/template/engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/lib/python3.7/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3.7/site-packages/django/template/loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3.7/site-packages/django/template/loader_tags.py", line 209, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 449, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 447, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 636, in __init__
+    token[start:]))
+django.template.exceptions.TemplateSyntaxError: Could not parse some characters: articles|[0].title||safe
+[2019-12-09 22:03:53] ERROR [django.server.log_message:154] "GET / HTTP/1.1" 500 175743
+[2019-12-09 22:03:53] ERROR [django.request.log_response:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nurullah/Desktop/blog/article/views.py", line 15, in index
+    return render(request, "index.html", {"articles":articles})
+  File "/usr/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/lib/python3.7/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/lib/python3.7/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/lib/python3.7/site-packages/django/template/engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/lib/python3.7/site-packages/django/template/engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/lib/python3.7/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3.7/site-packages/django/template/loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3.7/site-packages/django/template/loader_tags.py", line 209, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 449, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 447, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 636, in __init__
+    token[start:]))
+django.template.exceptions.TemplateSyntaxError: Could not parse some characters: articles|[0].title||safe
+[2019-12-09 22:03:53] ERROR [django.server.log_message:154] "GET / HTTP/1.1" 500 175743
+[2019-12-09 22:07:18] ERROR [django.request.log_response:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'articles[0].title|safe'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nurullah/Desktop/blog/article/views.py", line 15, in index
+    return render(request, "index.html", {"articles":articles})
+  File "/usr/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/lib/python3.7/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/lib/python3.7/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/lib/python3.7/site-packages/django/template/engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/lib/python3.7/site-packages/django/template/engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/lib/python3.7/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3.7/site-packages/django/template/loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3.7/site-packages/django/template/loader_tags.py", line 209, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 528, in invalid_block_tag
+    get_text_list(["'%s'" % p for p in parse_until], 'or'),
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 27: 'articles[0].title|safe', expected 'endblock'. Did you forget to register or load this tag?
+[2019-12-09 22:07:18] ERROR [django.server.log_message:154] "GET / HTTP/1.1" 500 171265
+[2019-12-09 22:07:19] ERROR [django.request.log_response:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'articles[0].title|safe'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nurullah/Desktop/blog/article/views.py", line 15, in index
+    return render(request, "index.html", {"articles":articles})
+  File "/usr/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/lib/python3.7/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/lib/python3.7/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/lib/python3.7/site-packages/django/template/engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/lib/python3.7/site-packages/django/template/engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/lib/python3.7/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3.7/site-packages/django/template/loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3.7/site-packages/django/template/loader_tags.py", line 209, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 528, in invalid_block_tag
+    get_text_list(["'%s'" % p for p in parse_until], 'or'),
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 27: 'articles[0].title|safe', expected 'endblock'. Did you forget to register or load this tag?
+[2019-12-09 22:07:19] ERROR [django.server.log_message:154] "GET / HTTP/1.1" 500 171265
+[2019-12-09 22:07:19] ERROR [django.request.log_response:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'articles[0].title|safe'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nurullah/Desktop/blog/article/views.py", line 15, in index
+    return render(request, "index.html", {"articles":articles})
+  File "/usr/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/lib/python3.7/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/lib/python3.7/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/lib/python3.7/site-packages/django/template/engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/lib/python3.7/site-packages/django/template/engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/lib/python3.7/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3.7/site-packages/django/template/loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3.7/site-packages/django/template/loader_tags.py", line 209, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 528, in invalid_block_tag
+    get_text_list(["'%s'" % p for p in parse_until], 'or'),
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 27: 'articles[0].title|safe', expected 'endblock'. Did you forget to register or load this tag?
+[2019-12-09 22:07:19] ERROR [django.server.log_message:154] "GET / HTTP/1.1" 500 171265
+[2019-12-09 22:07:31] ERROR [django.request.log_response:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: '{{'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nurullah/Desktop/blog/article/views.py", line 15, in index
+    return render(request, "index.html", {"articles":articles})
+  File "/usr/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/lib/python3.7/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/lib/python3.7/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/lib/python3.7/site-packages/django/template/engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/lib/python3.7/site-packages/django/template/engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/lib/python3.7/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3.7/site-packages/django/template/loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3.7/site-packages/django/template/loader_tags.py", line 209, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 528, in invalid_block_tag
+    get_text_list(["'%s'" % p for p in parse_until], 'or'),
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 27: '{{', expected 'endblock'. Did you forget to register or load this tag?
+[2019-12-09 22:07:31] ERROR [django.server.log_message:154] "GET / HTTP/1.1" 500 171047
+[2019-12-09 22:19:59] ERROR [django.request.log_response:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nurullah/Desktop/blog/article/views.py", line 15, in index
+    return render(request, "index.html", {"articles":articles})
+  File "/usr/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/lib/python3.7/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/lib/python3.7/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/lib/python3.7/site-packages/django/template/engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/lib/python3.7/site-packages/django/template/engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/lib/python3.7/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3.7/site-packages/django/template/loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3.7/site-packages/django/template/loader_tags.py", line 209, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 449, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 447, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 663, in __init__
+    "from '%s'" % (token[upto:], token))
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '[0].title' from 'articles.articles[0].title'
+[2019-12-09 22:19:59] ERROR [django.server.log_message:154] "GET / HTTP/1.1" 500 175989
+[2019-12-09 22:19:59] ERROR [django.request.log_response:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nurullah/Desktop/blog/article/views.py", line 15, in index
+    return render(request, "index.html", {"articles":articles})
+  File "/usr/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/lib/python3.7/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/lib/python3.7/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/lib/python3.7/site-packages/django/template/engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/lib/python3.7/site-packages/django/template/engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/lib/python3.7/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3.7/site-packages/django/template/loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3.7/site-packages/django/template/loader_tags.py", line 209, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 449, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 447, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 663, in __init__
+    "from '%s'" % (token[upto:], token))
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '[0].title' from 'articles.articles[0].title'
+[2019-12-09 22:19:59] ERROR [django.server.log_message:154] "GET / HTTP/1.1" 500 175989
+[2019-12-09 22:19:59] ERROR [django.request.log_response:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nurullah/Desktop/blog/article/views.py", line 15, in index
+    return render(request, "index.html", {"articles":articles})
+  File "/usr/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/lib/python3.7/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/lib/python3.7/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/lib/python3.7/site-packages/django/template/engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/lib/python3.7/site-packages/django/template/engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/lib/python3.7/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3.7/site-packages/django/template/loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3.7/site-packages/django/template/loader_tags.py", line 209, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 449, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 447, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 663, in __init__
+    "from '%s'" % (token[upto:], token))
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '[0].title' from 'articles.articles[0].title'
+[2019-12-09 22:19:59] ERROR [django.server.log_message:154] "GET / HTTP/1.1" 500 175989
+[2019-12-09 22:20:00] ERROR [django.request.log_response:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nurullah/Desktop/blog/article/views.py", line 15, in index
+    return render(request, "index.html", {"articles":articles})
+  File "/usr/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/lib/python3.7/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/lib/python3.7/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/lib/python3.7/site-packages/django/template/engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/lib/python3.7/site-packages/django/template/engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/lib/python3.7/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3.7/site-packages/django/template/loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3.7/site-packages/django/template/loader_tags.py", line 209, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 449, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 447, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 663, in __init__
+    "from '%s'" % (token[upto:], token))
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '[0].title' from 'articles.articles[0].title'
+[2019-12-09 22:20:00] ERROR [django.server.log_message:154] "GET / HTTP/1.1" 500 175989
+[2019-12-09 22:20:44] INFO [django.server.log_message:154] "GET /articles/ HTTP/1.1" 200 8933
+[2019-12-09 22:20:46] INFO [django.server.log_message:154] "GET /about/ HTTP/1.1" 200 5344
+[2019-12-09 22:20:49] ERROR [django.request.log_response:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nurullah/Desktop/blog/article/views.py", line 15, in index
+    return render(request, "index.html", {"articles":articles})
+  File "/usr/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/lib/python3.7/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/lib/python3.7/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/lib/python3.7/site-packages/django/template/engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/lib/python3.7/site-packages/django/template/engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/lib/python3.7/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3.7/site-packages/django/template/loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3.7/site-packages/django/template/loader_tags.py", line 209, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 449, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 447, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 663, in __init__
+    "from '%s'" % (token[upto:], token))
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '[0].title' from 'articles.articles[0].title'
+[2019-12-09 22:20:49] ERROR [django.server.log_message:154] "GET / HTTP/1.1" 500 175851
+[2019-12-09 22:21:22] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 9117
+[2019-12-09 22:21:34] INFO [django.server.log_message:154] "GET /articles/ HTTP/1.1" 200 8933
+[2019-12-09 22:21:43] INFO [django.server.log_message:154] "GET /articles/dashboard/ HTTP/1.1" 200 5105
+[2019-12-09 22:21:57] INFO [django.server.log_message:154] "GET /articles/dashboard/ HTTP/1.1" 200 5106
+[2019-12-09 22:21:57] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-09 22:22:06] INFO [django.server.log_message:154] "GET /articles/dashboard/ HTTP/1.1" 200 5105
+[2019-12-09 22:22:06] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-09 22:22:10] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 9117
+[2019-12-09 22:22:13] INFO [django.server.log_message:154] "GET /about/ HTTP/1.1" 200 5344
+[2019-12-09 22:22:18] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 9117
+[2019-12-09 22:22:26] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 9117
+[2019-12-09 22:22:28] INFO [django.server.log_message:154] "GET /about/ HTTP/1.1" 200 5344
+[2019-12-09 22:22:29] INFO [django.server.log_message:154] "GET /articles/ HTTP/1.1" 200 8933
+[2019-12-09 22:22:31] INFO [django.server.log_message:154] "GET /articles/dashboard/ HTTP/1.1" 200 5105
+[2019-12-09 22:22:35] INFO [django.server.log_message:154] "GET /articles/dashboard/ HTTP/1.1" 200 5105
+[2019-12-09 22:22:36] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-09 22:22:40] INFO [django.server.log_message:154] "GET /articles/dashboard/ HTTP/1.1" 200 5105
+[2019-12-09 22:22:41] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-09 22:22:46] INFO [django.server.log_message:154] "GET /articles/dashboard/ HTTP/1.1" 200 5105
+[2019-12-09 22:22:46] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-09 22:22:49] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 9117
+[2019-12-09 22:22:52] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 9117
+[2019-12-09 22:26:07] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 9072
+[2019-12-09 22:26:13] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 9072
+[2019-12-09 22:26:18] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 9117
+[2019-12-09 22:30:23] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 9117
+[2019-12-09 22:31:41] ERROR [django.request.log_response:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nurullah/Desktop/blog/article/views.py", line 15, in index
+    return render(request, "index.html", {"articles":articles})
+  File "/usr/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/lib/python3.7/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/lib/python3.7/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/lib/python3.7/site-packages/django/template/engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/lib/python3.7/site-packages/django/template/engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/lib/python3.7/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3.7/site-packages/django/template/loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3.7/site-packages/django/template/loader_tags.py", line 209, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 449, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 447, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 663, in __init__
+    "from '%s'" % (token[upto:], token))
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '[0]' from 'articles[0]'
+[2019-12-09 22:31:41] ERROR [django.server.log_message:154] "GET / HTTP/1.1" 500 175778
+[2019-12-09 22:31:44] ERROR [django.request.log_response:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nurullah/Desktop/blog/article/views.py", line 15, in index
+    return render(request, "index.html", {"articles":articles})
+  File "/usr/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/lib/python3.7/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/lib/python3.7/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/lib/python3.7/site-packages/django/template/engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/lib/python3.7/site-packages/django/template/engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/lib/python3.7/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3.7/site-packages/django/template/loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3.7/site-packages/django/template/loader_tags.py", line 209, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 449, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 447, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 663, in __init__
+    "from '%s'" % (token[upto:], token))
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '[:0]' from 'articles[:0]'
+[2019-12-09 22:31:44] ERROR [django.server.log_message:154] "GET / HTTP/1.1" 500 175794
+[2019-12-09 22:31:55] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 9117
+[2019-12-09 22:32:06] ERROR [django.request.log_response:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nurullah/Desktop/blog/article/views.py", line 15, in index
+    return render(request, "index.html", {"articles":articles})
+  File "/usr/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/lib/python3.7/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/lib/python3.7/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/lib/python3.7/site-packages/django/template/engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/lib/python3.7/site-packages/django/template/engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/lib/python3.7/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3.7/site-packages/django/template/loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3.7/site-packages/django/template/loader_tags.py", line 209, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 449, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 447, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 663, in __init__
+    "from '%s'" % (token[upto:], token))
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '()' from 'articles.first()'
+[2019-12-09 22:32:06] ERROR [django.server.log_message:154] "GET / HTTP/1.1" 500 175842
+[2019-12-09 22:32:52] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 9117
+[2019-12-09 22:32:58] INFO [django.server.log_message:154] "GET /articles/dashboard/ HTTP/1.1" 200 5105
+[2019-12-09 22:32:59] INFO [django.server.log_message:154] "GET /articles/addarticle/ HTTP/1.1" 200 7336
+[2019-12-09 22:33:03] INFO [django.server.log_message:154] "POST /articles/addarticle/ HTTP/1.1" 302 0
+[2019-12-09 22:33:03] INFO [django.server.log_message:154] "GET /articles/dashboard/ HTTP/1.1" 200 5638
+[2019-12-09 22:33:05] INFO [django.server.log_message:154] "GET /articles/addarticle/ HTTP/1.1" 200 7336
+[2019-12-09 22:33:08] INFO [django.server.log_message:154] "POST /articles/addarticle/ HTTP/1.1" 302 0
+[2019-12-09 22:33:08] INFO [django.server.log_message:154] "GET /articles/dashboard/ HTTP/1.1" 200 6029
+[2019-12-09 22:33:10] INFO [django.server.log_message:154] "GET /about/ HTTP/1.1" 200 5344
+[2019-12-09 22:33:10] INFO [django.server.log_message:154] "GET /articles/ HTTP/1.1" 200 8933
+[2019-12-09 22:33:16] WARNING [django.request.log_response:228] Not Found: /ADMİN
+[2019-12-09 22:33:16] WARNING [django.server.log_message:154] "GET /ADM%C4%B0N HTTP/1.1" 404 2641
+[2019-12-09 22:33:21] INFO [django.server.log_message:154] "GET /admin HTTP/1.1" 301 0
+[2019-12-09 22:33:21] INFO [django.server.log_message:154] "GET /admin/ HTTP/1.1" 200 5418
+[2019-12-09 22:33:21] INFO [django.server.log_message:154] "GET /staticfiles/admin/css/dashboard.css HTTP/1.1" 200 412
+[2019-12-09 22:33:21] INFO [django.server.log_message:154] "GET /staticfiles/admin/css/base.css HTTP/1.1" 200 16225
+[2019-12-09 22:33:21] INFO [django.server.log_message:154] "GET /staticfiles/admin/css/responsive.css HTTP/1.1" 200 17976
+[2019-12-09 22:33:21] INFO [django.server.log_message:154] "GET /staticfiles/admin/css/fonts.css HTTP/1.1" 200 423
+[2019-12-09 22:33:21] INFO [django.server.log_message:154] "GET /staticfiles/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[2019-12-09 22:33:21] INFO [django.server.log_message:154] "GET /staticfiles/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[2019-12-09 22:33:21] INFO [django.server.log_message:154] "GET /staticfiles/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[2019-12-09 22:33:21] INFO [django.server.log_message:154] "GET /staticfiles/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+[2019-12-09 22:33:21] INFO [django.server.log_message:154] "GET /staticfiles/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+[2019-12-09 22:33:23] INFO [django.server.log_message:154] "GET /admin/article/article/ HTTP/1.1" 200 7211
+[2019-12-09 22:33:23] INFO [django.server.log_message:154] "GET /staticfiles/admin/css/changelists.css HTTP/1.1" 200 6170
+[2019-12-09 22:33:23] INFO [django.server.log_message:154] "GET /staticfiles/admin/js/core.js HTTP/1.1" 200 7135
+[2019-12-09 22:33:23] INFO [django.server.log_message:154] "GET /staticfiles/admin/js/jquery.init.js HTTP/1.1" 200 363
+[2019-12-09 22:33:23] INFO [django.server.log_message:154] "GET /staticfiles/admin/js/actions.js HTTP/1.1" 200 6538
+[2019-12-09 22:33:23] INFO [django.server.log_message:154] "GET /staticfiles/admin/js/urlify.js HTTP/1.1" 200 8972
+[2019-12-09 22:33:23] INFO [django.server.log_message:154] "GET /admin/jsi18n/ HTTP/1.1" 200 7296
+[2019-12-09 22:33:23] INFO [django.server.log_message:154] "GET /staticfiles/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 271751
+[2019-12-09 22:33:23] INFO [django.server.log_message:154] "GET /staticfiles/admin/js/prepopulate.js HTTP/1.1" 200 1530
+[2019-12-09 22:33:23] INFO [django.server.log_message:154] "GET /staticfiles/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6918
+[2019-12-09 22:33:23] INFO [django.server.log_message:154] "GET /staticfiles/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+[2019-12-09 22:33:23] INFO [django.server.log_message:154] "GET /staticfiles/admin/img/search.svg HTTP/1.1" 200 458
+[2019-12-09 22:33:23] INFO [django.server.log_message:154] "GET /staticfiles/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[2019-12-09 22:33:23] INFO [django.server.log_message:154] "GET /staticfiles/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+[2019-12-09 22:33:25] INFO [django.server.log_message:154] "GET /admin/article/article/3/change/ HTTP/1.1" 200 9600
+[2019-12-09 22:33:25] INFO [django.server.log_message:154] "GET /staticfiles/admin/css/forms.css HTTP/1.1" 200 8505
+[2019-12-09 22:33:25] INFO [django.server.log_message:154] "GET /staticfiles/admin/js/change_form.js HTTP/1.1" 200 712
+[2019-12-09 22:33:25] INFO [django.server.log_message:154] "GET /staticfiles/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+[2019-12-09 22:33:25] INFO [django.server.log_message:154] "GET /admin/jsi18n/ HTTP/1.1" 200 7296
+[2019-12-09 22:33:25] INFO [django.server.log_message:154] "GET /staticfiles/admin/css/widgets.css HTTP/1.1" 200 10340
+[2019-12-09 22:33:29] INFO [django.server.log_message:154] "POST /admin/article/article/3/change/ HTTP/1.1" 302 0
+[2019-12-09 22:33:29] INFO [django.server.log_message:154] "GET /admin/article/article/ HTTP/1.1" 200 7400
+[2019-12-09 22:33:29] INFO [django.server.log_message:154] "GET /admin/jsi18n/ HTTP/1.1" 200 7296
+[2019-12-09 22:33:29] INFO [django.server.log_message:154] "GET /staticfiles/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[2019-12-09 22:33:30] INFO [django.server.log_message:154] "GET /admin/article/article/2/change/ HTTP/1.1" 200 9604
+[2019-12-09 22:33:30] INFO [django.server.log_message:154] "GET /admin/jsi18n/ HTTP/1.1" 200 7296
+[2019-12-09 22:33:34] INFO [django.server.log_message:154] "POST /admin/article/article/2/change/ HTTP/1.1" 302 0
+[2019-12-09 22:33:34] INFO [django.server.log_message:154] "GET /admin/article/article/ HTTP/1.1" 200 7401
+[2019-12-09 22:33:34] INFO [django.server.log_message:154] "GET /admin/jsi18n/ HTTP/1.1" 200 7296
+[2019-12-09 22:33:36] INFO [django.server.log_message:154] "GET /admin/ HTTP/1.1" 200 6031
+[2019-12-09 22:33:41] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 9166
+[2019-12-09 22:33:49] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 9077
+[2019-12-09 22:33:57] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 9072
+[2019-12-09 22:34:01] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 9166
+[2019-12-09 22:34:11] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 9072
+[2019-12-09 22:34:19] ERROR [django.request.log_response:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nurullah/Desktop/blog/article/views.py", line 15, in index
+    return render(request, "index.html", {"articles":articles})
+  File "/usr/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/lib/python3.7/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/lib/python3.7/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/lib/python3.7/site-packages/django/template/engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/lib/python3.7/site-packages/django/template/engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/lib/python3.7/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3.7/site-packages/django/template/loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3.7/site-packages/django/template/loader_tags.py", line 209, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 449, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 447, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 663, in __init__
+    "from '%s'" % (token[upto:], token))
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '[0].title' from 'articles.article[0].title'
+[2019-12-09 22:34:19] ERROR [django.server.log_message:154] "GET / HTTP/1.1" 500 175986
+[2019-12-09 22:36:40] ERROR [django.request.log_response:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nurullah/Desktop/blog/article/views.py", line 15, in index
+    return render(request, "index.html", {"articles":articles})
+  File "/usr/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/lib/python3.7/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/lib/python3.7/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/lib/python3.7/site-packages/django/template/engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/lib/python3.7/site-packages/django/template/engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/lib/python3.7/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3.7/site-packages/django/template/loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3.7/site-packages/django/template/loader_tags.py", line 209, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 449, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 447, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 663, in __init__
+    "from '%s'" % (token[upto:], token))
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '(articles)[0].title' from 'list(articles)[0].title'
+[2019-12-09 22:36:40] ERROR [django.server.log_message:154] "GET / HTTP/1.1" 500 175996
+[2019-12-09 22:36:46] ERROR [django.request.log_response:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nurullah/Desktop/blog/article/views.py", line 15, in index
+    return render(request, "index.html", {"articles":articles})
+  File "/usr/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/lib/python3.7/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/lib/python3.7/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/lib/python3.7/site-packages/django/template/engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/lib/python3.7/site-packages/django/template/engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/lib/python3.7/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3.7/site-packages/django/template/loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3.7/site-packages/django/template/loader_tags.py", line 209, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 449, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 447, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 663, in __init__
+    "from '%s'" % (token[upto:], token))
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '(articles)' from 'list(articles)'
+[2019-12-09 22:36:46] ERROR [django.server.log_message:154] "GET / HTTP/1.1" 500 175836
+[2019-12-09 22:36:53] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 9166
+[2019-12-09 22:45:00] ERROR [django.request.log_response:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nurullah/Desktop/blog/article/views.py", line 15, in index
+    return render(request, "index.html", {"articles":articles})
+  File "/usr/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/lib/python3.7/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/lib/python3.7/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/lib/python3.7/site-packages/django/template/engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/lib/python3.7/site-packages/django/template/engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/lib/python3.7/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3.7/site-packages/django/template/loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3.7/site-packages/django/template/loader_tags.py", line 209, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 449, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 447, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 663, in __init__
+    "from '%s'" % (token[upto:], token))
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '(onay=True).all()[:1]' from 'Article.objects.filter(onay=True).all()[:1]'
+[2019-12-09 22:45:00] ERROR [django.server.log_message:154] "GET / HTTP/1.1" 500 176248
+[2019-12-09 22:47:40] ERROR [django.request.log_response:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nurullah/Desktop/blog/article/views.py", line 15, in index
+    return render(request, "index.html", {"articles":articles})
+  File "/usr/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/lib/python3.7/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/lib/python3.7/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/lib/python3.7/site-packages/django/template/engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/lib/python3.7/site-packages/django/template/engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/lib/python3.7/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3.7/site-packages/django/template/loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3.7/site-packages/django/template/loader_tags.py", line 209, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 449, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 447, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 663, in __init__
+    "from '%s'" % (token[upto:], token))
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '(onay=True).all()[:1]' from 'Article.objects.filter(onay=True).all()[:1]'
+[2019-12-09 22:47:40] ERROR [django.server.log_message:154] "GET / HTTP/1.1" 500 176271
+[2019-12-09 22:47:47] INFO [django.server.log_message:154] "GET /admin/ HTTP/1.1" 200 6031
+[2019-12-10 00:06:22] ERROR [django.request.log_response:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/lib/python3.7/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/nurullah/Desktop/blog/article/views.py", line 15, in index
+    return render(request, "index.html", {"articles":articles})
+  File "/usr/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/lib/python3.7/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/lib/python3.7/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/lib/python3.7/site-packages/django/template/engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/lib/python3.7/site-packages/django/template/engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/lib/python3.7/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3.7/site-packages/django/template/loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/lib/python3.7/site-packages/django/template/loader_tags.py", line 209, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 449, in parse
+    raise self.error(token, e)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 447, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/usr/lib/python3.7/site-packages/django/template/base.py", line 663, in __init__
+    "from '%s'" % (token[upto:], token))
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '(onay=True).all()[:1]' from 'Article.objects.filter(onay=True).all()[:1]'
+[2019-12-10 00:06:22] ERROR [django.server.log_message:154] "GET / HTTP/1.1" 500 176272
+[2019-12-10 00:06:44] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 9085
+[2019-12-10 00:06:51] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 9078
+[2019-12-10 00:06:55] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 9078
