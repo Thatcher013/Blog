@@ -4968,3 +4968,50 @@ django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '
 [2019-12-10 11:33:30] INFO [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 304 0
 [2019-12-10 11:33:32] INFO [django.server.log_message:154] "GET /articles/ HTTP/1.1" 200 13157
 [2019-12-10 11:33:37] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 8375
+[2019-12-10 19:08:01] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7895
+[2019-12-10 19:08:01] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-12-10 19:08:01] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 19:08:01] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 19:08:01] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-12-10 19:08:01] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-12-10 19:08:01] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 200 227479
+[2019-12-10 19:08:04] INFO [django.server.log_message:154] "GET /about/ HTTP/1.1" 200 4865
+[2019-12-10 19:08:19] INFO [django.server.log_message:154] "GET /about/ HTTP/1.1" 200 4865
+[2019-12-10 19:08:19] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-12-10 19:08:19] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-12-10 19:08:19] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-12-10 19:08:19] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-12-10 19:08:27] INFO [django.server.log_message:154] "GET /about/ HTTP/1.1" 200 4870
+[2019-12-10 19:08:27] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-12-10 19:08:27] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-12-10 19:08:27] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-12-10 19:08:27] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-12-10 19:08:29] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7895
+[2019-12-10 19:08:29] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 19:08:29] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 19:08:34] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7895
+[2019-12-10 19:08:35] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-12-10 19:08:35] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 19:08:35] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 19:08:35] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-12-10 19:08:35] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-12-10 19:08:35] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-12-10 19:08:35] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7895
+[2019-12-10 19:08:35] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-12-10 19:08:35] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-12-10 19:08:35] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 19:08:35] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 19:08:35] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-12-10 19:08:35] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-12-10 19:08:35] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-12-10 19:08:35] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-12-10 19:08:35] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7895
+[2019-12-10 19:08:35] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-12-10 19:08:35] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-12-10 19:08:35] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-12-10 19:08:35] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-12-10 19:08:35] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 19:08:35] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 19:08:37] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7895
+[2019-12-10 19:08:37] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 19:08:37] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
