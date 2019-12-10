@@ -4,20 +4,29 @@
 
 {% block index %}
 {% load static %}
-  
- <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+
+<style>
+  .bgImg{
+    background-image: url("{% static 'img/banner.jpg' %}");
+    background-size: cover;
+    margin-top: -16px;
+    
+  }
+</style>
+
+ <div class="position-relative overflow-hidden p-3 p-md-5 text-center bg-light bgImg">
       <div class="col-md-5 p-lg-5 mx-auto my-5">
-        <h1 class="display-4 font-weight-normal">mustakil.cc</h1>
-        <p class="lead font-weight-normal">Özgün ve Kaliteli Bilgi</p>
-        <a class="btn btn-outline-secondary" href="{% url 'article:articles' %}">Keşfet</a>
+        <h1 class="display-4 font-weight-normal text-light">mustakil.cc</h1>
+        <p class="lead font-weight-normal text-muted">Özgün ve Kaliteli Bilgi</p>
+        <a class="btn btn-outline-light" href="{% url 'article:articles' %}">Keşfet</a>
       </div>
-      <div class="product-device box-shadow d-none d-md-block"></div>
-      <div class="product-device product-device-2 box-shadow d-none d-md-block"></div>
+      
     </div>
 </div>
 
 
     <div class="container">
+      <br>
         <div class="row mb-2">
             <div class="col-md-6">
               <div class="card flex-md-row mb-4 box-shadow h-md-250">
@@ -115,9 +124,4 @@
 
 
 {% endblock index %}
-
-{% block body %}
-
-
-{% endblock body %}
 

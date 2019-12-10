@@ -5015,3 +5015,577 @@ django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '
 [2019-12-10 19:08:37] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7895
 [2019-12-10 19:08:37] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
 [2019-12-10 19:08:37] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:01:45] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7895
+[2019-12-10 20:01:45] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:01:45] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:01:45] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-12-10 20:03:48] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7745
+[2019-12-10 20:03:48] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:03:48] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:03:48] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:03:49] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7745
+[2019-12-10 20:03:49] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:03:49] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:03:49] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:03:49] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7745
+[2019-12-10 20:03:49] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:03:49] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:03:49] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:03:51] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7745
+[2019-12-10 20:03:51] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:03:51] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:03:51] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:03:54] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7895
+[2019-12-10 20:03:54] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:03:54] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:03:54] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:04:00] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7745
+[2019-12-10 20:04:00] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:04:00] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:04:00] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:06:45] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7807
+[2019-12-10 20:06:45] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:06:45] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:06:45] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7807
+[2019-12-10 20:06:45] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:06:46] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7807
+[2019-12-10 20:06:46] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:06:46] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:06:46] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7807
+[2019-12-10 20:06:47] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:07:55] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7806
+[2019-12-10 20:07:55] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:07:55] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:07:55] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7806
+[2019-12-10 20:07:55] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:07:55] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7806
+[2019-12-10 20:07:55] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:07:55] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:07:56] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7806
+[2019-12-10 20:07:56] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:14:04] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7798
+[2019-12-10 20:14:04] INFO [django.server.log_message:154] "GET /staticfiles/img/banner.jpg HTTP/1.1" 200 586209
+[2019-12-10 20:14:04] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:14:04] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:14:04] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:14:19] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7799
+[2019-12-10 20:14:19] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:14:19] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:14:19] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:14:26] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7808
+[2019-12-10 20:14:26] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:14:26] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:14:26] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:14:44] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7817
+[2019-12-10 20:14:44] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:14:44] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:14:44] INFO [django.server.log_message:154] "GET /staticfiles/img/banner.jpg HTTP/1.1" 304 0
+[2019-12-10 20:14:45] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:14:54] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7745
+[2019-12-10 20:14:54] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:14:54] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:14:54] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:20:02] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7831
+[2019-12-10 20:20:02] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:20:02] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:20:02] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7831
+[2019-12-10 20:20:02] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:20:03] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7831
+[2019-12-10 20:20:03] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:20:03] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:20:03] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7831
+[2019-12-10 20:20:03] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:20:03] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7831
+[2019-12-10 20:20:03] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:20:03] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:20:03] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7831
+[2019-12-10 20:20:03] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7831
+[2019-12-10 20:20:03] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:20:03] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:20:03] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7831
+[2019-12-10 20:20:03] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7831
+[2019-12-10 20:20:03] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:20:03] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:20:03] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7831
+[2019-12-10 20:20:03] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7831
+[2019-12-10 20:20:03] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:20:03] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:20:04] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7831
+[2019-12-10 20:20:04] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:20:16] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7832
+[2019-12-10 20:20:16] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:20:16] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:20:16] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7832
+[2019-12-10 20:20:16] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:20:26] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7833
+[2019-12-10 20:20:26] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:20:26] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:20:26] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7833
+[2019-12-10 20:20:26] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:20:37] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7834
+[2019-12-10 20:20:37] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:20:37] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:20:37] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7834
+[2019-12-10 20:20:37] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:20:42] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7835
+[2019-12-10 20:20:42] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:20:42] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:20:42] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7835
+[2019-12-10 20:20:42] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:21:08] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7744
+[2019-12-10 20:21:08] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:21:08] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:21:08] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:21:19] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7822
+[2019-12-10 20:21:19] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:21:19] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:21:19] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7822
+[2019-12-10 20:21:20] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:21:40] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7745
+[2019-12-10 20:21:40] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:21:40] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:21:41] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:28:46] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7867
+[2019-12-10 20:28:46] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:28:46] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:28:46] INFO [django.server.log_message:154] "GET /staticfiles/img/banner.jpg HTTP/1.1" 304 0
+[2019-12-10 20:28:46] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:28:57] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7878
+[2019-12-10 20:28:57] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:28:57] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:28:57] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:29:47] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7878
+[2019-12-10 20:29:47] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:29:47] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:29:47] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:29:48] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7878
+[2019-12-10 20:29:48] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:29:48] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:29:48] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7878
+[2019-12-10 20:29:48] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:29:48] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:29:48] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7878
+[2019-12-10 20:29:48] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:29:48] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:29:48] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:30:06] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7884
+[2019-12-10 20:30:06] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:30:06] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:30:06] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:30:22] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7878
+[2019-12-10 20:30:22] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:30:22] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:30:22] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:31:40] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7889
+[2019-12-10 20:31:40] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:31:40] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:31:40] INFO [django.server.log_message:154] "GET /staticfiles/img/banner.jpg HTTP/1.1" 304 0
+[2019-12-10 20:31:40] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:31:47] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7900
+[2019-12-10 20:31:47] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:31:47] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:31:48] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:31:59] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7900
+[2019-12-10 20:31:59] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:31:59] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:32:00] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:32:02] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7900
+[2019-12-10 20:32:02] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:32:02] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:32:02] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:32:07] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7900
+[2019-12-10 20:32:07] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:32:07] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:32:07] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:32:46] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7910
+[2019-12-10 20:32:46] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:32:46] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:32:47] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:32:47] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7910
+[2019-12-10 20:32:47] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:32:47] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:32:48] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:32:54] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7900
+[2019-12-10 20:32:54] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:32:54] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:32:54] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:33:08] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7896
+[2019-12-10 20:33:08] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:33:08] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:33:09] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:33:40] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7912
+[2019-12-10 20:33:40] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:33:40] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:33:40] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:34:09] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7911
+[2019-12-10 20:34:09] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:34:09] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:34:09] INFO [django.server.log_message:154] "GET /staticfiles/img/banner.jpg HTTP/1.1" 304 0
+[2019-12-10 20:34:10] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:34:14] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7912
+[2019-12-10 20:34:14] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:34:14] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:34:14] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:34:26] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7896
+[2019-12-10 20:34:26] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:34:26] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:34:26] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:34:55] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7892
+[2019-12-10 20:34:55] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:34:55] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:34:55] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:34:57] INFO [django.server.log_message:154] "GET /about/ HTTP/1.1" 200 4866
+[2019-12-10 20:34:58] INFO [django.server.log_message:154] "GET /articles/ HTTP/1.1" 200 12674
+[2019-12-10 20:34:58] INFO [django.server.log_message:154] "GET /staticfiles/img/userIcon.png HTTP/1.1" 200 5070
+[2019-12-10 20:34:58] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:34:58] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:34:58] INFO [django.server.log_message:154] "GET /staticfiles/img/viewIcon.png HTTP/1.1" 200 4484
+[2019-12-10 20:35:01] INFO [django.server.log_message:154] "GET /about/ HTTP/1.1" 200 4866
+[2019-12-10 20:35:07] INFO [django.server.log_message:154] "GET /about/ HTTP/1.1" 200 4870
+[2019-12-10 20:35:07] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:35:08] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7896
+[2019-12-10 20:35:08] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:35:08] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:35:34] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7918
+[2019-12-10 20:35:34] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:35:34] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:35:35] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:35:35] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7918
+[2019-12-10 20:35:35] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:35:35] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:35:35] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:35:38] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7919
+[2019-12-10 20:35:38] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:35:38] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:35:38] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:35:45] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7916
+[2019-12-10 20:35:45] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:35:45] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:35:45] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:35:50] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7917
+[2019-12-10 20:35:50] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:35:50] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:35:50] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:35:55] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7918
+[2019-12-10 20:35:55] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:35:55] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:35:55] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:36:04] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7921
+[2019-12-10 20:36:04] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:36:04] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:36:04] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:36:11] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7921
+[2019-12-10 20:36:11] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:36:11] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:36:11] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:36:14] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7921
+[2019-12-10 20:36:14] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:36:14] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:36:14] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:36:17] INFO [django.server.log_message:154] "GET /about/ HTTP/1.1" 200 4870
+[2019-12-10 20:36:18] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7921
+[2019-12-10 20:36:18] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:36:18] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:36:38] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7947
+[2019-12-10 20:36:38] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:36:38] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:36:39] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:36:39] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7947
+[2019-12-10 20:36:39] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:36:39] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:36:39] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:37:20] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7919
+[2019-12-10 20:37:20] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:37:20] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:37:20] INFO [django.server.log_message:154] "GET /staticfiles/img/banner.jpg HTTP/1.1" 304 0
+[2019-12-10 20:37:20] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:37:23] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7921
+[2019-12-10 20:37:23] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:37:23] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:37:24] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:37:27] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7922
+[2019-12-10 20:37:27] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:37:27] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:37:27] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:38:00] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7896
+[2019-12-10 20:38:00] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:38:00] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:38:01] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:38:03] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7896
+[2019-12-10 20:38:03] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:38:03] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:38:03] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:38:56] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7910
+[2019-12-10 20:38:56] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:38:56] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:38:56] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:39:00] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7910
+[2019-12-10 20:39:00] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:39:00] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:39:00] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:39:01] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7910
+[2019-12-10 20:39:01] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:39:01] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:39:01] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:39:08] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7910
+[2019-12-10 20:39:08] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:39:08] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:39:08] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:39:12] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7911
+[2019-12-10 20:39:12] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:39:12] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:39:12] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:39:20] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7911
+[2019-12-10 20:39:20] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:39:20] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:39:20] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:39:25] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7912
+[2019-12-10 20:39:25] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:39:25] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:39:25] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:39:29] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7913
+[2019-12-10 20:39:29] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:39:29] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:39:29] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:39:32] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7913
+[2019-12-10 20:39:32] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:39:32] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:39:32] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:39:39] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7913
+[2019-12-10 20:39:39] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:39:39] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:39:39] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:39:43] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7913
+[2019-12-10 20:39:43] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:39:43] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:39:43] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:39:46] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7913
+[2019-12-10 20:39:46] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:39:46] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:39:46] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:40:16] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7930
+[2019-12-10 20:40:16] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:40:16] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:40:16] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:40:37] WARNING [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js.map HTTP/1.1" 404 1703
+[2019-12-10 20:40:37] WARNING [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css.map HTTP/1.1" 404 1709
+[2019-12-10 20:40:54] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7930
+[2019-12-10 20:40:54] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:40:54] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:40:54] WARNING [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js.map HTTP/1.1" 404 1703
+[2019-12-10 20:40:54] INFO [django.server.log_message:154] "GET /staticfiles/img/banner.jpg HTTP/1.1" 304 0
+[2019-12-10 20:40:54] WARNING [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css.map HTTP/1.1" 404 1709
+[2019-12-10 20:40:54] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:41:12] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7930
+[2019-12-10 20:41:12] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:41:12] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:41:12] WARNING [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js.map HTTP/1.1" 404 1703
+[2019-12-10 20:41:12] WARNING [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css.map HTTP/1.1" 404 1709
+[2019-12-10 20:41:12] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:41:33] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7930
+[2019-12-10 20:41:33] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:41:33] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:41:34] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:41:43] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7930
+[2019-12-10 20:41:43] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:41:43] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:41:43] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:41:51] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7930
+[2019-12-10 20:41:51] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:41:51] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:41:51] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:41:55] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7930
+[2019-12-10 20:41:55] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:41:55] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:41:55] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:42:25] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7930
+[2019-12-10 20:42:25] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:42:25] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:42:25] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:42:29] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7930
+[2019-12-10 20:42:29] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:42:29] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:42:29] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:42:31] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7930
+[2019-12-10 20:42:31] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:42:31] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:42:32] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:42:33] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7930
+[2019-12-10 20:42:33] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:42:33] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:42:34] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:42:37] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7930
+[2019-12-10 20:42:37] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:42:37] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:42:37] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:42:45] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7932
+[2019-12-10 20:42:45] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:42:45] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:42:45] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:42:48] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7932
+[2019-12-10 20:42:48] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:42:48] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:42:48] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:42:51] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7932
+[2019-12-10 20:42:51] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:42:51] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:42:51] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:42:59] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7930
+[2019-12-10 20:42:59] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:42:59] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:42:59] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:43:07] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7930
+[2019-12-10 20:43:07] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:43:07] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:43:07] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:43:11] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7930
+[2019-12-10 20:43:11] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:43:11] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:43:11] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:43:28] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7948
+[2019-12-10 20:43:28] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:43:28] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:43:29] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:43:29] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7948
+[2019-12-10 20:43:29] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:43:29] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:43:29] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:43:29] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7948
+[2019-12-10 20:43:30] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:43:30] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:43:30] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7948
+[2019-12-10 20:43:30] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:43:30] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:43:30] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7948
+[2019-12-10 20:43:30] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:43:30] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:43:30] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7948
+[2019-12-10 20:43:30] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:43:30] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:43:30] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7948
+[2019-12-10 20:43:30] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:43:30] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:43:31] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:43:36] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7931
+[2019-12-10 20:43:36] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:43:36] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:43:36] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:43:52] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7928
+[2019-12-10 20:43:52] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:43:52] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:43:53] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:44:02] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7930
+[2019-12-10 20:44:02] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:44:02] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:44:02] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:44:06] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7930
+[2019-12-10 20:44:06] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:44:06] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:44:06] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:44:09] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7930
+[2019-12-10 20:44:09] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:44:09] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:44:09] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:44:12] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7930
+[2019-12-10 20:44:12] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:44:12] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:44:12] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:44:20] WARNING [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js.map HTTP/1.1" 404 1703
+[2019-12-10 20:44:20] WARNING [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css.map HTTP/1.1" 404 1709
+[2019-12-10 20:44:33] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7930
+[2019-12-10 20:44:33] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:44:33] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:44:33] WARNING [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js.map HTTP/1.1" 404 1703
+[2019-12-10 20:44:33] INFO [django.server.log_message:154] "GET /staticfiles/img/banner.jpg HTTP/1.1" 304 0
+[2019-12-10 20:44:33] WARNING [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css.map HTTP/1.1" 404 1709
+[2019-12-10 20:44:42] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7913
+[2019-12-10 20:44:42] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:44:42] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:44:42] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:44:47] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7896
+[2019-12-10 20:44:47] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:44:47] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:44:47] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:45:37] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7914
+[2019-12-10 20:45:37] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:45:37] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:45:37] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:45:40] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7914
+[2019-12-10 20:45:40] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:45:40] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:45:40] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:45:43] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7914
+[2019-12-10 20:45:43] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:45:43] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:45:43] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:45:45] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7914
+[2019-12-10 20:45:45] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:45:45] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:45:46] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:45:50] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7912
+[2019-12-10 20:45:50] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:45:50] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:45:51] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:47:30] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7984
+[2019-12-10 20:47:30] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:47:30] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:47:31] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:47:31] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7984
+[2019-12-10 20:47:31] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:47:31] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:47:31] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:48:08] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7920
+[2019-12-10 20:48:08] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:48:08] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:48:09] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:49:20] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7883
+[2019-12-10 20:49:20] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:49:20] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:49:20] INFO [django.server.log_message:154] "GET /staticfiles/img/banner.jpg HTTP/1.1" 304 0
+[2019-12-10 20:49:21] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:49:48] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7894
+[2019-12-10 20:49:48] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:49:48] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:49:48] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:49:54] WARNING [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js.map HTTP/1.1" 404 1703
+[2019-12-10 20:49:54] WARNING [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css.map HTTP/1.1" 404 1709
+[2019-12-10 20:50:07] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7888
+[2019-12-10 20:50:07] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:50:07] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:50:07] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:50:13] INFO [django.server.log_message:154] "GET /about/ HTTP/1.1" 200 4864
+[2019-12-10 20:50:14] INFO [django.server.log_message:154] "GET /articles/ HTTP/1.1" 200 12672
+[2019-12-10 20:50:15] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:50:15] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:50:16] INFO [django.server.log_message:154] "GET /user/register/ HTTP/1.1" 200 5196
+[2019-12-10 20:50:18] INFO [django.server.log_message:154] "GET /user/login/ HTTP/1.1" 200 4556
+[2019-12-10 20:50:21] INFO [django.server.log_message:154] "GET /about/ HTTP/1.1" 200 4864
+[2019-12-10 20:50:25] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7888
+[2019-12-10 20:50:25] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:50:25] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:50:55] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7894
+[2019-12-10 20:50:55] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:50:55] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:50:56] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:52:04] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7925
+[2019-12-10 20:52:04] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:52:04] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:52:04] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:52:06] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7925
+[2019-12-10 20:52:06] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:52:06] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:52:07] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:52:12] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7925
+[2019-12-10 20:52:12] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:52:12] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:52:12] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:52:16] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7925
+[2019-12-10 20:52:16] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:52:16] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:52:16] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:52:18] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7925
+[2019-12-10 20:52:18] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-10 20:52:18] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-10 20:52:19] INFO [django.server.log_message:154] "GET /staticfiles/img/favicon.ico HTTP/1.1" 200 270398
+[2019-12-10 20:52:21] WARNING [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js.map HTTP/1.1" 404 1703
+[2019-12-10 20:52:21] WARNING [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css.map HTTP/1.1" 404 1709
