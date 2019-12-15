@@ -116,12 +116,13 @@ def deleteComment(request, id):
     comment = get_object_or_404(Comment, comment_id = id)
     if comment.author == request.user:
         comment.delete()
+    else:
+        messages.info(request, "Bro...")
     article = comment.article
-    messages.info(request, "Bro...")
     return redirect(reverse("article:detail", kwargs={"id":article.id}))
 
 def yazilim(request):
-    articles = Article.objects.filter(kategori = 'Yazılım')
+    articles = Article.objects.filter(kategori = 'Yazılım').filter(onay=True)
     if articles:
         return render(request, "articles.html", {"articles":articles})
     messages.info(request, "Maalesef bu kategoride bir yazı bulunmuyor.")
@@ -131,7 +132,7 @@ def yazilim(request):
     
 
 def siir(request):
-    articles = Article.objects.filter(kategori = 'Şiir')
+    articles = Article.objects.filter(kategori = 'Şiir').filter(onay=True)
     if articles:
         return render(request, "articles.html", {"articles":articles})
     
@@ -140,7 +141,7 @@ def siir(request):
     return render(request, "articles.html", {"articles":articles})
 
 def fikir(request):
-    articles = Article.objects.filter(kategori = 'Fikir')
+    articles = Article.objects.filter(kategori = 'Fikir').filter(onay=True)
     if articles:
         return render(request, "articles.html", {"articles":articles})
     messages.info(request, "Maalesef bu kategoride bir yazı bulunmuyor.")    
@@ -148,7 +149,7 @@ def fikir(request):
     return render(request, "articles.html", {"articles":articles})
 
 def teknoloji(request):
-    articles = Article.objects.filter(kategori = 'Teknoloji')
+    articles = Article.objects.filter(kategori = 'Teknoloji').filter(onay=True)
     if articles:
         return render(request, "articles.html", {"articles":articles})
     
@@ -157,7 +158,7 @@ def teknoloji(request):
     return render(request, "articles.html", {"articles":articles})
 
 def oyku(request):
-    articles = Article.objects.filter(kategori = 'Öykü')
+    articles = Article.objects.filter(kategori = 'Öykü').filter(onay=True)
     if articles:
         return render(request, "articles.html", {"articles":articles})
     
@@ -166,7 +167,7 @@ def oyku(request):
     return render(request, "articles.html", {"articles":articles})
 
 def bilim(request):
-    articles = Article.objects.filter(kategori = 'Bilim')
+    articles = Article.objects.filter(kategori = 'Bilim').filter(onay=True)
     if articles:
         return render(request, "articles.html", {"articles":articles})
     
@@ -175,7 +176,7 @@ def bilim(request):
     return render(request, "articles.html", {"articles":articles})
 
 def egitim(request):
-    articles = Article.objects.filter(kategori = 'Eğitim')
+    articles = Article.objects.filter(kategori = 'Eğitim').filter(onay=True)
     if articles:
         return render(request, "articles.html", {"articles":articles})
     
@@ -190,7 +191,7 @@ def ara(request):
     keyword = request.GET.get("keyword")
 
     if keyword:
-        articles = Article.objects.filter(title__contains = keyword)
+        articles = Article.objects.filter(title__contains = keyword).filter(onay=True)
         return render(request, "articles.html", {"articles":articles})
 
     articles = Article.objects.all()
