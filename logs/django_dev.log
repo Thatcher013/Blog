@@ -5796,3 +5796,72 @@ AttributeError: 'str' object has no attribute 'get'
 [2019-12-16 00:25:16] INFO [django.server.log_message:154] "GET /articles/ HTTP/1.1" 200 13147
 [2019-12-16 00:25:16] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
 [2019-12-16 00:25:16] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-16 19:16:33] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7925
+[2019-12-16 19:16:34] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-12-16 19:16:34] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-12-16 19:16:34] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-16 19:16:34] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-12-16 19:16:34] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-16 19:16:34] INFO [django.server.log_message:154] "GET /staticfiles/img/banner.jpg HTTP/1.1" 304 0
+[2019-12-16 19:16:37] WARNING [django.request.log_response:228] Not Found: /ads.txt/
+[2019-12-16 19:16:37] WARNING [django.server.log_message:154] "GET /ads.txt/ HTTP/1.1" 404 2643
+[2019-12-16 19:16:38] WARNING [django.request.log_response:228] Not Found: /favicon.ico
+[2019-12-16 19:16:38] WARNING [django.server.log_message:154] "GET /favicon.ico HTTP/1.1" 404 2652
+[2019-12-16 19:16:48] INFO [django.server.log_message:154] "GET /ads.txt/ HTTP/1.1" 200 58
+[2019-12-16 19:16:52] INFO [django.server.log_message:154] "GET /ads.txt/ HTTP/1.1" 200 58
+[2019-12-16 19:34:51] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7925
+[2019-12-16 19:34:51] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-16 19:34:51] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-16 19:34:58] INFO [django.server.log_message:154] "GET /ads.txt/ HTTP/1.1" 200 58
+[2019-12-16 19:34:58] WARNING [django.request.log_response:228] Not Found: /favicon.ico
+[2019-12-16 19:34:58] WARNING [django.server.log_message:154] "GET /favicon.ico HTTP/1.1" 404 2760
+[2019-12-16 19:35:18] INFO [django.server.log_message:154] "GET / HTTP/1.1" 200 7925
+[2019-12-16 19:35:18] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-16 19:35:18] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-16 19:35:28] INFO [django.server.log_message:154] "GET /about/ HTTP/1.1" 200 4870
+[2019-12-16 19:36:57] INFO [django.server.log_message:154] "GET /about/ HTTP/1.1" 200 4866
+[2019-12-16 19:36:57] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-12-16 19:36:57] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-12-16 19:36:57] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-12-16 19:36:57] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-12-16 19:37:02] INFO [django.server.log_message:154] "GET /about/ HTTP/1.1" 200 4866
+[2019-12-16 19:37:06] INFO [django.server.log_message:154] "GET /articles/ HTTP/1.1" 200 13058
+[2019-12-16 19:37:06] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-16 19:37:06] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-16 19:37:06] INFO [django.server.log_message:154] "GET /staticfiles/img/userIcon.png HTTP/1.1" 200 5070
+[2019-12-16 19:37:06] INFO [django.server.log_message:154] "GET /staticfiles/img/viewIcon.png HTTP/1.1" 200 4484
+[2019-12-16 19:37:15] INFO [django.server.log_message:154] "GET /articles/ HTTP/1.1" 200 13062
+[2019-12-16 19:37:15] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-12-16 19:37:15] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-12-16 19:37:15] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-12-16 19:37:15] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-16 19:37:15] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-16 19:37:15] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-12-16 19:37:15] INFO [django.server.log_message:154] "GET /staticfiles/img/userIcon.png HTTP/1.1" 304 0
+[2019-12-16 19:37:15] INFO [django.server.log_message:154] "GET /staticfiles/img/viewIcon.png HTTP/1.1" 304 0
+[2019-12-16 19:37:27] INFO [django.server.log_message:154] "GET /articles/teknoloji/ HTTP/1.1" 200 13240
+[2019-12-16 19:37:27] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-16 19:37:27] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-16 19:37:29] INFO [django.server.log_message:154] "GET /articles/oyku/ HTTP/1.1" 200 13240
+[2019-12-16 19:37:29] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-16 19:37:29] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-16 19:37:30] INFO [django.server.log_message:154] "GET /articles/bilim/ HTTP/1.1" 200 13240
+[2019-12-16 19:37:30] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-16 19:37:30] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-16 19:37:31] INFO [django.server.log_message:154] "GET /articles/egitim/ HTTP/1.1" 200 13240
+[2019-12-16 19:37:31] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-16 19:37:31] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-16 19:37:31] INFO [django.server.log_message:154] "GET /articles/yazilim/ HTTP/1.1" 200 13062
+[2019-12-16 19:37:31] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-16 19:37:31] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-16 19:40:25] INFO [django.server.log_message:154] "GET /articles/yazilim/ HTTP/1.1" 200 13458
+[2019-12-16 19:40:25] INFO [django.server.log_message:154] "GET /staticfiles/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-12-16 19:40:25] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-16 19:40:25] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-16 19:40:25] INFO [django.server.log_message:154] "GET /staticfiles/js/jquery-3.2.1.min.js HTTP/1.1" 304 0
+[2019-12-16 19:40:25] INFO [django.server.log_message:154] "GET /staticfiles/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-12-16 19:40:25] INFO [django.server.log_message:154] "GET /staticfiles/img/logo.jpg HTTP/1.1" 304 0
+[2019-12-16 19:40:25] INFO [django.server.log_message:154] "GET /staticfiles/img/userIcon.png HTTP/1.1" 304 0
+[2019-12-16 19:40:25] WARNING [django.request.log_response:228] Not Found: /media/external-content.duckduckgo.com.jpg
+[2019-12-16 19:40:25] WARNING [django.server.log_message:154] "GET /media/external-content.duckduckgo.com.jpg HTTP/1.1" 404 1859
+[2019-12-16 19:40:25] INFO [django.server.log_message:154] "GET /staticfiles/img/viewIcon.png HTTP/1.1" 304 0

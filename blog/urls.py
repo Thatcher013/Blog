@@ -28,10 +28,7 @@ urlpatterns = [
     path('articles/', include("article.urls")),
     path('user/', include("user.urls")),
     path('profile/', include("Profile.urls")),
-    path(
-        'ads.txt/',
-        RedirectView.as_view(url=staticfiles_storage.url("ads.txt")),
-    ),  
+    path('ads.txt/', views.ad)
     
 ]
 

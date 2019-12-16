@@ -14,6 +14,10 @@ def index(request):
     print(type(articles))
     return render(request, "index.html", {"articles":articles})
 
+def ad(request):
+    line = "google.com, pub-3937502118941434, DIRECT, f08c47fec0942fa0"
+    return HttpResponse(line)
+
 def about(request):
     return render(request, "about.html")
 @login_required(login_url = "user:login")
