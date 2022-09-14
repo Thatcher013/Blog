@@ -1,4 +1,4 @@
-Mustakil.ml projesi.
+Mustakil.cc projesi.
 =======
 # Müstakil
-Mustakil.ml projesi.
+Mustakil.cc projesi.
